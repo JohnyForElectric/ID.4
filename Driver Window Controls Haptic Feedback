@@ -1,1 +1,5 @@
-Driver Window Controls Haptic Feedback
+# Driver Window Controls Haptic Feedback
+
+Situation: There are onlu two driver side window controls that by default control front driver and passenger windows. To control the rear windoes the "REAR" soft button needs to be touched, then the button lights up and the rear windows are controlled by the same controls that prioviusly controlled the front windoes. The button start lit for 10 seconds, then turns off, reverting the controls to the front windows. If the "REAR" soft button is touched and hold for 2+ seconds, it starts to blink and all founr windows can be controlled at the same time.
+
+Issues: There is no sensual "dot or mark" whenre the button is, there is no haptic feedback if the button is touched or pressed and hold. There is a small "chime" in the speakers once the mode is changed, but it's not too obvious and can be missed.
