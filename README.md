@@ -1,4 +1,4 @@
-## This repo discusses various appearance and convenience features and updates for ID.4/ID.5 car family. 
+## This repo discusses various appearance and convenience "tweaks" and updates for ID.4/ID.5 car family. 
 
 ### Core principles
 
