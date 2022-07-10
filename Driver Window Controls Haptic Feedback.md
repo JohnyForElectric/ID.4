@@ -2,22 +2,23 @@
 ## Situation:
 There are only two driver side window controls that by default control front driver and passenger windows. 
 - To control the rear windows the "REAR" soft button needs to be touched for more than 1 second, then the button lights up and the rear windows can be controlled by the same controls that previously controlled the front windows. The button stays lit for 10 seconds, then turns off, reverting the controls to the front windows. 
-- If the "REAR" soft button is touched and held for 2+ seconds, it starts to blink and all four windows can be controlled at the same time. 
+- If the "REAR" soft button is touched and held for 2+ seconds, it starts to blink and all four windows can be controlled at the same time :heart:. 
 
 ## Issues:
-1. There is no sensual "dot or mark" where the button is, so it can't be located without looking
-2. There is no haptic feedback in case the button is activated, nor any haptic feedback indicates in which mode it is (e.g. REAR = one, ALL = two)
+1. It can't be located without looking, there is no sensual "dot or mark" where the button is, 
+2. There is no haptic feedback in case the button is activated, 
+3. There is no  haptic feedback indicating in FRONt/REAR/ALL modes (e.g. REAR = one, ALL = two)
      - There is a small "chime" in the speakers once the mode is changed, but it's not too obvious and can be easily missed (in addition it relies on a different sense in the body than the one creating the action) 
      - Furthermore the button is touched over the same area that lights up to indicate the mode, and it’s not possible to easily visually see the mode it entered, unless the finger is lifted.
 
 ## Solution:
-Solution to problem #1 is to add two self-adhesive pads to indicate the touch sensitive area.
+Solution to problem #1 is to add two self-adhesive pads to help easilly locate the touch sensitive area.
 
-For the haptic feedback, there is multiple option, as outlined below
+For the haptic feedback, there is multiple options, as outlined below
 
 Option | Details | Pros/Cons | OEM
 ---|---|---|---
 #1 - Clone REAR button LED signal with a vibration motor | Once the REAR soft button lights up a vibration motor in the unit will vibrate | Simple circuit, but requires tapping into the unit and the motor will vibrate all the time | No
 #2 - Digitally process the REAR button LED signal and digitally manage the haptic experience | A micro-controller will receive the REAR button LED signal and control the vibration motor to create better haptic experience | As above requires tapping into the unit, can't "decode" the mode easily from the REAR button LED | No
 #3 - Connect to the control unit LIN bus, process it's signals and digitally control haptic experience | The unit has 3 wires - Vcc, Gnd and LIN. the LIN bus sends the "chime" signal to the speakers and can be used for a good haptic experience | Just plug and play, but requires to listen and decode the LIN bus, the LIN bus data may not distinguish between the REAR and ALL window modes | No
-
+#4 - VW aka Volkswagen to come up with updated unit that would provide better experience | Go crazy VW, but please make it backwards compatible :smiley: | "Just plug and play from the OEM" | Yes
