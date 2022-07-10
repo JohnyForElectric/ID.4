@@ -7,12 +7,18 @@
 
 ### Current list of updates
 
-| Projects  | Details |
-| :------------- | :------------- |
-| Driver Window Controls Haptic Feedback | Feasible, Option 1/3 |
-| GTX Style Diamond Pattern Daylight Runing Lights | Feasibility in Research |
-| Euro Style Tail Lights | Feasibility in Research |
-| Q4 e-tron AC Control Head | Feasible, Coding needed |
-| GTI/GLI/R Steering Wheel Controls | Feasible, Coding needed |
+
+
+| Project | OEM HW Feasibility | Coding Feasibility |
+| :------------- | :------------- | :------------- |
+| Driver Window Controls Haptic Feedback | Non OEM Feasible, Option 1/3 | N/A |
+| GTX Style Diamond Pattern Daylight Running Lights | Feasible | Needs Verification |
+| Euro Style Tail Lights | Feasible | Needs Verification |
+| Q4 e-tron AC Control Head | Feasible | Coding needed |
+| GTI/GLI/R Steering Wheel Controls | Feasible | Coding & ACC Adaptation needed |
+
+
+   _OEM HW (original equipment manufacturer hardware) feasibility - determines if the original hardware (parts, control units, connectors) can be used. Coding Feasibility - determines if the existing control unit supports that project._
+
 
 _None of these are endorsed by the manufacturer, all content is provided for informational purposes only, we do not take any responsibility or liability for any damage, loss or injury._
