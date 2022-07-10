@@ -7,5 +7,5 @@ There are only two driver side window controls that by default control front dri
 ## Issues:
 1. There is no sensual "dot or mark" where the button is, so it can't be located without looking
 2. There is no haptic feedback in case the button is touched or pressed and held to change modes
-3. There is a small "chime" in the speakers once the mode is changed, but it's not too obvious and can be missed. 
-4. Further more the button is touched over the same area that lights up to indicate the mode, and it’s not possible to easily visually see the mode it entered, unless the finger is lifted.
+     - There is a small "chime" in the speakers once the mode is changed, but it's not too obvious and can be missed. 
+     - Further more the button is touched over the same area that lights up to indicate the mode, and it’s not possible to easily visually see the mode it entered, unless the finger is lifted.
