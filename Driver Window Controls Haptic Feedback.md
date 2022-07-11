@@ -42,7 +42,7 @@ This was the immediate idea that felt the simplest to execute. However it requir
 
 #### Step 1 - get the signals
 
-Option | Details 
+Description | Picture 
 ---|---
 PCB Top Side - notice the touch sensitive areas and the LEDs for the backlight |  <img src="https://user-images.githubusercontent.com/107234448/178168852-df54bf17-b635-4225-a6e8-9a849a5738ea.JPEG" alt="HTML image alt text" title="Optional image title" width="300px" >
 PCB Bottom Side - notice the microcontroller in the center, LIN interface on the top middle above the 3 pin header/connector |  <img src="https://user-images.githubusercontent.com/107234448/178168865-f210bfb4-26fe-475b-8864-fc78a13027ca.JPEG" alt="HTML image alt text" title="Optional image title" width="300px" >
@@ -53,8 +53,7 @@ PCB Bottom Side - REAR soft button LED signal pads with soldered wires (yellow p
 
 
 #### Step 2 - design the circuit
-A quick design with Opto-coupler to physically separate the input (yellow and green wires) and the 12V/14.4V power line (red and black wire). The signal enters the opto coupler via resistor R1 (100 Ohms) to opto-coupler ("solid state relay") [LCA110]([url](https://www.digikey.com/en/products/detail/ixys-integrated-circuits-division/LCA110/203107)). The two 
-
+A quick design with Opto-coupler to physically separate the input (yellow and green wires) and the 12V/14.4V power line (red and black wire). The signal enters the opto coupler via resistor R1 (100 Ohms) to opto-coupler ("solid state relay") [LCA110]([url](https://www.digikey.com/en/products/detail/ixys-integrated-circuits-division/LCA110/203107)). The two MOSFETs on the output turn on the vibration motor. The resistor R2 limits the total current and is depanding on the type of vibration motor. D1 and D2 1N4148 protect the components (D1 from entering into the circuit, D2 from induction spikes during motore turn off). Not on the picture - also added C1 (0.1 uF) on the power rail.
 
 <div align="center">
   <img src="https://user-images.githubusercontent.com/107234448/178170991-a529c745-80b2-4856-9eb2-a78070eb9c96.JPEG" alt="(part number known as 10A 959 862 S)" width="500px">
