@@ -11,7 +11,7 @@
 
 | Project | OEM HW Feasibility | Coding Feasibility | Doable?
 | :------------- | :------------- | :------------- | :---
-| [Driver Window Controls Haptic Feedback](</Driver%20Window%20Controls%20Haptic%20Feedback.md>) | Non OEM Feasible, Option 1/3 | N/A | Yes
+| [Driver Window Controls Haptic Feedback](</Driver%20Window%20Controls%20Haptic%20Feedback.md>) | Non OEM Feasible, Option 1/3 | N/A | Yes (non-OEM)
 | Ventilated front seats | Needs Validation | Needs Validation | N/A
 | GTX Style Diamond Pattern Daylight Running Lights | Feasible | Needs Validation | N/A
 | Euro Style Tail Lights | Feasible | Needs Validation | N/A
