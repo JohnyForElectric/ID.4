@@ -1,4 +1,12 @@
 # Driver Window Controls Haptic Feedback 
+
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/107234448/178169793-c1a1a5a0-1f47-4f78-86ac-e202c0f3f884.JPEG"
+       alt="(part number known as 10A 959 862 S)"
+       width="300px"
+  />
+</div>
+
 ## Situation
 There are only two driver side window controls that by default control front driver and passenger windows (part number known as 10A 959 862 S). 
 - To control the rear windows the "REAR" soft button needs to be touched for more than 1 second, then the button lights up and the rear windows can be controlled by the same controls that previously controlled the front windows. The button stays lit for approx. 10 seconds, then turns off, reverting the controls to the front windows. 
