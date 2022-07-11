@@ -1,20 +1,23 @@
 # Driver Window Controls Haptic Feedback 
-## Situation:
+## Situation
 There are only two driver side window controls that by default control front driver and passenger windows. 
 - To control the rear windows the "REAR" soft button needs to be touched for more than 1 second, then the button lights up and the rear windows can be controlled by the same controls that previously controlled the front windows. The button stays lit for approx. 10 seconds, then turns off, reverting the controls to the front windows. 
 - If the "REAR" soft button is touched and held for 2+ seconds, it starts to blink and all four windows can be controlled at the same time :heart:. 
 
-## Issues:
+## Challenges
 1. It can't be located without looking, there is no sensual "dot or mark" where the button is, 
-2. There is no haptic feedback in case the button is activated, 
-3. There is no  haptic feedback indicating in FRONt/REAR/ALL modes (e.g. REAR = one, ALL = two)
+2. There is no haptic feedback in case the button is activated indicating the mode selected FRONT/REAR/ALL modes (e.g. FRONT = one, REAR = two, ALL = three)
      - There is a small "chime" in the speakers once the mode is changed, but it's not too obvious and can be easily missed (in addition it relies on a different sense in the body than the one creating the action) 
      - Furthermore the button is touched over the same area that lights up to indicate the mode, and it’s not possible to easily visually see the mode it entered, unless the finger is lifted.
 
-## Solution:
-Solution to problem #1 is to e.g. add two self-adhesive pads to help easilly locate the touch sensitive area. One of the approaches below:
-![IMG_3603](https://user-images.githubusercontent.com/107234448/178167294-d7f9396d-2661-4cf0-a86d-ff0ece25f306.JPEG)
+## Solution to challenge #1 - "locating the button"
+...is to e.g. add two self-adhesive pads to help easilly locate the touch sensitive area without looking at the location.\
+One of the approaches below:\
+     ![IMG_3603](https://user-images.githubusercontent.com/107234448/178167294-d7f9396d-2661-4cf0-a86d-ff0ece25f306.JPEG "Helping to locate the touch sensitive area by two self adhesive pads")
 
+:man_dancing: :woman_dancing:
+
+## Solution to challenge #2 - "heptic feedback" 
 
 For the haptic feedback, there is multiple options, as outlined below
 
