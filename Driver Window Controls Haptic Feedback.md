@@ -44,7 +44,8 @@ PCB Bottom Side - notice the microcontroller in the center, LIN interface on the
 PCB Top Side - detail of the REAR soft button LED |  <img src="https://user-images.githubusercontent.com/107234448/178169162-2850ebea-7fe0-4942-b965-8bda36746d9a.JPEG" alt="HTML image alt text" title="Optional image title" width="300px" >
 PCB Bottom Side - REAR soft button LED signal pads in red |  <img src="https://user-images.githubusercontent.com/107234448/178169228-30e807a3-c68c-4dd0-b45c-b2dcfcd21cc9.JPEG" alt="HTML image alt text" title="Optional image title" width="300px" >
 PCB Bottom Side - REAR soft button LED signal pads with soldered wires (yellow positive signal) |  <img src="https://user-images.githubusercontent.com/107234448/178169375-225d4410-e6e5-442d-8568-b50e5583532a.JPEG" title="Optional image title" width="300px" >
-PCB Bottom Side - REAR soft button LED signal pads with soldered wires (yellow positive signal for LED, green negative signal for LED, black ground, red VCC) |  <img src="https://user-images.githubusercontent.com/107234448/178169375-225d4410-e6e5-442d-8568-b50e5583532a.JPEG" title="Optional image title" width="300px" >
+PCB Bottom Side - REAR soft button LED signal pads with soldered wires (yellow positive signal for LED, green negative signal for LED, black ground, red VCC) |  <img src="https://user-images.githubusercontent.com/107234448/178169613-7315cc26-744d-439b-bf05-8e68484e1f69.JPEG" title="Optional image title" width="300px" >
+
 
 #### Step 2 - design the circuit
 
