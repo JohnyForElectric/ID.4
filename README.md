@@ -9,13 +9,14 @@
 
 
 
-| Project | OEM HW Feasibility | Coding Feasibility |
-| :------------- | :------------- | :------------- |
-| [Driver Window Controls Haptic Feedback](</Driver%20Window%20Controls%20Haptic%20Feedback.md>) | Non OEM Feasible, Option 1/3 | N/A |
-| GTX Style Diamond Pattern Daylight Running Lights | Feasible | Needs Verification |
-| Euro Style Tail Lights | Feasible | Needs Verification |
-| Q4 e-tron AC Control Head | Feasible | Coding needed |
-| GTI/GLI/R Steering Wheel Controls | Feasible | Coding & ACC Adaptation needed |
+| Project | OEM HW Feasibility | Coding Feasibility 
+| :------------- | :------------- | :------------- 
+| [Driver Window Controls Haptic Feedback](</Driver%20Window%20Controls%20Haptic%20Feedback.md>) | Non OEM Feasible, Option 1/3 | N/A 
+| Ventilated front seats | Needs Validation | Needs Validation
+| GTX Style Diamond Pattern Daylight Running Lights | Feasible | Needs Validation 
+| Euro Style Tail Lights | Feasible | Needs Validation 
+| Q4 e-tron AC Control Head | Feasible | Coding needed 
+| GTI/GLI/R Steering Wheel Controls | Feasible | Coding & ACC Adaptation needed 
 
 
    _OEM HW (original equipment manufacturer hardware) feasibility - determines if the original hardware (parts, control units, connectors) can be used. Coding Feasibility - determines if the existing control unit supports that project._
