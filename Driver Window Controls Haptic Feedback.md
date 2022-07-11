@@ -53,14 +53,18 @@ PCB Bottom Side - REAR soft button LED signal pads with soldered wires (yellow p
 
 
 #### Step 2 - design the circuit
-A quick design with Opto-coupler to physically separate the input (yellow and green wires) and the 12V/14.4V power line (red and black wire). The signal enters the opto coupler via resistor R1 (100 Ohms) to opto-coupler ("solid state relay") [LCA110]([url](https://www.digikey.com/en/products/detail/ixys-integrated-circuits-division/LCA110/203107)). The two MOSFETs on the output turn on the vibration motor. The resistor R2 limits the total current and is depanding on the type of vibration motor. D1 and D2 1N4148 protect the components (D1 from entering into the circuit, D2 from induction spikes during motore turn off). Not on the picture - also added C1 (0.1 uF) on the power rail.
+A quick design with Opto-coupler to physically separate the input (yellow and green wires) and the 12V/14.4V power line (red and black wire). The signal enters the opto coupler via resistor R1 (100 Ohms) to opto-coupler ("solid state relay") [LCA110]([url](https://www.digikey.com/en/products/detail/ixys-integrated-circuits-division/LCA110/203107)). The two MOSFETs on the output turn on the vibration motor. The resistor R2 limits the total current and is depanding on the type of vibration motor. D1 and D2 1N4148 protect the components (D1 from entering into the circuit, D2 from induction spikes when the motor turns off). Not on the picture - added C1 (0.1 uF) to the power rail.
 
 <div align="center">
   <img src="https://user-images.githubusercontent.com/107234448/178170991-a529c745-80b2-4856-9eb2-a78070eb9c96.JPEG" alt="(part number known as 10A 959 862 S)" width="500px">
 </div>
 
-
 #### Step 3 - test the circuit
+Time to test if it works. This design used a cheap vibration motor, R2 was 330O Ohms.
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/107234448/178171918-aef1febd-014e-4f6d-b250-c3b79b78f387.JPEG" alt="(part number known as 10A 959 862 S)" width="500px">
+</div>
+
 
 #### Step 4 - design and test
 
