@@ -1,10 +1,7 @@
 # Driver Window Controls Haptic Feedback 
 
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/107234448/178169793-c1a1a5a0-1f47-4f78-86ac-e202c0f3f884.JPEG"
-       alt="(part number known as 10A 959 862 S)"
-       width="300px"
-  />
+  <img src="https://user-images.githubusercontent.com/107234448/178169793-c1a1a5a0-1f47-4f78-86ac-e202c0f3f884.JPEG" alt="(part number known as 10A 959 862 S)" width="300px">
 </div>
 
 ## Situation
@@ -56,6 +53,13 @@ PCB Bottom Side - REAR soft button LED signal pads with soldered wires (yellow p
 
 
 #### Step 2 - design the circuit
+A quick design with Opto-coupler to physically separate the input (yellow and green wires) and the 12V/14.4V power line (red and black wire). The signal enters the opto coupler via resistor R1 (100 Ohms) to opto-coupler ("solid state relay") [LCA110]([url](https://www.digikey.com/en/products/detail/ixys-integrated-circuits-division/LCA110/203107)). The two 
+
+
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/107234448/178170991-a529c745-80b2-4856-9eb2-a78070eb9c96.JPEG" alt="(part number known as 10A 959 862 S)" width="500px">
+</div>
+
 
 #### Step 3 - test the circuit
 
