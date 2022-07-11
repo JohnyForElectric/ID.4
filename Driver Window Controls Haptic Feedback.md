@@ -26,7 +26,7 @@ One of the approaches below:\
 </div>
 :man_dancing: :woman_dancing:
 
-## Solution to challenge #2 - "heptic feedback" 
+## Solution to challenge #2 - "haptic feedback" 
 
 For the haptic feedback, there is multiple options, as outlined below
 
@@ -67,4 +67,10 @@ Time to test if it works. This design used a cheap vibration motor, R2 was 330O 
 
 
 #### Step 4 - design and test
+Time for more rugged design, used the vibration motore used in the steering wheel touch buttons and added variable resistors to precisely adjut the haptic expereince. 
+
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/107234448/178172063-042a45d0-997e-4ac7-809c-f1c4b93b97e7.JPEG" alt="(part number known as 10A 959 862 S)" width="500px">
+</div>
+
 
