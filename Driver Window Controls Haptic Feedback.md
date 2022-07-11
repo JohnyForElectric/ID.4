@@ -67,10 +67,17 @@ Time to test if it works. This design used a cheap vibration motor, R2 was 330O 
 
 
 #### Step 4 - design and test
-Time for more rugged design, used the vibration motore used in the steering wheel touch buttons and added variable resistors to precisely adjut the haptic expereince. 
+Time for more rugged design, used the vibration motore used in the steering wheel touch buttons and added variable resistors to precisely adjut the haptic experience. Both resistors ended up around 100 Ohms. 
 
 <div align="center">
   <img src="https://user-images.githubusercontent.com/107234448/178172063-042a45d0-997e-4ac7-809c-f1c4b93b97e7.JPEG" alt="(part number known as 10A 959 862 S)" width="500px">
 </div>
+
+...then 3D printed a "holder" for the vibration motor from flexible filament to easilly attach it to the part. and protected all with beloved Tesa tape for a better look :wink:
+
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/107234448/178172359-7538693f-58f6-43e6-bb61-8adc774c9c2c.JPEG" alt="(part number known as 10A 959 862 S)" width="500px">
+</div>
+
 
 
