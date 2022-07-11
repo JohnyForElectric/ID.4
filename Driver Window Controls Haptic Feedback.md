@@ -12,7 +12,9 @@ There are only two driver side window controls that by default control front dri
      - Furthermore the button is touched over the same area that lights up to indicate the mode, and it’s not possible to easily visually see the mode it entered, unless the finger is lifted.
 
 ## Solution:
-Solution to problem #1 is to add two self-adhesive pads to help easilly locate the touch sensitive area.
+Solution to problem #1 is to e.g. add two self-adhesive pads to help easilly locate the touch sensitive area. One of the approaches below:
+![IMG_3603](https://user-images.githubusercontent.com/107234448/178167294-d7f9396d-2661-4cf0-a86d-ff0ece25f306.JPEG)
+
 
 For the haptic feedback, there is multiple options, as outlined below
 
