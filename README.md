@@ -11,7 +11,7 @@
 
 | Project | OEM HW Feasibility | Coding Feasibility |
 | :------------- | :------------- | :------------- |
-| [Driver Window Controls Haptic Feedback](<https://github.com/JohnyForElectric/ID.4/blob/main/Driver%20Window%20Controls%20Haptic%20Feedback>) | Non OEM Feasible, Option 1/3 | N/A |
+| [Driver Window Controls Haptic Feedback](</blob/main/Driver%20Window%20Controls%20Haptic%20Feedback.md>) | Non OEM Feasible, Option 1/3 | N/A |
 | GTX Style Diamond Pattern Daylight Running Lights | Feasible | Needs Verification |
 | Euro Style Tail Lights | Feasible | Needs Verification |
 | Q4 e-tron AC Control Head | Feasible | Coding needed |
