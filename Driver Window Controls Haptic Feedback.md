@@ -32,8 +32,8 @@ For the haptic feedback, there are many options, some outlined below
 
 Option | Details | Pros/Cons | OEM
 ---|---|---|---
-#1 - Clone REAR button LED signal with a vibration motor | Once the REAR soft button lights up a vibration motor in the unit will vibrate giving a haptic confirmaton | Simple circuit, but requires tapping into the unit | No
-#2 - Digitally process the REAR button LED signal and digitally manage the haptic experience | A micro-controller will receive the REAR button LED signal and control the vibration motor to create better haptic experience | As above requires tapping into the unit, has to wait approx 1 sec to "decode" the mode from the REAR button LED (blinking vs. solid on) | No
+#1 - Clone "REAR" button LED signal with a vibration motor | Once the REAR soft button lights up a vibration motor in the unit will vibrate giving a haptic confirmaton | Simple circuit, but requires tapping into the unit | No
+#2 - Digitally process the "REAR" button LED signal and digitally manage the haptic experience | A micro-controller will receive the REAR button LED signal and control the vibration motor to create better haptic experience | As above requires tapping into the unit, has to wait approx 1 sec to "decode" the mode from the REAR button LED (blinking vs. solid on) | No
 #3 - Connect to the control unit LIN bus, process it's signals and digitally control haptic experience | Use the same connector as the control unit for "sanp-on" installation. The control unit has 3 wires - VCC, Gnd and LIN. The LIN bus sends the "chime" signal to the speakers, that can be used for a good haptic experience | Just plug and play, but requires to decode the LIN bus, the LIN bus data may not distinguish between the REAR and ALL window modes | No
 #4 - VW aka Volkswagen to come up with updated unit that would provide better experience | Go crazy VW, but please make it backwards compatible :smiley: | "Just plug and play from the OEM" | Yes
 
