@@ -10,7 +10,7 @@ There are only two driver side window controls that by default control the front
 - If the "REAR" soft button is touched and held for 2+ seconds, it starts to blink and all four windows can be controlled at the same time :heart:. 
 
 ## Challenges
-1. the REAR soft button can't be located easilly without looking, there is no "dot or mark" you can feel with your finger where the button is, 
+1. The REAR soft button can't be located easilly without looking. There is no "dot or mark" that you can feel with your finger to locate the button
 2. There is no haptic feedback in case the button is activated indicating the mode selected REAR/ALL modes
      - There is a small "chime" in the speakers once the mode is changed, but it's not too obvious and can be easily missed (in addition it relies on a different sense in the body than the one initiating the action, so it not natural) 
      - Furthermore while the button is touched it covers the light that indicate the selected mode, and it’s not possible to easily even visually visually see the mode it entered, unless the finger is lifted
