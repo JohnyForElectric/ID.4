@@ -34,10 +34,10 @@ Option | Details | Pros/Cons | OEM
 ---|---|---|---
 #1 - Clone "REAR" button LED signal with a vibration motor | Once the REAR soft button lights up a vibration motor in the unit will vibrate giving a haptic confirmaton | Simple circuit, but requires tapping into the PCB of the unit | No
 #2 - Digitally process the "REAR" button LED signal and digitally manage the haptic experience | A micro-controller will receive the REAR button LED signal and control the vibration motor to create better haptic experience | As above requires tapping into the unit, has to wait approx 1 sec to "decode" the mode from the REAR button LED (blinking vs. solid on) | No
-#3 - Connect to the control unit LIN bus, process it's signals and digitally control haptic experience | Use the same connector as the control unit for "sanp-on" installation. The control unit has 3 wires - VCC, Gnd and LIN. The LIN bus sends the "chime" signal to the speakers, that can be used for a good haptic experience | Just plug and play, but requires to decode the LIN bus, the LIN bus data may not distinguish between the REAR and ALL window modes | No
+#3 - Connect to the control unit LIN bus, process it's signals and digitally control haptic experience | Use the same connector as the control unit for "snap-on" installation. The control unit has 3 wires - VCC, Gnd and LIN. The LIN bus sends the "chime" signal to the speakers, that can be used to trigger a good haptic experience | Just plug and play, but requires to decode the LIN bus, the LIN bus data may not distinguish between the REAR and ALL window modes | No
 #4 - VW aka Volkswagen to come up with updated unit that would provide better experience | Go crazy VW, but please make it backwards compatible :smiley: | "Just plug and play from the OEM" | Yes
 
-### Clone REAR button LED signal with a vibration motor
+### Option #1 - Clone REAR button LED signal with a vibration motor
 This was the immediate idea that felt the simplest to execute. However it requires to permanently modify the part number known as 10A 959 862 S
 
 #### Step 1 - get the signals
@@ -80,4 +80,4 @@ Time for more rugged design, used the same vibration motor that VW uses in the s
   <img src="https://user-images.githubusercontent.com/107234448/178172359-7538693f-58f6-43e6-bb61-8adc774c9c2c.JPEG" alt="(part number known as 10A 959 862 S)" width="500px">
 </div>
 
-##### Future enhancements: (a) add a zener diaode to stabilize the voltage on the motor and (b) graduate for option two in the above table... so we can finally start writing code...
+Future enhancements: (a) add a zener diaode to stabilize the voltage on the motor and (b) graduate for option two in the above table... so we can finally start writing code...
