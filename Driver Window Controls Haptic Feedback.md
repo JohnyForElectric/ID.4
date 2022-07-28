@@ -13,7 +13,7 @@ There are only two driver side window controls that by default control the front
 1. The REAR soft button can't be located easilly without looking. There is no "dot or mark" that you can feel with your finger to locate the button
 2. There is no haptic feedback in case the button is activated indicating the mode selected REAR/ALL modes
      - There is a small "chime" in the speakers once the mode is changed, but it's not too obvious and can be easily missed (in addition it relies on a different sense in the body than the one initiating the action, so it is easy to miss) 
-     - Furthermore while the button is touched by your finger, the finger covers the light that indicate the selected mode, and it’s not possible to even see the mode it entered, unless the finger is lifted. That only menas more distraction from driving.
+     - Furthermore while the button is touched by your finger, the finger covers the light that indicates the selected mode, and it’s not possible to even see the mode it entered, unless the finger is lifted. That only means more distraction from driving.
 
 ## Solution to challenge #1 - "locating the button"
 ...is to e.g. add two self-adhesive pads to help easily locate the touch sensitive area without looking at the location.\
