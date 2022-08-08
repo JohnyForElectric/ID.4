@@ -4,16 +4,17 @@
 </div>
 
 ## Situation
-There are two types of taillights on the ID.4. The "base" style and the smart "ID.Light" that are only available in Europe in higer trim vehicles. The US taillights used  for model years 2021 and 2022 are simple modification of the base Euro. Those replace the yeallow LED in the unit for the taillight for red. In addition the US spec vehicle has the brake segment of the light physically internally connected to the "red" turn segment. The taillguths have 3 parts - left, right and middle portion. While all three parts have 
+There are two types of taillights avalable on the ID.4. The "base" style (option 8VG) and the smart "ID.Light" (option 8VP) that are only available in Europe in higer trim vehicles. The US taillights used for model years 2021 and 2022 are simple modification of the base Euro. The yeallow LEDs in the unit for the turnlight (that is yellow in Europe) is replaced for red, in addition the US spec taillight has an internal connection between the brake segment and turn segment. As such both of these segment come on during braking and when turn light is on. The coding of the CECM (J519) "Vehicle Electrical System Control Module" is adjusted accordingly to "Bremslicht_ist_auch_Blinklicht"=Yes (Brake light is also turnlight). In addition thw taillight connector can have one less pin and wire.
 
+The model year 2023 physically removed the turnlight segment from the taillight for better estetical apperance as the brake and turn segments were separated by tail/parking segment and it IMHO too much was happening in the dark, when the car was braking and turning. 
 
-- To control the rear windows the "REAR" soft button needs to be touched for more than 1 second, then the button lights up and the rear windows can be controlled by the same controls that previously controlled the front windows. The button stays lit for approx. 10 seconds, then turns off, reverting the controls to the front windows. 
-- If the "REAR" soft button is touched and held for 2+ seconds, it starts to blink and all four windows can be controlled at the same time :heart:. 
+The top spec "ID.Light" provides dynamic yellow turn signals and "welcome" animation the main taillight. ID Furkan did a good video about those animations [here]([url](https://www.youtube.com/watch?v=KCvncdPqyN0)). 
+
+This article describes one of the possible approaches to retrofit the Euro-style premium taillight (ID.Light further) into US spec ID.4.
 
 ## Challenges
-1. The REAR soft button can't be located easilly without looking. There is no "dot or mark" that you can feel with your finger to locate the button
-2. There is no haptic feedback in case the button is activated indicating the mode selected REAR/ALL modes
-     - There is a small "chime" in the speakers once the mode is changed, but it's not too obvious and can be easily missed (in addition it relies on a different sense in the body than the one initiating the action, so it is easy to miss) 
-     - Furthermore while the button is touched by your finger, the finger covers the light that indicates the selected mode, and it’s not possible to even see the mode it entered, unless the finger is lifted. That only means more distraction from driving.
+1. The base taillights use a simple drive-by wire system for each segment, the Euro-spec ID.Light uses a LIN interface and the internal computer drives the individual segments based on the message from the bus.
+2. The ID.Light has a separate 12V for the internal computer
+3. The coding of the CECM (J519) and Gatway (J533) "Data Bus on Board Diagnostic Interface" (the official name does not make much sense to me) is different, in addition the Euro model has a hiugher spec of the CECM.
 
 ![IMG_3781](https://user-images.githubusercontent.com/107234448/183325196-1d971dd4-d042-40c1-9f65-0b1fc437ba41.jpeg)
