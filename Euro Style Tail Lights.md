@@ -14,7 +14,7 @@ This article describes one of the possible approaches to retrofit the Euro-style
 
 ## Challenges
 - The base taillights use a simple drive-by wire system for each segment, the Euro-spec ID.Light uses a LIN interface and the internal computer drives the individual segments based on the message from the LIN bus. The lights are controlled fundamanetally differently and 
--- The ID.Light has a an additional 12V connection for the internal computer
--- The coding/adaptation of the CECM (J519) "Vehicle Electrical System Control Module" and Gatway (J533) "Data Bus on Board Diagnostic Interface" (the official name does not make much sense to me) is very different, in addition the Euro model has a hiugher spec of the CECM. To put the scope of adaptation in perspective - CECM has about 1,600 adaptations and Gateway around 1,000. These is way beyond the "long-coding" that is known from previous generation vehicles.
+  -- The ID.Light has a an additional 12V connection for the internal computer
+  -- The coding/adaptation of the CECM (J519) "Vehicle Electrical System Control Module" and Gatway (J533) "Data Bus on Board Diagnostic Interface" (the official name does not make much sense to me) is very different, in addition the Euro model has a hiugher spec of the CECM. To put the scope of adaptation in perspective - CECM has about 1,600 adaptations and Gateway around 1,000. These is way beyond the "long-coding" that is known from previous generation vehicles.
 
 
