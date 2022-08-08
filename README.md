@@ -14,7 +14,7 @@
 | [Driver Window Controls Haptic Feedback](</Driver%20Window%20Controls%20Haptic%20Feedback.md>) | Non OEM Feasible, Option 1/3 | N/A | Yes (non-OEM)
 | Ventilated front seats | Needs Validation | Needs Validation | N/A
 | GTX Style Diamond Pattern Daylight Running Lights | Feasible | Needs Validation | N/A
-| [Euro Style Tail Lights "ID>Light"] (</Euro%20Style%20Tail%20Lights.md>) | Feasible | Needs Validation | N/A
+| [Euro Style Tail Lights "ID>Light"](</Euro%20Style%20Tail%20Lights.md>) | Feasible | Needs Validation | N/A
 | Q4 e-tron AC Control Head | Feasible | Coding needed | N/A
 | GTI/GLI/R Steering Wheel Controls | Feasible | Coding & ACC Adaptation needed | N/A
 
