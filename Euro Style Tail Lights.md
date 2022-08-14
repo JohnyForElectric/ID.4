@@ -25,6 +25,10 @@ One option to yellow light rear turn light is replacing of the outer lights with
 ### ID.Light Tail Lights for Yellow Blinker & Animations (option 8VP)
 Cost-wise the additional investment is the center light (11A 945 276 B), the left (11A 945 207 A) and right (11A 945 208 A) light are almost same price as the base light. The amount of work seemed to be equal, so the decision was made to go with the ID.Light. Also, the "coolness" of animation was unbearable not to have.
 
-Let us set the stage firts. On the scale of difficulty, this project on a 3 scale L-M-H, showed as HH+. The harness is not yet commercially available (the [offer from Kufatec](https://www.kufatec.com/en/light-sight/taillights/complete-set-led-rear-lights-with-dynamic-flashing-light-for-vw-id4-e21-46455)  is only for Euro vehicles and not yet tested for US vehicles), so the only option was to make it using OEM components based on the official electrical diagrams from https://erwin.vw.com/. Another challenge is the coding, the obvious approach is to compare the coding for (Pro Max Euro Version by downtime on [VCDS Forum](https://forums.ross-tech.com/index.php?threads/27745/)). This definitly helped, however the inability to se the "Bremslicht_ist_auch_Blinklicht"=No made the whole project even more complex.
+Let us set the stage firts. On the scale of difficulty, this project on a 3 scale L-M-H, showed as HH+. The harness is not yet commercially available (the [offer from Kufatec](https://www.kufatec.com/en/light-sight/taillights/complete-set-led-rear-lights-with-dynamic-flashing-light-for-vw-id4-e21-46455)  is only for Euro vehicles and not yet tested for US vehicles), so the only option was to make it using OEM components based on the official electrical diagrams from https://erwin.vw.com/. Another challenge is the coding, the obvious approach is to compare the coding for (Pro Max Euro Version by downtime on [VCDS Forum](https://forums.ross-tech.com/index.php?threads/27745/)). This definitly helped, however the inability to adapt the "Bremslicht_ist_auch_Blinklicht" setting to "No" made the whole project even more complex. 
+
+#### Components
+
+
 
 
