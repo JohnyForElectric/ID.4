@@ -31,8 +31,12 @@ Let us set the stage firts. On the scale of difficulty, this project on a 3 scal
 
 | What | Paert Number | Notes
 | :------------- | :------------- | :----
-| Left Taillight | 11A 945 207 A | Comes with "blue" compabile connector
-| Right Taillight | 11A 945 208 A | Comes with "blue" compabile connector
-| Center Light | 11A 945 276 B | Comes without VW logo
+| Left Taillight | 11A 945 207 A | Needs "blue" coded connector
+| Right Taillight | 11A 945 208 A | Needs "blue" coded connector
+| Center Light | 11A 945 276 B | Comes without VW logo, needs "blue" coded connector
+| Blue connecotr for outer lights | 982-973-714-A | Waterproof, comes withou pins and without waterproofing rings
+| Blue connector for center lights | 1K8 972 928 928 B | Not waterproof
+
+
 
 
