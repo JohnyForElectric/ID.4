@@ -29,7 +29,7 @@ Let us set the stage firts. On the scale of difficulty, this project on a 3 scal
 
 #### Components
 
-| What | Paert Number | Notes
+| What | Part Number | Notes
 | :------------- | :------------- | :----
 | Left Taillight | 11A 945 207 A | Needs "blue" coded connector
 | Right Taillight | 11A 945 208 A | Needs "blue" coded connector
@@ -37,6 +37,10 @@ Let us set the stage firts. On the scale of difficulty, this project on a 3 scal
 | Blue connecotr for outer lights | 982-973-714-A | Waterproof, comes withou pins and without waterproofing rings
 | Blue connector for center lights | 1K8 972 928 928 B | Not waterproof
 
+#### Harness
+The tail harness needs two power wires from fuse SC24 for the left and fuse SC10 for the right. The fuse slots for SC24 and SC10 are empty and the slot has only the left pin (it looks like it’s just a “pin” that gets pushed inside just like into a connector). So each power wire (0.5 rt/ge) would need to start with that pin, then each wire needs to split at the back of the car to the tail connector T8w and T8aa (includes water insulation ring) and the lid interconnect T10e and T10f. Then continue from the lid interconnect T10h and T10i to the MX13 tail light – connectors T8s and T8aj. The LIN is relatively simple, found the wire at the back near park assist module (where the DCC module is on Euro cars). So the LIN (0.35 vi/sw) needs to go to each taillight connector T8w and T8aa (w/ water insulation ring) and via the lid interconnect T10f to the T8s and T8aj… An additional wire might be needed on the US spec cars from j519/CECM connections - the easiest is to find the splice in the wiring harness between pins 71 & 60 for T73a connector and 8 & 27 for connector T73b.
 
+#### Coding
+Higly recommend [VCDS](https://store.ross-tech.com/shop/vchv2_ent/), [OBD11](https://obdeleven.com/en/) is a must.
 
-
+This section is work in progress.
