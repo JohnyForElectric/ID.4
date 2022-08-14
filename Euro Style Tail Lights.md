@@ -53,8 +53,6 @@ This section is work in progress.
 
 #### End Product
 
+The brake light now spans across the side and center lights and yellow turn light is indepandent.
 https://user-images.githubusercontent.com/107234448/184520870-9b423880-1967-45f5-9b03-74fa5c036585.mp4
-
-
-
 
