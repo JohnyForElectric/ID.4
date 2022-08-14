@@ -41,6 +41,13 @@ Let us set the stage firts. On the scale of difficulty, this project on a 3 scal
 The tail harness needs two power wires from fuse SC24 for the left and fuse SC10 for the right. The fuse slots for SC24 and SC10 are empty and the slot has only the left pin (it looks like it’s just a “pin” that gets pushed inside just like into a connector). So each power wire (0.5 rt/ge) would need to start with that pin, then each wire needs to split at the back of the car to the tail connector T8w and T8aa (includes water insulation ring) and the lid interconnect T10e and T10f. Then continue from the lid interconnect T10h and T10i to the MX13 tail light – connectors T8s and T8aj. The LIN is relatively simple, found the wire at the back near park assist module (where the DCC module is on Euro cars). So the LIN (0.35 vi/sw) needs to go to each taillight connector T8w and T8aa (w/ water insulation ring) and via the lid interconnect T10f to the T8s and T8aj… An additional wire might be needed on the US spec cars from j519/CECM connections - the easiest is to find the splice in the wiring harness between pins 71 & 60 for T73a connector and 8 & 27 for connector T73b.
 
 #### Coding
-Higly recommend [VCDS](https://store.ross-tech.com/shop/vchv2_ent/), [OBD11](https://obdeleven.com/en/) is a must.
+Higly recommend [VCDS](https://store.ross-tech.com/shop/vchv2_ent/), [OBD11 PRO](https://obdeleven.com/en/) is a must.
 
 This section is work in progress.
+
+#### End Product
+
+
+https://user-images.githubusercontent.com/107234448/184520344-cd828526-54f4-43d9-a2be-23b890fe1b87.mp4
+
+
