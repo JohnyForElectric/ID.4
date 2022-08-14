@@ -12,6 +12,8 @@ The top spec "ID.Light" provides dynamic yellow turn signals and "welcome" anima
 
 This article describes one of the possible approaches to retrofit the Euro-style premium taillight (ID.Light further) into US spec ID.4. While the process for retrofitting to Euro cars can be similar, the existing harness and coding will be different.
 
+
+
 ## Challenges
 - The base taillights use a simple drive-by wire system for each segment, the Euro-spec ID.Light uses a LIN interface and the internal computer of the taillight drives the individual segments based on the message from the LIN bus. So the lights are controlled fundamanetally differently and as such: 
   - The ID.Light has a different connector and additional signals / wires - (a) 12V connection for the internal computer and (b) a LIN bus connection to Gateway (J533)
@@ -39,6 +41,12 @@ Let us set the stage firts. On the scale of difficulty, this project on a 3 scal
 
 #### Harness
 The tail harness needs two power wires from fuse SC24 for the left and fuse SC10 for the right. The fuse slots for SC24 and SC10 are empty and the slot has only the left pin (it looks like it’s just a “pin” that gets pushed inside just like into a connector). So each power wire (0.5 rt/ge) would need to start with that pin, then each wire needs to split at the back of the car to the tail connector T8w and T8aa (includes water insulation ring) and the lid interconnect T10e and T10f. Then continue from the lid interconnect T10h and T10i to the MX13 tail light – connectors T8s and T8aj. The LIN is relatively simple, found the wire at the back near park assist module (where the DCC module is on Euro cars). So the LIN (0.35 vi/sw) needs to go to each taillight connector T8w and T8aa (w/ water insulation ring) and via the lid interconnect T10f to the T8s and T8aj… An additional wire might be needed on the US spec cars from j519/CECM connections - the easiest is to find the splice in the wiring harness between pins 71 & 60 for T73a connector and 8 & 27 for connector T73b.
+
+| Additional 3 wires | New "blue" connector | Ready to plug in
+| :------------- | :------------- | :----
+| <img src="https://user-images.githubusercontent.com/107234448/184520453-3d405fa1-6478-4d19-a013-987c3bdfd2c9.jpeg" alt="HTML image alt text" title="Optional image title" width="300px" ||
+       
+![IMG_3707 (1)](https://user-images.githubusercontent.com/107234448/184520453-3d405fa1-6478-4d19-a013-987c3bdfd2c9.jpeg)
 
 #### Coding
 Higly recommend [VCDS](https://store.ross-tech.com/shop/vchv2_ent/), [OBD11 PRO](https://obdeleven.com/en/) is a must.
