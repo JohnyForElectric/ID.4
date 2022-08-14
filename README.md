@@ -22,4 +22,4 @@
    _OEM HW (original equipment manufacturer hardware) feasibility - determines if the original hardware (parts, control units, connectors) can be used. Coding Feasibility - determines if the existing control unit supports that project._
 
 
-_None of these are endorsed by the manufacturer, all content is provided for informational purposes only, we do not take any responsibility or liability for any damage, loss or injury._
+_None of these are endorsed by the manufacturer, all content is provided for informational purposes only, we do not take any responsibility or liability for any damage, loss, injury or voiding warranty._
