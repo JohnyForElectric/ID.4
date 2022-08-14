@@ -20,6 +20,8 @@ This article describes one of the possible approaches to retrofit the Euro-style
 ## Approach and solutions
 
 ### Base Euro Tail Lights for Yellow Blinker (option 8VG)
-One option to yellow light rear turn light is replacing of the outer reflectors with base european version. The option was not explored in detail, so everything further for this option is a hypothesis. (1) Additional wire(s) need to be routed to the tail light to aacount for a seperate brake and turn indicators, (2) adaptation of CECM (J519) needs to be adjusted. It's not known today how to change the "Bremslicht_ist_auch_Blinklicht" setting to yes, (3) the tail light connector may be different than the US brown version.
+One option to yellow light rear turn light is replacing of the outer lights with base european version (left 11A 945 095 and right  11A 945 096). The option was not explored in detail, so everything further for this option is a hypothesis. (1) Additional wire(s) need to be routed to the tail light to aacount for a seperate brake and turn indicators, (2) adaptation of CECM (J519) needs to be adjusted. It's not known today how to change the "Bremslicht_ist_auch_Blinklicht" setting to yes, (3) the tail light connector may be different than the US brown version.
 
 ### ID.Light Tail Lights for Yellow Blinker & Animations (option 8VP)
+Cost-wise the additional investment is the center light (11A 945 276 B), the left (11A 945 207 A) and right (11A 945 208 A) light are almost same price as the base light. The amount of work seemed to be equal, so the decision was made to go with the ID.Light. Also, the "coolness" of animation was unbearable not to have.
+
