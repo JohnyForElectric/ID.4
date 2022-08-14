@@ -44,12 +44,8 @@ The tail harness needs two power wires from fuse SC24 for the left and fuse SC10
 
 | Additional 3 wires | New "blue" connector | Ready to plug in
 | :------------- | :------------- | :----
-| <img src="https://user-images.githubusercontent.com/107234448/184520453-3d405fa1-6478-4d19-a013-987c3bdfd2c9.jpeg" alt="HTML image alt text" title="Optional image title" width="300px"> | <img src="https://user-images.githubusercontent.com/107234448/184520530-3085aaa9-76d3-411c-acad-f30af95224f9.jpeg" alt="HTML image alt text" title="Optional image title" width="300px"> | <img src="https://user-images.githubusercontent.com/107234448/184520535-19230822-567c-4521-8720-42f257af099d.jpeg" alt="HTML image alt text" title="Optional image title" width="300px">
+| <img src="https://user-images.githubusercontent.com/107234448/184520654-5c01c179-a1b6-4d28-a6e8-eaa79c23d6da.jpeg" alt="HTML image alt text" title="Optional image title" width="300px"> | <img src="https://user-images.githubusercontent.com/107234448/184520530-3085aaa9-76d3-411c-acad-f30af95224f9.jpeg" alt="HTML image alt text" title="Optional image title" width="300px"> | <img src="https://user-images.githubusercontent.com/107234448/184520535-19230822-567c-4521-8720-42f257af099d.jpeg" alt="HTML image alt text" title="Optional image title" width="300px">
        
-![IMG_3717](https://user-images.githubusercontent.com/107234448/184520530-3085aaa9-76d3-411c-acad-f30af95224f9.jpeg)
-![IMG_3720](https://user-images.githubusercontent.com/107234448/184520535-19230822-567c-4521-8720-42f257af099d.jpeg)
-
-
 #### Coding
 Higly recommend [VCDS](https://store.ross-tech.com/shop/vchv2_ent/), [OBD11 PRO](https://obdeleven.com/en/) is a must.
 
