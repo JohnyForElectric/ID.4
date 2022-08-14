@@ -8,7 +8,7 @@ There are two types of taillights available for the ID.4. The "base" style (opti
 
 The US model year 2023 physically removed the turn light segment from the taillight for better esthetical appearance as the brake and turn segments were separated by tail/parking segment and it could be "too busy".
 
-The top spec "ID.Light" provides dynamic yellow turn signals and "welcome" animation via main 9 taillight segments. ID Furkan did a good video about those animations [here]([url](https://www.youtube.com/watch?v=KCvncdPqyN0)).
+The top spec "ID.Light" provides dynamic yellow turn signals and "welcome" animation via main 9 taillight segments. ID Furkan did a good video about those animations [here](https://www.youtube.com/watch?v=KCvncdPqyN0).
 
 This article describes one of the possible approaches to retrofit the Euro-style premium taillight (ID.Light further) into US spec ID.4. While the process for retrofitting to Euro cars can be similar, the existing harness and coding will be different.
 
@@ -25,4 +25,4 @@ One option to yellow light rear turn light is replacing of the outer lights with
 ### ID.Light Tail Lights for Yellow Blinker & Animations (option 8VP)
 Cost-wise the additional investment is the center light (11A 945 276 B), the left (11A 945 207 A) and right (11A 945 208 A) light are almost same price as the base light. The amount of work seemed to be equal, so the decision was made to go with the ID.Light. Also, the "coolness" of animation was unbearable not to have.
 
-On the scale of difficulty, this project on a 3 scale L-M-H, showed as HH+. The harness is not yet commercially available (the [offer from Kufatec]((https://www.kufatec.com/en/light-sight/taillights/complete-set-led-rear-lights-with-dynamic-flashing-light-for-vw-id4-e21-46455))  is only for Euro vehicles and not yet tested for US vehicles), so th eonly option was to make it using OEM components based on the official electrical diagrams available via https://erwin.vw.com/. Another challenge is the coding, the obvious approach was to compare the coding for (Pro Max Euro Version by downtime on [VCDS Forum]((https://forums.ross-tech.com/index.php?threads/27745/))) 
+On the scale of difficulty, this project on a 3 scale L-M-H, showed as HH+. The harness is not yet commercially available (the [offer from Kufatec](https://www.kufatec.com/en/light-sight/taillights/complete-set-led-rear-lights-with-dynamic-flashing-light-for-vw-id4-e21-46455)  is only for Euro vehicles and not yet tested for US vehicles), so th eonly option was to make it using OEM components based on the official electrical diagrams available via https://erwin.vw.com/. Another challenge is the coding, the obvious approach was to compare the coding for (Pro Max Euro Version by downtime on [VCDS Forum](https://forums.ross-tech.com/index.php?threads/27745/)) 
