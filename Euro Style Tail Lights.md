@@ -29,6 +29,10 @@ Let us set the stage firts. On the scale of difficulty, this project on a 3 scal
 
 #### Components
 
-
+| What | Paert Number | Notes
+| :------------- | :------------- | :----
+| Left Taillight | 11A 945 207 A | Comes with "blue" compabile connector
+| Right Taillight | 11A 945 208 A | Comes with "blue" compabile connector
+| Center Light | 11A 945 276 B | Comes without VW logo
 
 
