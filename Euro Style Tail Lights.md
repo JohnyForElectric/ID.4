@@ -29,7 +29,7 @@ Cost-wise from the previous option the additional investment is the center light
 
 Let us set the stage firts. On the scale of difficulty, this project on a 3 scale L-M-H, showed as HH+. The harness is not yet commercially available (the [offer from Kufatec](https://www.kufatec.com/en/light-sight/taillights/complete-set-led-rear-lights-with-dynamic-flashing-light-for-vw-id4-e21-46455) is only for Euro vehicles and not yet tested for US vehicles), so the only option was to make it using OEM components based on the official electrical diagrams from https://erwin.vw.com/. Another challenge is the coding, the obvious approach is to compare the coding of Pro Max ID.4 Euro Version that downtime posted on [VCDS Forum](https://forums.ross-tech.com/index.php?threads/27745/). This definitly helped, however the inability to adapt the "Bremslicht_ist_auch_Blinklicht" setting to "No" made the whole project even more complex (no known solutions yet- more in [VCDS Forum](https://forums.ross-tech.com/index.php?threads/33372/#post-281097)). 
 
-#### Components
+#### Components Needed
 
 | What | Part Number | Notes
 | :------------- | :------------- | :----
@@ -47,7 +47,7 @@ The tail harness needs two power wires from fuse SC24 for the left and fuse SC10
 | <img src="https://user-images.githubusercontent.com/107234448/184520654-5c01c179-a1b6-4d28-a6e8-eaa79c23d6da.jpeg" alt="HTML image alt text" title="Optional image title" width="300px"> | <img src="https://user-images.githubusercontent.com/107234448/184520530-3085aaa9-76d3-411c-acad-f30af95224f9.jpeg" alt="HTML image alt text" title="Optional image title" width="300px"> | <img src="https://user-images.githubusercontent.com/107234448/184520535-19230822-567c-4521-8720-42f257af099d.jpeg" alt="HTML image alt text" title="Optional image title" width="300px">
        
 #### Coding
-Higly recommend [VCDS](https://store.ross-tech.com/shop/vchv2_ent/), [OBD11 PRO](https://obdeleven.com/en/) is a must.
+[OBD11 PRO](https://obdeleven.com/en/) is a must. Higly recommend [VCDS](https://store.ross-tech.com/shop/vchv2_ent/) for exporting Ada/Adaptations maps for comparisons and coding itself... 
 
 This section is work in progress.
 
