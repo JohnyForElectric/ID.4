@@ -44,7 +44,7 @@ The tail harness needs two power wires from fuse SC24 for the left and fuse SC10
 
 | Additional 3 wires | New "blue" connector | Ready to plug in
 | :------------- | :------------- | :----
-| <img src="https://user-images.githubusercontent.com/107234448/184520453-3d405fa1-6478-4d19-a013-987c3bdfd2c9.jpeg" alt="HTML image alt text" title="Optional image title" width="300px" ||
+| <img src="https://user-images.githubusercontent.com/107234448/184520453-3d405fa1-6478-4d19-a013-987c3bdfd2c9.jpeg" alt="HTML image alt text" title="Optional image title" width="300px"> ||
        
 ![IMG_3707 (1)](https://user-images.githubusercontent.com/107234448/184520453-3d405fa1-6478-4d19-a013-987c3bdfd2c9.jpeg)
 
