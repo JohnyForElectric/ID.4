@@ -27,7 +27,7 @@ One option for yellow rear blinker is to replace the outer lights with base euro
 ### Option 2: ID.Light Tail Lights for Yellow Blinker & Animations (option 8VP)
 This option compared to the previuos adds the center light (11A 945 276 B). The left (11A 945 207 A) and right (11A 945 208 A) lights are available for almost same price as the base light (option 1). The amount of work seemed to be equal, so the decision was made to go with the ID.Light for this project. Also, the "coolness" of animation was unbearable not to try out. Seriously :)
 
-Let us set the stage first. On the scale of difficulty, this project on a 3 scale Low-Medium-Hight, showed as High++. The harness is not yet commercially available (the [offer from Kufatec](https://www.kufatec.com/en/light-sight/taillights/complete-set-led-rear-lights-with-dynamic-flashing-light-for-vw-id4-e21-46455) is only for Euro vehicles and not yet tested for US vehicles), so the only option was to make it using OEM components based on the official electrical diagrams on https://erwin.vw.com/. Another challenge is the coding/adaptatiopn, the obvious approach was to compare with the coding of Pro Max ID.4 Euro Version that 'downtime' posted on [VCDS Forum](https://forums.ross-tech.com/index.php?threads/27745/). This definitely helped, however the inability to adapt the "Bremslicht_ist_auch_Blinklicht" setting to "No" made the whole project even more complex (no known solutions yet- more in [VCDS Forum](https://forums.ross-tech.com/index.php?threads/33372/#post-281097)). 
+Let us set the stage first. On the scale of difficulty, this project on a 3 scale Low-Medium-Hight, showed as High++. The harness is not yet commercially available (the [offer from Kufatec](https://www.kufatec.com/en/light-sight/taillights/complete-set-led-rear-lights-with-dynamic-flashing-light-for-vw-id4-e21-46455) is only for Euro vehicles and not yet tested for US vehicles), so the only option was to make it using OEM components based on the official electrical diagrams on https://erwin.vw.com/. Another challenge is the coding/adaptatiopn, the obvious approach was to compare with the coding of Pro Max ID.4 Euro Version that 'downtime' posted on [VCDS Forum](https://forums.ross-tech.com/index.php?threads/27745/). This definitely helped, however the inability to adapt the "Bremslicht_ist_auch_Blinklicht" setting to "No" (with VCDS or OBD11) made the whole project even more complex - more in [VCDS Forum](https://forums.ross-tech.com/index.php?threads/33372/#post-281097)). We do have a workaround solution that cancels all errors on the dash and allows to "unplug" the taillights for software updates, but is not as elegant as desired...
 
 #### Components Needed
 
@@ -49,7 +49,10 @@ The tail harness needs two power wires from fuse SC24 for the left and fuse SC10
 #### Coding
 [OBD11 PRO](https://obdeleven.com/en/) is a must. Higly recommend [VCDS](https://store.ross-tech.com/shop/vchv2_ent/) for exporting Ada/Adaptations maps for comparisons and coding itself... 
 
-This section is work in progress.
+This section is work in progress... We are close... More coming very soon...
+
+
+
 
 #### End Product
 
