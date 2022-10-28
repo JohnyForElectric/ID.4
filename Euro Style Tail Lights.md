@@ -33,11 +33,11 @@ Let us set the stage first. On the scale of difficulty, this project on a 3 scal
 
 | What | Part Number | Notes
 | :------------- | :------------- | :----
-| Left Taillight | 11A 945 207 A | Needs "blue" coded connector
-| Right Taillight | 11A 945 208 A | Needs "blue" coded connector
-| Center Light | 11A 945 276 B | Comes without VW logo, needs "blue" coded connector
-| Blue connecotr for outer lights | 982-973-714-A | Waterproof, comes withou pins and without waterproofing rings
-| Blue connector for center lights | 1K8 972 928 928 B | Not waterproof
+| 1 x Left Taillight | 11A 945 207 A | Needs "blue" coded connector
+| 1 x Right Taillight | 11A 945 208 A | Needs "blue" coded connector
+| 1 x Center Light | 11A 945 276 B | Comes without VW logo, needs "blue" coded connector
+| 2 x Blue connecotr for outer lights | 982-973-714-A | Waterproof, comes withou pins and without waterproofing rings
+| 2 x Blue connector for center lights | 1K8 972 928 928 B | Not waterproof
 
 #### Harness
 The tail harness needs two power wires from fuse SC24 for the left and fuse SC10 for the right. The fuse slots for SC24 and SC10 are empty. Each power wire (0.5 rt/ge) wire needs to split at the back of the car to the tail connector T8w and T8aa (includes water insulation ring) and the lid interconnect T10e and T10f. Then continue from the lid interconnect T10h and T10i to the MX13 tail light – connectors T8s and T8aj. The LIN is relatively simple, for Pro models with "kick-to-open-tailgeta" the LIN can be found at the back near park assist module (where the DCC module is on Euro cars). The LIN (0.35 vi/sw) needs to go to each taillight connector T8w and T8aa (w/ water insulation ring) and via the lid interconnect T10f to the T8s and T8aj… An additional wire for aech side is needed on the US spec cars from j519/CECM connections - the easiest is to find the "positive connection in tail light harness" between pins 71 & 60 for T73a connector and 8 & 27 for connector T73b.
