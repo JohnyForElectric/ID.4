@@ -36,7 +36,7 @@ Let us set the stage first. On the scale of difficulty, this project on a 3 scal
 | 1 x Left Taillight | 11A 945 207 A | Needs "blue" coded connector
 | 1 x Right Taillight | 11A 945 208 A | Needs "blue" coded connector
 | 1 x Center Light | 11A 945 276 B | Comes without VW logo, needs "blue" coded connector
-| 2 x Blue connecotr for outer lights | 982-973-714-A | Waterproof, comes withou pins and without waterproofing rings
+| 2 x Blue connector for outer lights | 982-973-714-A | Waterproof, comes withou pins and without waterproofing rings
 | 2 x Blue connector for center lights | 1K8 972 928 928 B | Not waterproof
 
 #### Harness
