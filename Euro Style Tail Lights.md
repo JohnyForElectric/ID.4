@@ -51,6 +51,8 @@ The tail harness needs two power wires from fuse SC24 for the left and fuse SC10
 | Tail/Posion Lamps | SL HL C31 ; SL HR A61 | SL HL C31 ; SL HR A61 | Not connected, only proper coding required to aviod error on the dash
 | Error Cancellantion | Not necessary |  20 BR L A71 (Connector T73a /71) & 21 BR R C8 (Connector T73b /8) | Coded as combined Brake and Turn Light, connected via 300 Ohm resistor to ground
 
+#### Wiring & harness photos
+
 | Additional 3 wires (on top - LIN, Turn and +12V | New "blue" connector | Ready to plug in
 | :------------- | :------------- | :----
 | <img src="https://user-images.githubusercontent.com/107234448/184520654-5c01c179-a1b6-4d28-a6e8-eaa79c23d6da.jpeg" alt="HTML image alt text" title="Optional image title" width="300px"> | <img src="https://user-images.githubusercontent.com/107234448/184520530-3085aaa9-76d3-411c-acad-f30af95224f9.jpeg" alt="HTML image alt text" title="Optional image title" width="300px"> | <img src="https://user-images.githubusercontent.com/107234448/184520535-19230822-567c-4521-8720-42f257af099d.jpeg" alt="HTML image alt text" title="Optional image title" width="300px">
