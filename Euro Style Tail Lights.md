@@ -44,10 +44,10 @@ The tail harness needs two power wires from fuse SC24 for the left and fuse SC10
 
 #### Wiring
 
-| Signal | Expected: J519/CECM Logical (Physical) Connection ("Bremslicht_ist_auch_Blinklicht" = No)  | Workaround: J519/CECM Logical (Physical) Connection ("Bremslicht_ist_auch_Blinklicht"=Yes) | ...Connected to
+| Signal | Expected: J519/CECM Logical (Physical) Connection ("Bremslicht_ist_auch_Blinklicht" = No)  | Workaround: J519/CECM Logical (Physical) Connection ("Bremslicht_ist_auch_Blinklicht"=Yes) | Connected to...
 | :------------- | :------------- | :----  | :----
-| Turn Light | BLK HL A60 (Connector T73a /60); BLK HR C27 (Connector T73b /27) | Zusatz_hecklicht_HL B03 (Connector T46f /3); Zusatz_hecklicht_HR B20 (Connector T46f /20) | Connected to Turn Light Lamp: Connector MX3 /8; MX4 /8
-| Brake Light | BR L A71 (Connector T73a /71); 21 BR R C8 (Connector T73b /8) | BLK HL A60 (Connector T73a /60); BLK HR C27 (Connector T73b /27) | Connected to Brake Light Lamp: Connector MX3 /5; MX4 /5
+| Turn Light | BLK HL A60 (Connector T73a /60); BLK HR C27 (Connector T73b /27) | Zusatz_hecklicht_HL B03 (Connector T46f /3); Zusatz_hecklicht_HR B20 (Connector T46f /20) | Turn Light Lamp: MX3 (Connector T8w /8); MX4 (Connector T8aa /8) 
+| Brake Light | BR L A71 (Connector T73a /71); 21 BR R C8 (Connector T73b /8) | BLK HL A60 (Connector T73a /60); BLK HR C27 (Connector T73b /27) | Brake Light Lamp:  MX3 (Connector T8w /5); MX4 (Connector T8aa /5) and MX13 (Connectors T8s /5 and T8aj /5)
 | Tail/Posion Lamps | SL HL C31 ; SL HR A61 | SL HL C31 ; SL HR A61 | Not connected, only proper coding required to aviod error on the dash
 | Error Cancellantion | Not necessary |  20 BR L A71 (Connector T73a /71) & 21 BR R C8 (Connector T73b /8) | Coded as combined Brake and Turn Light, connected via 300 Ohm resistor to ground
 
