@@ -45,14 +45,18 @@ The harness shall deliver power, data (LIN) and for US pec vehicles additional w
  - The LIN is routerd from Gateway/ICAS1(J533). For Pro models with "kick-to-open-tailgate" the LIN can be found at the back near park assist module (where the DCC module is on Euro cars). The LIN (0.35 vi/sw) goes to each taillight connector T8w and T8aa (w/ water insulation ring) and via the lid interconnect T10f to the T8s and T8aj… 
  - An additional wire for each side is needed on the US spec cars from J519/CECM connections - the easiest is to find the "positive connection in tail light harness" between pins 71 & 60 for T73a connector and 8 & 27 for connector T73b. However with the "Bremslicht_ist_auch_Blinklicht"=Yes workarounds we recommend to route two extra wires for each side (one turn and one break signal).
 
-#### Wiring
+#### Pin to pin connections
 
-| Signal | Expected: J519/CECM Logical (Physical) Connection ("Bremslicht_ist_auch_Blinklicht" = No)  | Workaround: J519/CECM Logical (Physical) Connection ("Bremslicht_ist_auch_Blinklicht"=Yes) | Connected to...
+This first table shows connections between J519/CECM and each tail0light connector. Left tail MX3 (connector T8w), center tail MX13 (connectors T8s and T8aj) and MX4 (connector T8aa). The workround columns shows suggested connections for US vehicles in case the adaptation "Bremslicht_ist_auch_Blinklicht" __cannot__ be changed to no.
+
+| Signal | Expected/Euro: J519/CECM Logical (Physical) Connection ("Bremslicht_ist_auch_Blinklicht" = No)  | Workaround/US: J519/CECM Logical (Physical) Connection ("Bremslicht_ist_auch_Blinklicht"=Yes) | Connected to...
 | :------------- | :------------- | :----  | :----
 | Turn Light | BLK HL A60 (Connector T73a /60); BLK HR C27 (Connector T73b /27) | Zusatz_hecklicht_HL B03 (Connector T46f /3); Zusatz_hecklicht_HR B20 (Connector T46f /20) | Turn Light Lamp: MX3 (Connector T8w /8); MX4 (Connector T8aa /8) 
 | Brake Light | BR L A71 (Connector T73a /71); 21 BR R C8 (Connector T73b /8) | BLK HL A60 (Connector T73a /60); BLK HR C27 (Connector T73b /27) | Brake Light Lamp:  MX3 (Connector T8w /5); MX4 (Connector T8aa /5) and MX13 (Connectors T8s /5 and T8aj /5)
 | Tail/Posion Lamps | SL HL C31 ; SL HR A61 | SL HL C31 ; SL HR A61 | Not connected, only proper coding required to aviod error on the dash
 | Error Cancellantion | Not necessary |  20 BR L A71 (Connector T73a /71) & 21 BR R C8 (Connector T73b /8) | Coded as combined Brake and Turn Light, connected via 300 Ohm resistor to ground
+
+
 
 #### Wiring & harness photos
 
