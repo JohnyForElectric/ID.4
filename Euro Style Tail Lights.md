@@ -47,13 +47,13 @@ The harness shall deliver power, data (LIN) and for US pec vehicles additional w
 
 #### Pin to pin connections
 
-This first table shows connections between J519/CECM and each tail0light connector. Left tail MX3 (connector T8w), center tail MX13 (connectors T8s and T8aj) and MX4 (connector T8aa). The workround columns shows suggested connections for US vehicles in case the adaptation "Bremslicht_ist_auch_Blinklicht" __cannot__ be changed to no.
+Following table shows connections between J519/CECM and each tail-light connector. Left tail MX3 (connector T8w), center tail MX13 (connectors T8s and T8aj) and MX4 (connector T8aa). The workround columns shows suggested connections for US vehicles in case the adaptation "Bremslicht_ist_auch_Blinklicht" *__cannot__* be changed to no. If "Bremslicht_ist_auch_Blinklicht"=Yes, the coding is *__expecting__* one channel to be *__coded__* as "joined turn and brake light" (last row of the tbale), in addition the load management cannot be disabled by setting the "Lasttyp" to "LED_Kleinleistung_ohne_Open_Load_Diagnose" so it has to be terminated by a resistor. The resistor maximal resistance was determined as 400Ohms, in some situations (with low 12V battery) an error shown on the dash, so the suggested value is 300Ohms (that is approx. 50mA and 0.7W), for safety we chose 10W resistor.
 
 | Signal | Expected/Euro: J519/CECM Logical (Physical) Connection ("Bremslicht_ist_auch_Blinklicht" = No)  | Workaround/US: J519/CECM Logical (Physical) Connection ("Bremslicht_ist_auch_Blinklicht"=Yes) | Connected to...
 | :------------- | :------------- | :----  | :----
-| Turn Light | BLK HL A60 (Connector T73a /60); BLK HR C27 (Connector T73b /27) | Zusatz_hecklicht_HL B03 (Connector T46f /3); Zusatz_hecklicht_HR B20 (Connector T46f /20) | Turn Light Lamp: MX3 (Connector T8w /8); MX4 (Connector T8aa /8) 
-| Brake Light | BR L A71 (Connector T73a /71); 21 BR R C8 (Connector T73b /8) | BLK HL A60 (Connector T73a /60); BLK HR C27 (Connector T73b /27) | Brake Light Lamp:  MX3 (Connector T8w /5); MX4 (Connector T8aa /5) and MX13 (Connectors T8s /5 and T8aj /5)
-| Tail/Posion Lamps | SL HL C31 ; SL HR A61 | SL HL C31 ; SL HR A61 | Not connected, only proper coding required to aviod error on the dash
+| Turn Light | 18 BLK HL A60 (Connector T73a /60); 19 BLK HR C27 (Connector T73b /27) | Zusatz_hecklicht_HL B03 (Connector T46f /3); Zusatz_hecklicht_HR B20 (Connector T46f /20) | Turn Light Lamp: MX3 (Connector T8w /8); MX4 (Connector T8aa /8) 
+| Brake Light | 20 BR L A71 (Connector T73a /71); 21 BR R C8 (Connector T73b /8) | 18 BLK HL A60 (Connector T73a /60); 19 BLK HR C27 (Connector T73b /27) | Brake Light Lamp:  MX3 (Connector T8w /5); MX4 (Connector T8aa /5) and MX13 (Connectors T8s /5 and T8aj /5)
+| Tail/Posion Lamps | 23 SL HL C31 ; 24 SL HR A61 | 23 SL HL C31 ; 24 SL HR A61 | Not connected, only proper coding required to aviod error on the dash
 | Error Cancellantion | Not necessary |  20 BR L A71 (Connector T73a /71) & 21 BR R C8 (Connector T73b /8) | Coded as combined Brake and Turn Light, connected via 300 Ohm resistor to ground
 
 
