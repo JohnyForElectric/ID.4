@@ -53,9 +53,11 @@ The workround columns shows suggested connections for US vehicles in case the ad
 
 For better understanding of the table, let us explain the J519/CECM light channels and essentials of coding. The J519/CECM has 29 "light channels" that can be configured and adapted with multiple different advanced functions, numbered from 16 to 45. Those channels show in adaptation as e.g. "Leuchte 18 BLK HL A60" - that means "Lights", then channel # (e.g. 18), function (BLK=Blinker/Turn light, BR=Brems Licht/Brake Light,...), Location (HL=Hinten Links/Rear Left, HR=Hinten Rechtes/Rear Right,...), connector and pin of the J519/CECM (A61=connector T73a/pin 61; C09=connector T73b/pin 9 and B03=connector T46f/pin 3...)
 
+The table show both "logical" connections - that correspond with the adaptation channel in J519/CECM (for coding) and "physical" connection that is the actual connector and pin of the J519/CECM.
+
 | Signal | Expected/Euro: J519/CECM Logical (Physical) Connection ("Bremslicht_ist_auch_Blinklicht" = No)  | Workaround/US: J519/CECM Logical (Physical) Connection ("Bremslicht_ist_auch_Blinklicht"=Yes) | Connected to...
 | :------------- | :------------- | :----  | :----
-| Turn Light | 18 BLK HL A60 (Connector T73a /60); 19 BLK HR C27 (Connector T73b /27) | Zusatz_hecklicht_HL B03 (Connector T46f /3); Zusatz_hecklicht_HR B20 (Connector T46f /20) | Turn Light Lamp: MX3 (Connector T8w /8); MX4 (Connector T8aa /8) 
+| Turn Light | 18 BLK HL A60 (Connector T73a /60); 19 BLK HR C27 (Connector T73b /27) | 40 Zusatz_hecklicht_HL B03 (Connector T46f /3); 41 Zusatz_hecklicht_HR B20 (Connector T46f /20) | Turn Light Lamp: MX3 (Connector T8w /8); MX4 (Connector T8aa /8) 
 | Brake Light | 20 BR L A71 (Connector T73a /71); 21 BR R C8 (Connector T73b /8) | 18 BLK HL A60 (Connector T73a /60); 19 BLK HR C27 (Connector T73b /27) | Brake Light Lamp:  MX3 (Connector T8w /5); MX4 (Connector T8aa /5) and MX13 (Connectors T8s /5 and T8aj /5)
 | Tail/Posion Lamps | 23 SL HL C31 ; 24 SL HR A61 | 23 SL HL C31 ; 24 SL HR A61 | Not connected, only proper coding required to aviod error on the dash
 | Error Cancellantion | Not necessary |  20 BR L A71 (Connector T73a /71) & 21 BR R C8 (Connector T73b /8) | Coded as combined Brake and Turn Light, connected via 300 Ohm resistor to ground
