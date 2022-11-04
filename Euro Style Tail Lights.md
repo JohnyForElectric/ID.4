@@ -57,7 +57,7 @@ The table shows both the "logical" connections - that correspond with the adapta
 
 | Signal | Expected/Euro: <BR> J519/CECM Logical (Physical) Connection ("Bremslicht_ist_auch_Blinklicht" = No)  | Workaround/US: <BR> J519/CECM Logical (Physical) Connection ("Bremslicht_ist_auch_Blinklicht"=Yes) | Connected to...
 | :------------- | :------------- | :----  | :----
-| Turn Light | 18 BLK HL A60 (Connector T73a /60);<BR> 19 BLK HR C27 (Connector T73b /27) | 40 Zusatz_hecklicht_HL B03 (Connector T46f /3);<BR> 41 Zusatz_hecklicht_HR B20 (Connector T46f /20) | Turn Light Lamp:<BR> MX3 (Connector T8w /8);<BR> MX4 (Connector T8aa /8) 
+| Turn Light | 18 BLK HL A60 (Connector T73a /60);<BR> 19 BLK HR C27 (Connector T73b /27) | 40 Zusatz hecklicht HL B03 (Connector T46f /3);<BR> 41 Zusatz hecklicht HR B20 (Connector T46f /20) | Turn Light Lamp:<BR> MX3 (Connector T8w /8);<BR> MX4 (Connector T8aa /8) 
 | Brake Light | 20 BR L A71 (Connector T73a /71);<BR> 21 BR R C8 (Connector T73b /8) | 18 BLK HL A60 (Connector T73a /60);<BR> 19 BLK HR C27 (Connector T73b /27) | Brake Light Lamp:<BR>  MX3 (Connector T8w /5);<BR> MX4 (Connector T8aa /5) and<BR> MX13 (Connectors T8s /5 and T8aj /5)
 | Tail/Posion Lamps | 23 SL HL C31; <BR> 24 SL HR A61 | 23 SL HL C31; <BR> 24 SL HR A61 | Not connected, only proper coding required to aviod error on the dash
 | Error Cancellantion | Not necessary |  20 BR L A71 (Connector T73a /71); <BR> 21 BR R C8 (Connector T73b /8) | Coded as combined Brake and Turn Light, connected via 300 Ohm resistor to ground
