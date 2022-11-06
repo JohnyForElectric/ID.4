@@ -5,10 +5,24 @@
 </div>
 
 ## Situation
-There are only two driver side window controls that by default control the front driver and passenger windows (part number known as 10A 959 862 S). 
-- To control the rear windows the "REAR" soft button needs to be touched for more than 1 second, then the button lights up and the rear windows can be controlled by the same controls that previously controlled the front windows. The button stays lit for approx. 10 seconds, then turns off, reverting the controls to the front windows. 
-- If the "REAR" soft button is touched and held for 2+ seconds, it starts to blink and all four windows can be controlled at the same time :heart:. 
+The GTX version of ID.4 and ID.5 has two diamond-style accent lights in the front bumper. Let's get two misconceptions out of the way - (a) the accent light is not configured from the factory as a Day Time running light /DLR/ (even despite it's called DLR in the official wiring diagram) and (2) it's not a front fog light. It's an accent light that turns on with the front headlights.
 
+## More details
+The non-GTX versions have a same shape opening in the bumber thgat is used to (1) intake air for optimizing aerodynamics, (2) has one of the front parking sensors. The GTX version adds a third function - adds accent lights. So it's (1) air intake, (2) place for parking sensor and (3) accent light.
 
+## Retrofits and mods
+There are two usual steps to retrofits and mods (1) physicl parts and (2) coding. Let's get to each one-by-one
 
-![GTX_Diamond - small](https://user-images.githubusercontent.com/107234448/200187298-9b744836-5a2b-4177-963a-2d4dbc088c29.jpg)
+### Retrofit
+
+List of parts 
+What | Part Number | Notes
+---|---|---
+1 x Left Light Module | 11A 941 055 A | Light module, known as L377
+1 x Right Light Module | 11A 941 056 A | Light module, known as L378
+1 x Left Bumper Trim | 11A 807 763 A | "Shiny" gloss cover for light module
+1 x Right Bumper Trim | 11A 807 764 A | "Shiny" gloss cover for light module
+1 x Left Bumper Reinforcement | 11A 807 884 B | Specific to slot the lighht module
+1 x Right Bumper Reinforcement | 11A 807 883 B | Specific to slot the lighht module
+2 x Connector | 4F0 973 702 F | "Wet" connection to bumper harness
+
