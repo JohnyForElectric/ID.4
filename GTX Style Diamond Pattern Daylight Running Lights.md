@@ -44,7 +44,7 @@ Channel 1-12 (rows) <BR> Mode & PWM value (%) | Assumend Function | Brigtness Cl
 5 | Hi-Beam |	LK2 |100
 6 | DLR & Position | LK2||62.8|62.8|62.8|||62.8
 7 | Light bar (side marker) | K1||100|100|100||100
-8 | Turn light | LK1 ||||100|100
+8 | Turn light | LK1 |||||100|100
 9
 10
 11
