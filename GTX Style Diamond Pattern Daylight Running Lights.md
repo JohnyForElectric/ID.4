@@ -31,3 +31,4 @@ What | Part Number | Notes
 Despite of all expectations, the light module are connected to the front headlights MX1 (connector T14k /8) and MX2 (connector T14l /8) and not the CECM/J519. It's a simple two wire connection, one wire runs to each headlight and the other one is connected to the ground. The harness is routed via the bumper connector interconnect (TSFVL).
 
 ### Coding
+To adapt these lights, the head lights D6:Light Control Left (A31) and D7:Light Control right (A27) adaptations/coding needs to be adjusted. The "coding/adaptation" numbers are visible in VCDS and OBD11, but a "coding helper" is not yet available, so the coding is not yet known.
