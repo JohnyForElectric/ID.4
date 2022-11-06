@@ -5,13 +5,13 @@
 </div>
 
 ## Situation
-The GTX version of ID.4 and ID.5 has two diamond-style accent lights in the front bumper. Let's get two misconceptions out of the way - (a) the accent light is not configured from the factory as a Day Time running light /DLR/ (even despite it's called DLR in the official wiring diagram) and (2) it's not a front fog light. It's an accent light that turns on with the front headlights.
+The GTX version of ID.4 and ID.5 has two diamond-style accent lights in the front bumper. Let's get two misconceptions out of the way - (a) the accent lights are not configured from the factory as a Day Time running light /DLR/ (even despite it's called DLR in the official wiring diagram) and (2) it's not a front fog light. It's an accent light that turns on with the front headlights.
 
 ### More details
-The non-GTX versions have a same shape opening in the bumber thgat is used to (1) intake air for optimizing aerodynamics, (2) has one of the front parking sensors. The GTX version adds a third function - adds accent lights. So it's (1) air intake, (2) place for parking sensor and (3) accent light.
+The non-GTX versions have a same shape opening in the bumber thaht is used to (1) intake air for optimizing aerodynamics, (2) has one of the front parking sensors. The GTX version adds a third function - adds accent lights. So it's (1) air intake, (2) place for parking sensor and (3) accent light.
 
 ## Retrofits and mods
-There are two usual steps to retrofits and mods (1) physicl parts and (2) coding. Let's get to each one-by-one
+There are two usual steps to retrofits and mods (1) physicl parts and (2) coding. Let's get to each one-by-one.
 
 ### Parts for retrofit
 
@@ -31,4 +31,4 @@ What | Part Number | Notes
 Despite of all expectations, the light module are connected to the front headlights MX1 (connector T14k /8) and MX2 (connector T14l /8) and not the CECM/J519. It's a simple two wire connection, one wire runs to each headlight and the other one is connected to the ground. The harness is routed via the bumper connector interconnect (TSFVL).
 
 ### Coding
-To adapt these lights, the head lights D6:Light Control Left (A31) and D7:Light Control right (A27) adaptations/coding needs to be adjusted. The "coding/adaptation" numbers are visible in VCDS and OBD11, but a "coding helper" is not yet available, so the coding is not yet known.
+To adapt these light modules, the head lights D6:Light Control Left (A31) and D7:Light Control right (A27) adaptations/coding need to be adjusted. The "coding/adaptation" numbers are visible in VCDS and OBD11, but a "coding helper" is not yet available, so the coding is not yet known.
