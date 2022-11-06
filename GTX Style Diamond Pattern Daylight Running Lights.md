@@ -36,7 +36,7 @@ To adapt these light modules, the head lights D6:Light Control Left (A31) and D7
 The only clue we were able to find is the list of LED channels, their functions and dimming level on the funtion:
 
 Channel 1-12 (rows) <BR> Mode & PWM value (%) | Assumend Function | Brigtness Class | Hi-Beam | Parking | Lo-Beam | Poor Wether + Low-Beam | Trun Light | Turn + Parking | DLR
----|---|---|---|---|---|---|---|---|
+---|---|---|---|---|---|---|---|---|---|---
 1 | Poor Weather / Corner Light |	LK1 ||||75.6
 2 | Hi-Beam	| LK2 |72.5
 3 | DLR & PO | LK2 ||100|5.6|5.6||100
