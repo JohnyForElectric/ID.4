@@ -1,4 +1,4 @@
-# GTX Style Diamond Pattern Daylight Running Lights 
+# GTX Style Diamond Pattern Accent Lights 
 
 <div align="center">
   <img src="https://user-images.githubusercontent.com/107234448/200187298-9b744836-5a2b-4177-963a-2d4dbc088c29.jpg" alt="(GTX Diamond-style accent light)" width="300px">
