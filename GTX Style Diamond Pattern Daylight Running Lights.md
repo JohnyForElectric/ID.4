@@ -18,11 +18,15 @@ There are two usual steps to retrofits and mods (1) physicl parts and (2) coding
 List of parts 
 What | Part Number | Notes
 ---|---|---
-1 x Left Light Module | 11A 941 055 A | Light module, known as L377
-1 x Right Light Module | 11A 941 056 A | Light module, known as L378
+1 x Left Light Module | 11A 941 055 A |  One light module for all 3 lenses, known as L377
+1 x Right Light Module | 11A 941 056 A | One light module for all 3 lenses, known as L378
 1 x Left Bumper Trim | 11A 807 763 A | "Shiny" gloss cover for light module
 1 x Right Bumper Trim | 11A 807 764 A | "Shiny" gloss cover for light module
 1 x Left Bumper Reinforcement | 11A 807 884 B | Specific to slot the lighht module
 1 x Right Bumper Reinforcement | 11A 807 883 B | Specific to slot the lighht module
 2 x Connector | 4F0 973 702 F | "Wet" connection to bumper harness
 
+### Harness and pin to pin connections
+Despite of all expectations, the light module are connected to the front headlights MX1 (connector T14k /8) and MX2 (connector T14l /8) and not the CECM/J519. It's a simple two wire connection, one wire runs to each headlight and the other one is connected to the ground. The harness is routed via the bumper connector interconnect (TSFVL).
+
+### Coding
