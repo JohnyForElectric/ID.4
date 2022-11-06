@@ -37,5 +37,5 @@ The only clue we were able to find is the list of LED channels, their functions 
 
 Channel 1-12 (rows) <BR> Mode & PWM value (%)| Brigtness Class | Hi-Beam | Parking | Lo-Beam | Poor Wether + Low-Beam | Trun Light | Turn + Parking | DLR
 ---|---|---|---|---|---|---|---|---|
-
+1 - Poor Weather / Corner Light |	LK1 ||||75.6	 	 	 
 
