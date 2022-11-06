@@ -39,10 +39,10 @@ Channel 1-12 (rows) <BR> Mode & PWM value (%) | Assumend Function | Brigtness Cl
 ---|---|---|---|---|---|---|---|---|---
 1 | Poor Weather / Corner Light |	LK1 ||||75.6
 2 | Hi-Beam	| LK2 |72.5
-3 | DLR & PO | LK2 ||100|5.6|5.6||100
+3 | DLR & Position | LK2 ||100|5.6|5.6|||100
 4 | Low-Beam | LK2	|||100|100
 5 | Hi-Beam |	LK2 |100
-6 | DLR & PO | LK2||62.8|62.8|62.8||62.8
+6 | DLR & Position | LK2||62.8|62.8|62.8|||62.8
 7 | Light bar (side marker) | K1||100|100|100||100
 8 | Turn light | LK1 ||||100|100
 9
