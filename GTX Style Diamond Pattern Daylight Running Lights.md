@@ -49,3 +49,10 @@ Channel 1-12 (rows) <BR> Mode/function (columns) <BR> PWM value (%) | Assumend F
 10
 11
 12
+
+
+## Conclusion
+  
+The actual retrofit requires many OEM parts and removing the front bumper. There could be a simpler options of adding non-OEM style LED DLR mini lights to each side to mimic the 3 diamond lights. We do not embark on this route as the longevity of non-OEM components is not superb (even for high-quality aftermarket brands, such as [VLEDs]([url](https://www.vleds.com/)) or [Morimoto]([url](https://www.morimotohid.com/))). 
+  
+One consideration is to make additional retrofits at the same time in the front bumper (e.g. Front Camera, additional Park Pilot sensors, etc.) and connect the GTX-style accent lights to either an existing accent light or to a light channel on CECM/J519 for ultimate customizability. 
