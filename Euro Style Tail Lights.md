@@ -92,7 +92,7 @@ IDE12986-ENG278492-BAP configuration-Bap_fc_list_exterior_light,FF FF FF FF FF F
 IDE12986-ENG142232-BAP configuration-HMI_exterior_light_sensitivity,7
 IDE12986-ENG278470-BAP configuration-HMI_exterior_light_sensitivity_2,3
   
-
+ 
 
 # Conclusion
   
