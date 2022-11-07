@@ -76,35 +76,41 @@ This section is work in progress... We are close... More coming very soon...
 ## Module 19 / ICAS1 / CAN Gateway
 
 ### Configure IQ Lights
+  ```
 - ENG253039-SFT271909-Intelligente Heckleuchte-Verbau-left tail lamp 1, __installed__ 
 - ENG253039-SFT272142-Intelligente Heckleuchte-Verbau-left tail lamp 2, __installed__
 - ENG253039-SFT272143-Intelligente Heckleuchte-Verbau-Right rear tail lamp 1, __installed__
 - ENG253039-SFT272144-Intelligente Heckleuchte-Verbau-Right rear tail lamp 2, __installed__
-  
+  ```
 ### Configure Light Parameters
+  ```
 - ENG253070-ENG258451-Intelligente Heckleuchte-Parametierung-p_SHL_Anim_LTM_Auto, __active__
 - ENG253070-ENG259407-Intelligente Heckleuchte-Parametierung-p_SHL_AnimDimm_Freigabe_KL15aus, __1__
 - ENG253070-ENG260457-Intelligente Heckleuchte-Parametierung-p_SHL_AnimDimm_Freigabe_KL15ein, __1__
 - ENG253070-ENG259766-Intelligente Heckleuchte-Parametierung-p_SHL_dynamisch, __active__
-  
+  ```
 #### Enable light animations
+  ```
 - IDE12986-ENG278492-BAP configuration-Bap_fc_list_exterior_light, FF FF FF F**F** FF FF
 - IDE12986-ENG142232-BAP configuration-HMI_exterior_light_sensitivity, __7__
 - IDE12986-ENG278470-BAP configuration-HMI_exterior_light_sensitivity_2, __3__
+  ```
   
 ## Module 9 / J519 / CECM
   
 ### Light Channels
 
 #### Brake lights
-> - ENG263478-ENG261250-Leuchte 18 BLK HL A60-Dimmwert ABC 18,127
-> ENG263478-ENG116214-Leuchte 18 BLK HL A60-Lasttyp 18,LIN_SBBR_Versorgung_OL_Appl_55
+  ```
+- ENG263478-ENG261250-Leuchte 18 BLK HL A60-Dimmwert ABC 18,127
+- ENG263478-ENG116214-Leuchte 18 BLK HL A60-Lasttyp 18,LIN_SBBR_Versorgung_OL_Appl_55
 - ENG263478-ENG116217-Leuchte 18 BLK HL A60-Lichtfunktion A 18,Brake lamp
 
 - ENG263431-ENG259136-Leuchte 19 BLK HR C27-Dimmwert ABC 19,127
 - ENG263431-ENG116233-Leuchte 19 BLK HR C27-Lasttyp 19,LIN_SBBR_Versorgung_OL_Appl_55
 - ENG263431-ENG116236-Leuchte 19 BLK HR C27-Lichtfunktion A 19,Brake lamp
-
+```
+  
 #### Turn-light
   ```
 - ENG263436-ENG260616-Leuchte 40 Zusatz_hecklicht_HL B03-Dimming Direction DEF 40,minimze
@@ -121,10 +127,13 @@ This section is work in progress... We are close... More coming very soon...
   ```
   
 #### Tail-light
+  ```
 - ENG263482-ENG116480-Leuchte 23 SL HL C31-Lasttyp 32,LED_Kleinleistung_ohne_Open_Load_Diagnose
 - ENG263469-ENG116328-Leuchte 24 SL HR A61-Lasttyp 24,LED_Kleinleistung_ohne_Open_Load_Diagnose
-
+```
+  
 #### Backup lights
+  ```
 - NG263493-ENG259919-Leuchte 28 RFL L C06-Dimmwert ABC 28,0
 - ENG263493-ENG116406-Leuchte 28 RFL L C06-Fehlerort mittleres Byte DTC-DFCC 28,00
 - ENG263493-ENG116580-Leuchte 28 RFL L C06-Lampendefektbitposition 28,00
@@ -133,8 +142,9 @@ This section is work in progress... We are close... More coming very soon...
 
 - ENG263488-ENG116425-Leuchte 29 RFL R A72-Fehlerort mittleres Byte DTC-DFCC 29,00
 - ENG263488-ENG116581-Leuchte 29 RFL R A72-Lampendefektbitposition 29,00
-  
+  ```
 #### Bonus: Front lights animation
+  ```
 - ENG253358-ENG259279-Anpassungen_Exterior_Light-Events_Szene_1,00 01 FF FF 03 04 05 FF
 - ENG253358-ENG260976-Anpassungen_Exterior_Light-Events_Szene_31,14 3E 6E 3E 08 00 00 00
 - ENG253358-ENG260284-Anpassungen_Exterior_Light-Events_Szene_32,00 FF FF FF FF FF FF FF
@@ -142,7 +152,7 @@ This section is work in progress... We are close... More coming very soon...
 - ENG253358-ENG259646-Anpassungen_Exterior_Light-Events_Szene_5,10 11 12 FF 10 11 12 FF
 - ENG253358-ENG260432-Anpassungen_Exterior_Light-Events_Szene_6,06 07 08 FF FF FF FF FF
 - ENG253358-ENG258154-Anpassungen_Exterior_Light-Events_Szene_8,0C 0D 0E FF FF FF FF FF
-
+```
 # Conclusion
   
 #### ... and the End Product
