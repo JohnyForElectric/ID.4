@@ -71,7 +71,7 @@ The table shows both the "logical" connections - that correspond with the adapta
 # Coding
 [OBD11 PRO](https://obdeleven.com/en/) is a must. Higly recommend [VCDS](https://store.ross-tech.com/shop/vchv2_ent/) for exporting Ada/Adaptations maps for comparisons and coding itself... 
 
-Below section only lists settings that are chenged in the US version to accomodate the IQ Lights and to code the light channels per workaround described above. Coding will be different for Euro vehicles. For Euro vehicles we highly recommend to run an adaptation delta between your adaptations and the one that has IQ Lights from the factory. 
+Below section only lists settings that are changed in the US version to accomodate the IQ Lights and to code the light channels per workaround described above. Coding will be different for Euro vehicles. For Euro vehicles we highly recommend to run an adaptation delta between your adaptations and the one that has IQ Lights from the factory. 
 
 ## Module 19 / ICAS1 / CAN Gateway
 
