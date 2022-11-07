@@ -39,13 +39,13 @@ Let us set the stage first. On the scale of difficulty, this project on a 3 scal
 | 2 x Blue connector for outer lights (MX3 and MX4) | 982-973-714-A | Waterproof, comes without pins and without waterproofing rings
 | 2 x Blue connector for center lights (MX13) | 1K8 972 928 928 B | Not waterproof, the middle light has two connectors for each side
 
-#### Harness
+# Harness
 The harness shall deliver power (+12/14.4V), data (LIN) and for US pec vehicles additional wire for separete turn light. The harness starts in the internal fuse box / CECM(J519) on the dirver's side and can be routed along the main harness to the back of the car, where it splits in three ways: to each side and up throught the tailgate to middle lights.
  - The two power wires go from fuse SC24 for the left and fuse SC10 for the right. The fuse slots for SC24 and SC10 are empty. Each power wire (0.5 rt/ge) wire splits at the back of the car to the tail connector T8w and T8aa (includes water insulation ring) and the lid interconnect T10e and T10f. Then continues from the lid interconnect T10h and T10i to the MX13 tail light – connectors T8s and T8aj. 
  - The LIN is routerd from Gateway/ICAS1(J533). For Pro models with "kick-to-open-tailgate" the LIN can be found at the back near park assist module (where the DCC module is on Euro cars). The LIN (0.35 vi/sw) goes to each taillight connector T8w and T8aa (w/ water insulation ring) and via the lid interconnect T10f to the MX13 T8s and T8aj. 
  - An additional wire for each side is needed on the US spec cars from J519/CECM connections - the easiest is to find the "positive connection in tail light harness" between pins 71 & 60 from the T73a connector and 8 & 27 from connector T73b (great theory, we could not easilly find the splice so we routed an extra wire). However with the "Bremslicht_ist_auch_Blinklicht"=Yes workaround we recommend to route in total two extra wires for each side (one turn and one break signal) - so 4 in total.
 
-#### Pin to pin connections
+## Pin to pin connections
 
 Following table shows connections between J519/CECM and each tail-light connector. Left tail MX3 (connector T8w), center tail MX13 (connectors T8s and T8aj) and right tail MX4 (connector T8aa). 
 
@@ -62,20 +62,28 @@ The table shows both the "logical" connections - that correspond with the adapta
 | Tail/Posion Lamps | 23 SL HL C31; <BR> 24 SL HR A61 | 23 SL HL C31; <BR> 24 SL HR A61 | Not connected, only proper coding required to aviod error on the dash
 | Error Cancellantion | Not necessary |  20 BR L A71 (Connector T73a /71); <BR> 21 BR R C8 (Connector T73b /8) | Coded as combined Brake and Turn Light, connected via 300 Ohm resistor to ground
 
-#### Wiring & harness photos
+## Wiring & harness photos
 
 | Additional 3 wires (on top - LIN, Turn and +12V | New "blue" connector | Ready to plug in
 | :------------- | :------------- | :----
 | <img src="https://user-images.githubusercontent.com/107234448/184520654-5c01c179-a1b6-4d28-a6e8-eaa79c23d6da.jpeg" alt="HTML image alt text" title="Optional image title" width="300px"> | <img src="https://user-images.githubusercontent.com/107234448/184520530-3085aaa9-76d3-411c-acad-f30af95224f9.jpeg" alt="HTML image alt text" title="Optional image title" width="300px"> | <img src="https://user-images.githubusercontent.com/107234448/184520535-19230822-567c-4521-8720-42f257af099d.jpeg" alt="HTML image alt text" title="Optional image title" width="300px">
        
-#### Coding
+# Coding
 [OBD11 PRO](https://obdeleven.com/en/) is a must. Higly recommend [VCDS](https://store.ross-tech.com/shop/vchv2_ent/) for exporting Ada/Adaptations maps for comparisons and coding itself... 
 
 This section is work in progress... We are close... More coming very soon...
 
+##Module 19 / ICAS1 / CAN Gateway
+  
+###Enable light animations
+IDE12986-ENG278492-BAP configuration-Bap_fc_list_exterior_light,FF FF FF FF FF FF ,8
+IDE12986-ENG142232-BAP configuration-HMI_exterior_light_sensitivity,7 ,8
+IDE12986-ENG278470-BAP configuration-HMI_exterior_light_sensitivity_2,3 ,8
+  
 
 
-
+# Conclusion
+  
 #### ... and the End Product
 
 The brake light now spans across the side and center lights and yellow turn light is indepandent.
