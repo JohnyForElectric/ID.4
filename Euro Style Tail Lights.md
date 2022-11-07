@@ -155,7 +155,7 @@ Below section only lists settings that are chenged in the US version to accomoda
 ```
 # Conclusion
   
-And here we go. The result is amazing, the journey to get there was much harder than originally anticipated.
+And here we go. The results are amazing, the journey to get here was much harder than originally anticipated.
   
 #### Videos
 
