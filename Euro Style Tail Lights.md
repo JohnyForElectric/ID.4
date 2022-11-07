@@ -71,7 +71,7 @@ The table shows both the "logical" connections - that correspond with the adapta
 
 | Connector T73a opened and unfolded | Resistors for error cancellation | Added harness and connector
 | :------------- | :------------- | :----
-| The best way to tap into existing harness is to insert a new wire with the right pin at the connector | Secured the resistors Arctic Silver Thermal Adhesive to stay safely in place | A brand new harness and connector to nicely accomodate all changes (optional)
+| The best way to tap into existing harness is to insert a new wire with the right pin to the connector | Secured both resistors with Arctic Silver Thermal Adhesive to stay safely in place | A brand new harness and connector to nicely accomodate all changes (optional)
 | <img src="https://user-images.githubusercontent.com/107234448/200219683-d926808d-17a9-42a2-ba10-1a2cb670e249.JPEG" width="300px"> | <img src="https://user-images.githubusercontent.com/107234448/200219778-5f955278-d3da-44a8-9e78-8a6a101bbb65.JPEG" width="300px"> | <img src="https://user-images.githubusercontent.com/107234448/200219823-51cfe79c-334b-4051-adf1-dc6387e92201.JPEG" width="300px">
 
 
