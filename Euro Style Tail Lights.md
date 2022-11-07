@@ -27,7 +27,7 @@ One option for yellow rear "blinker" is to replace the outer lights with base eu
 ### Option 2: ID.Light Tail Lights for Yellow Blinker & Animations (option 8VP)
 This option compared to the previuos adds the center light (11A 945 276 B). The left (11A 945 207 A) and right (11A 945 208 A) lights are available for almost same price as the base light (option 1). The amount of work seemed to be equal, so the decision was made to go with the ID.Light for this project. Also, the "coolness" of animation was unbearable not to try out. Seriously :)
 
-Let us set the stage first. On the scale of difficulty, this project on a 3 scale Low-Medium-Hight, showed as High++. The harness is not yet commercially available (the [offer from Kufatec](https://www.kufatec.com/en/light-sight/taillights/complete-set-led-rear-lights-with-dynamic-flashing-light-for-vw-id4-e21-46455) is only for Euro vehicles and not yet tested for US vehicles), so the only option was to make it using OEM components based on the official electrical diagrams from  https://erwin.vw.com/. Another challenge is the coding/adaptatiopn, the obvious approach was to compare US Spec vehicle coding with the coding of Pro Max ID.4 Euro . Luckily'downtime' posted full adaptation maps on [VCDS Forum](https://forums.ross-tech.com/index.php?threads/27745/) - thank you, this helped a ton! However the inability to adapt the "Bremslicht_ist_auch_Blinklicht" setting to "No" (with VCDS or OBD11) made the entire project more complex - more in [VCDS Forum](https://forums.ross-tech.com/index.php?threads/33372/#post-281097)). We do have a workaround solution that cancels all errors on the dash and allows to "unplug" the taillights for software updates, but is not as elegant as desired... and is described below.
+Let us set the stage first. On the scale of difficulty, this project on a 3 scale Low-Medium-Hight, showed as High++. The harness is not yet commercially available (the [offer from Kufatec](https://www.kufatec.com/en/light-sight/taillights/complete-set-led-rear-lights-with-dynamic-flashing-light-for-vw-id4-e21-46455) is only for Euro vehicles and not yet tested for US vehicles), so the only option was to make it using OEM components based on the official electrical diagrams from  https://erwin.vw.com/. Another challenge is the coding/adaptatiopn, the obvious approach was to compare US Spec vehicle coding with the coding of Pro Max ID.4 Euro . Luckily 'downtime' posted full adaptation maps on [VCDS Forum](https://forums.ross-tech.com/index.php?threads/27745/) - thank you, this helped a ton! However the inability to adapt the "Bremslicht_ist_auch_Blinklicht" setting to "No" (with VCDS or OBD11) made the entire project more complex - more in [VCDS Forum](https://forums.ross-tech.com/index.php?threads/33372/#post-281097)). We do have a workaround solution that cancels all errors on the dash and allows to "unplug" the taillights for software updates, but is not as elegant as desired... and is described below.
 
 #### Components Needed
 
@@ -71,29 +71,29 @@ The table shows both the "logical" connections - that correspond with the adapta
 # Coding
 [OBD11 PRO](https://obdeleven.com/en/) is a must. Higly recommend [VCDS](https://store.ross-tech.com/shop/vchv2_ent/) for exporting Ada/Adaptations maps for comparisons and coding itself... 
 
-This section is work in progress... We are close... More coming very soon...
+Below section only lists settings that are chenged in the US version to accomodate the IQ Lights and to code the light channels per workaround described above. Coding will be different for Euro vehicles. For Euro vehicles we highly recommend to run an adaptation delta between your adaptations and the one that has IQ Lights from the factory. 
 
 ## Module 19 / ICAS1 / CAN Gateway
 
 ### Configure IQ Lights
   ```
-- ENG253039-SFT271909-Intelligente Heckleuchte-Verbau-left tail lamp 1, __installed__ 
-- ENG253039-SFT272142-Intelligente Heckleuchte-Verbau-left tail lamp 2, __installed__
-- ENG253039-SFT272143-Intelligente Heckleuchte-Verbau-Right rear tail lamp 1, __installed__
-- ENG253039-SFT272144-Intelligente Heckleuchte-Verbau-Right rear tail lamp 2, __installed__
+- ENG253039-SFT271909-Intelligente Heckleuchte-Verbau-left tail lamp 1, installed
+- ENG253039-SFT272142-Intelligente Heckleuchte-Verbau-left tail lamp 2, installed
+- ENG253039-SFT272143-Intelligente Heckleuchte-Verbau-Right rear tail lamp 1, installed
+- ENG253039-SFT272144-Intelligente Heckleuchte-Verbau-Right rear tail lamp 2, installed
   ```
 ### Configure Light Parameters
   ```
-- ENG253070-ENG258451-Intelligente Heckleuchte-Parametierung-p_SHL_Anim_LTM_Auto, __active__
-- ENG253070-ENG259407-Intelligente Heckleuchte-Parametierung-p_SHL_AnimDimm_Freigabe_KL15aus, __1__
-- ENG253070-ENG260457-Intelligente Heckleuchte-Parametierung-p_SHL_AnimDimm_Freigabe_KL15ein, __1__
-- ENG253070-ENG259766-Intelligente Heckleuchte-Parametierung-p_SHL_dynamisch, __active__
+- ENG253070-ENG258451-Intelligente Heckleuchte-Parametierung-p_SHL_Anim_LTM_Auto, active
+- ENG253070-ENG259407-Intelligente Heckleuchte-Parametierung-p_SHL_AnimDimm_Freigabe_KL15aus, 1
+- ENG253070-ENG260457-Intelligente Heckleuchte-Parametierung-p_SHL_AnimDimm_Freigabe_KL15ein, 1
+- ENG253070-ENG259766-Intelligente Heckleuchte-Parametierung-p_SHL_dynamisch, active
   ```
 #### Enable light animations
   ```
-- IDE12986-ENG278492-BAP configuration-Bap_fc_list_exterior_light, FF FF FF F**F** FF FF
-- IDE12986-ENG142232-BAP configuration-HMI_exterior_light_sensitivity, __7__
-- IDE12986-ENG278470-BAP configuration-HMI_exterior_light_sensitivity_2, __3__
+- IDE12986-ENG278492-BAP configuration-Bap_fc_list_exterior_light, FF FF FF FF FF FF
+- IDE12986-ENG142232-BAP configuration-HMI_exterior_light_sensitivity, 7
+- IDE12986-ENG278470-BAP configuration-HMI_exterior_light_sensitivity_2, 3
   ```
   
 ## Module 9 / J519 / CECM
@@ -155,7 +155,9 @@ This section is work in progress... We are close... More coming very soon...
 ```
 # Conclusion
   
-#### ... and the End Product
+And here we go. The result is amazing, the journey to get there was much harder than originally anticipated.
+  
+#### Videos
 
 The brake light now spans across the side and center lights and yellow turn light is indepandent.
 
@@ -164,5 +166,3 @@ https://user-images.githubusercontent.com/107234448/184520870-9b423880-1967-45f5
 And this is the one of two welcome animations...
 
 https://user-images.githubusercontent.com/107234448/184521899-61f484e4-4b1e-4c20-8236-670647630f44.mp4
-
-
