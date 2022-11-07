@@ -88,7 +88,7 @@ This section is work in progress... We are close... More coming very soon...
 - ENG253070-ENG259766-Intelligente Heckleuchte-Parametierung-p_SHL_dynamisch, __active__
   
 ### Enable light animations
-- IDE12986-ENG278492-BAP configuration-Bap_fc_list_exterior_light,FF FF FF F __F__ FF FF
+- IDE12986-ENG278492-BAP configuration-Bap_fc_list_exterior_light, FF FF FF FF FF FF
 - IDE12986-ENG142232-BAP configuration-HMI_exterior_light_sensitivity, __7__
 - IDE12986-ENG278470-BAP configuration-HMI_exterior_light_sensitivity_2, __3__
   
@@ -96,49 +96,49 @@ This section is work in progress... We are close... More coming very soon...
   
 ### Light Channels
 #### Brake lights
-ENG263478-ENG261250-Leuchte 18 BLK HL A60-Dimmwert ABC 18,127
-ENG263478-ENG116214-Leuchte 18 BLK HL A60-Lasttyp 18,LIN_SBBR_Versorgung_OL_Appl_55
-ENG263478-ENG116217-Leuchte 18 BLK HL A60-Lichtfunktion A 18,Brake lamp
+- ENG263478-ENG261250-Leuchte 18 BLK HL A60-Dimmwert ABC 18,127
+- ENG263478-ENG116214-Leuchte 18 BLK HL A60-Lasttyp 18,LIN_SBBR_Versorgung_OL_Appl_55
+- ENG263478-ENG116217-Leuchte 18 BLK HL A60-Lichtfunktion A 18,Brake lamp
   
-ENG263431-ENG259136-Leuchte 19 BLK HR C27-Dimmwert ABC 19,127
-ENG263431-ENG116233-Leuchte 19 BLK HR C27-Lasttyp 19,LIN_SBBR_Versorgung_OL_Appl_55
-ENG263431-ENG116236-Leuchte 19 BLK HR C27-Lichtfunktion A 19,Brake lamp
+- ENG263431-ENG259136-Leuchte 19 BLK HR C27-Dimmwert ABC 19,127
+- ENG263431-ENG116233-Leuchte 19 BLK HR C27-Lasttyp 19,LIN_SBBR_Versorgung_OL_Appl_55
+- ENG263431-ENG116236-Leuchte 19 BLK HR C27-Lichtfunktion A 19,Brake lamp
 
 #### Turn-light
-ENG263436-ENG260616-Leuchte 40 Zusatz_hecklicht_HL B03-Dimming Direction DEF 40,minimze ,20
-ENG263436-ENG260978-Leuchte 40 Zusatz_hecklicht_HL B03-Lasttyp 40,LIN_SBBR_Versorgung_OL_Appl_55 ,20
-ENG263436-ENG259008-Leuchte 40 Zusatz_hecklicht_HL B03-Lichtfunktion A 40,Blinken links aktiv ,20
-ENG263436-ENG258714-Leuchte 40 Zusatz_hecklicht_HL B03-Lichtfunktion B 40,not active ,20
-ENG263436-ENG258768-Leuchte 40 Zusatz_hecklicht_HL B03-Lichtfunktion D 40,Blinken links Dunkelphase ,20
+- ENG263436-ENG260616-Leuchte 40 Zusatz_hecklicht_HL B03-Dimming Direction DEF 40,minimze ,20
+- ENG263436-ENG260978-Leuchte 40 Zusatz_hecklicht_HL B03-Lasttyp 40,LIN_SBBR_Versorgung_OL_Appl_55 ,20
+- ENG263436-ENG259008-Leuchte 40 Zusatz_hecklicht_HL B03-Lichtfunktion A 40,Blinken links aktiv ,20
+- ENG263436-ENG258714-Leuchte 40 Zusatz_hecklicht_HL B03-Lichtfunktion B 40,not active ,20
+- ENG263436-ENG258768-Leuchte 40 Zusatz_hecklicht_HL B03-Lichtfunktion D 40,Blinken links Dunkelphase ,20
 
-ENG263464-ENG259814-Leuchte 41 Zusatz_hecklicht_HR B20-Dimming Direction DEF 41,minimze ,20
-ENG263464-ENG261015-Leuchte 41 Zusatz_hecklicht_HR B20-Lasttyp 41,LIN_SBBR_Versorgung_OL_Appl_55 ,20
-ENG263464-ENG260996-Leuchte 41 Zusatz_hecklicht_HR B20-Lichtfunktion A 41,Blinken rechts aktiv ,20
-ENG263464-ENG259966-Leuchte 41 Zusatz_hecklicht_HR B20-Lichtfunktion B 41,not active ,20
-ENG263464-ENG259570-Leuchte 41 Zusatz_hecklicht_HR B20-Lichtfunktion D 41,Blinken rechts Dunkelphase 
+- ENG263464-ENG259814-Leuchte 41 Zusatz_hecklicht_HR B20-Dimming Direction DEF 41,minimze ,20
+- ENG263464-ENG261015-Leuchte 41 Zusatz_hecklicht_HR B20-Lasttyp 41,LIN_SBBR_Versorgung_OL_Appl_55 ,20
+- ENG263464-ENG260996-Leuchte 41 Zusatz_hecklicht_HR B20-Lichtfunktion A 41,Blinken rechts aktiv ,20
+- ENG263464-ENG259966-Leuchte 41 Zusatz_hecklicht_HR B20-Lichtfunktion B 41,not active ,20
+- ENG263464-ENG259570-Leuchte 41 Zusatz_hecklicht_HR B20-Lichtfunktion D 41,Blinken rechts Dunkelphase 
   
 #### Tail-light
-ENG263482-ENG116480-Leuchte 23 SL HL C31-Lasttyp 32,LED_Kleinleistung_ohne_Open_Load_Diagnose
-ENG263469-ENG116328-Leuchte 24 SL HR A61-Lasttyp 24,LED_Kleinleistung_ohne_Open_Load_Diagnose
+- ENG263482-ENG116480-Leuchte 23 SL HL C31-Lasttyp 32,LED_Kleinleistung_ohne_Open_Load_Diagnose
+- ENG263469-ENG116328-Leuchte 24 SL HR A61-Lasttyp 24,LED_Kleinleistung_ohne_Open_Load_Diagnose
 
 #### Backup lights
-NG263493-ENG259919-Leuchte 28 RFL L C06-Dimmwert ABC 28,0
-ENG263493-ENG116406-Leuchte 28 RFL L C06-Fehlerort mittleres Byte DTC-DFCC 28,00
-ENG263493-ENG116580-Leuchte 28 RFL L C06-Lampendefektbitposition 28,00
-ENG263493-ENG116404-Leuchte 28 RFL L C06-Lasttyp 28,not_active
-ENG263493-ENG116407-Leuchte 28 RFL L C06-Lichtfunktion A 28,not active
+- NG263493-ENG259919-Leuchte 28 RFL L C06-Dimmwert ABC 28,0
+- ENG263493-ENG116406-Leuchte 28 RFL L C06-Fehlerort mittleres Byte DTC-DFCC 28,00
+- ENG263493-ENG116580-Leuchte 28 RFL L C06-Lampendefektbitposition 28,00
+- ENG263493-ENG116404-Leuchte 28 RFL L C06-Lasttyp 28,not_active
+- ENG263493-ENG116407-Leuchte 28 RFL L C06-Lichtfunktion A 28,not active
 
-NG263488-ENG116425-Leuchte 29 RFL R A72-Fehlerort mittleres Byte DTC-DFCC 29,00
-ENG263488-ENG116581-Leuchte 29 RFL R A72-Lampendefektbitposition 29,00
+- ENG263488-ENG116425-Leuchte 29 RFL R A72-Fehlerort mittleres Byte DTC-DFCC 29,00
+- ENG263488-ENG116581-Leuchte 29 RFL R A72-Lampendefektbitposition 29,00
   
 #### Bonus: Front lights animation
-ENG253358-ENG259279-Anpassungen_Exterior_Light-Events_Szene_1,00 01 FF FF 03 04 05 FF
-ENG253358-ENG260976-Anpassungen_Exterior_Light-Events_Szene_31,14 3E 6E 3E 08 00 00 00
-ENG253358-ENG260284-Anpassungen_Exterior_Light-Events_Szene_32,00 FF FF FF FF FF FF FF
-ENG253358-ENG260168-Anpassungen_Exterior_Light-Events_Szene_4,FF FF FF FF 09 0A 0B FF
-ENG253358-ENG259646-Anpassungen_Exterior_Light-Events_Szene_5,10 11 12 FF 10 11 12 FF
-ENG253358-ENG260432-Anpassungen_Exterior_Light-Events_Szene_6,06 07 08 FF FF FF FF FF
-ENG253358-ENG258154-Anpassungen_Exterior_Light-Events_Szene_8,0C 0D 0E FF FF FF FF FF
+- ENG253358-ENG259279-Anpassungen_Exterior_Light-Events_Szene_1,00 01 FF FF 03 04 05 FF
+- ENG253358-ENG260976-Anpassungen_Exterior_Light-Events_Szene_31,14 3E 6E 3E 08 00 00 00
+- ENG253358-ENG260284-Anpassungen_Exterior_Light-Events_Szene_32,00 FF FF FF FF FF FF FF
+- ENG253358-ENG260168-Anpassungen_Exterior_Light-Events_Szene_4,FF FF FF FF 09 0A 0B FF
+- ENG253358-ENG259646-Anpassungen_Exterior_Light-Events_Szene_5,10 11 12 FF 10 11 12 FF
+- ENG253358-ENG260432-Anpassungen_Exterior_Light-Events_Szene_6,06 07 08 FF FF FF FF FF
+- ENG253358-ENG258154-Anpassungen_Exterior_Light-Events_Szene_8,0C 0D 0E FF FF FF FF FF
 
 # Conclusion
   
