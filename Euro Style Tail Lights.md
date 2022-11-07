@@ -73,9 +73,21 @@ The table shows both the "logical" connections - that correspond with the adapta
 
 This section is work in progress... We are close... More coming very soon...
 
-##Module 19 / ICAS1 / CAN Gateway
+## Module 19 / ICAS1 / CAN Gateway
+
+### Configure IQ Lights
+ENG253039-SFT271909-Intelligente Heckleuchte-Verbau-left tail lamp 1,__installed__ ,4
+ENG253039-SFT272142-Intelligente Heckleuchte-Verbau-left tail lamp 2,__installed__,4
+ENG253039-SFT272143-Intelligente Heckleuchte-Verbau-Right rear tail lamp 1,__installed__,4
+ENG253039-SFT272144-Intelligente Heckleuchte-Verbau-Right rear tail lamp 2,__installed__,4
   
-###Enable light animations
+### Configure Light Parameters
+ENG253070-ENG258451-Intelligente Heckleuchte-Parametierung-p_SHL_Anim_LTM_Auto,active ,23
+ENG253070-ENG259407-Intelligente Heckleuchte-Parametierung-p_SHL_AnimDimm_Freigabe_KL15aus,1 ,23
+ENG253070-ENG260457-Intelligente Heckleuchte-Parametierung-p_SHL_AnimDimm_Freigabe_KL15ein,1 ,23
+ENG253070-ENG259766-Intelligente Heckleuchte-Parametierung-p_SHL_dynamisch,active ,23
+  
+### Enable light animations
 IDE12986-ENG278492-BAP configuration-Bap_fc_list_exterior_light,FF FF FF FF FF FF ,8
 IDE12986-ENG142232-BAP configuration-HMI_exterior_light_sensitivity,7 ,8
 IDE12986-ENG278470-BAP configuration-HMI_exterior_light_sensitivity_2,3 ,8
