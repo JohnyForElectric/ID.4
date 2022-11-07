@@ -82,17 +82,17 @@ This section is work in progress... We are close... More coming very soon...
 - ENG253039-SFT272144-Intelligente Heckleuchte-Verbau-Right rear tail lamp 2, __installed__
   
 ### Configure Light Parameters
-ENG253070-ENG258451-Intelligente Heckleuchte-Parametierung-p_SHL_Anim_LTM_Auto, __active__
-ENG253070-ENG259407-Intelligente Heckleuchte-Parametierung-p_SHL_AnimDimm_Freigabe_KL15aus, __1__
-ENG253070-ENG260457-Intelligente Heckleuchte-Parametierung-p_SHL_AnimDimm_Freigabe_KL15ein, __1__
-ENG253070-ENG259766-Intelligente Heckleuchte-Parametierung-p_SHL_dynamisch, __active__
+- ENG253070-ENG258451-Intelligente Heckleuchte-Parametierung-p_SHL_Anim_LTM_Auto, __active__
+- ENG253070-ENG259407-Intelligente Heckleuchte-Parametierung-p_SHL_AnimDimm_Freigabe_KL15aus, __1__
+- ENG253070-ENG260457-Intelligente Heckleuchte-Parametierung-p_SHL_AnimDimm_Freigabe_KL15ein, __1__
+- ENG253070-ENG259766-Intelligente Heckleuchte-Parametierung-p_SHL_dynamisch, __active__
   
 ### Enable light animations
-IDE12986-ENG278492-BAP configuration-Bap_fc_list_exterior_light,FF FF FF F__F__ FF FF
-IDE12986-ENG142232-BAP configuration-HMI_exterior_light_sensitivity,__7__
-IDE12986-ENG278470-BAP configuration-HMI_exterior_light_sensitivity_2,__3__
+- IDE12986-ENG278492-BAP configuration-Bap_fc_list_exterior_light,FF FF FF F__F__ FF FF
+- IDE12986-ENG142232-BAP configuration-HMI_exterior_light_sensitivity,__7__
+- IDE12986-ENG278470-BAP configuration-HMI_exterior_light_sensitivity_2,__3__
   
- 
+## Module 9 / J519 / CECM
 
 # Conclusion
   
