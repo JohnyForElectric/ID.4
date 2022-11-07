@@ -66,8 +66,15 @@ The table shows both the "logical" connections - that correspond with the adapta
 
 | Additional 3 wires (on top - LIN, Turn and +12V | New "blue" connector | Ready to plug in
 | :------------- | :------------- | :----
-| <img src="https://user-images.githubusercontent.com/107234448/184520654-5c01c179-a1b6-4d28-a6e8-eaa79c23d6da.jpeg" alt="HTML image alt text" title="Optional image title" width="300px"> | <img src="https://user-images.githubusercontent.com/107234448/184520530-3085aaa9-76d3-411c-acad-f30af95224f9.jpeg" alt="HTML image alt text" title="Optional image title" width="300px"> | <img src="https://user-images.githubusercontent.com/107234448/184520535-19230822-567c-4521-8720-42f257af099d.jpeg" alt="HTML image alt text" title="Optional image title" width="300px">
-       
+| <img src="https://user-images.githubusercontent.com/107234448/184520654-5c01c179-a1b6-4d28-a6e8-eaa79c23d6da.jpeg" width="300px"> | <img src="https://user-images.githubusercontent.com/107234448/184520530-3085aaa9-76d3-411c-acad-f30af95224f9.jpeg" width="300px"> | <img src="https://user-images.githubusercontent.com/107234448/184520535-19230822-567c-4521-8720-42f257af099d.jpeg" width="300px">
+
+| Connector T73a opened and unfolded | Resistors for error cancellation | Added harness and connector
+| :------------- | :------------- | :----
+| <img src="https://user-images.githubusercontent.com/107234448/200219683-d926808d-17a9-42a2-ba10-1a2cb670e249.JPEG" width="300px"> | <img src="https://user-images.githubusercontent.com/107234448/184520530-3085aaa9-76d3-411c-acad-f30af95224f9.jpeg" width="300px"> | <img src="https://user-images.githubusercontent.com/107234448/184520535-19230822-567c-4521-8720-42f257af099d.jpeg" width="300px">
+  
+  ![IMG_4517](https://user-images.githubusercontent.com/107234448/200219683-d926808d-17a9-42a2-ba10-1a2cb670e249.JPEG)
+
+  
 # Coding
 [OBD11 PRO](https://obdeleven.com/en/) is a must. Higly recommend [VCDS](https://store.ross-tech.com/shop/vchv2_ent/) for exporting Ada/Adaptations maps for comparisons and coding itself... 
 
