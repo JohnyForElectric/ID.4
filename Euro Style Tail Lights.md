@@ -88,16 +88,17 @@ This section is work in progress... We are close... More coming very soon...
 - ENG253070-ENG259766-Intelligente Heckleuchte-Parametierung-p_SHL_dynamisch, __active__
   
 #### Enable light animations
-- IDE12986-ENG278492-BAP configuration-Bap_fc_list_exterior_light, FF FF FF FF FF FF
+- IDE12986-ENG278492-BAP configuration-Bap_fc_list_exterior_light, FF FF FF F**F** FF FF
 - IDE12986-ENG142232-BAP configuration-HMI_exterior_light_sensitivity, __7__
 - IDE12986-ENG278470-BAP configuration-HMI_exterior_light_sensitivity_2, __3__
   
 ## Module 9 / J519 / CECM
   
 ### Light Channels
+
 #### Brake lights
-- ENG263478-ENG261250-Leuchte 18 BLK HL A60-Dimmwert ABC 18,127
-- ENG263478-ENG116214-Leuchte 18 BLK HL A60-Lasttyp 18,LIN_SBBR_Versorgung_OL_Appl_55
+> - ENG263478-ENG261250-Leuchte 18 BLK HL A60-Dimmwert ABC 18,127
+> ENG263478-ENG116214-Leuchte 18 BLK HL A60-Lasttyp 18,LIN_SBBR_Versorgung_OL_Appl_55
 - ENG263478-ENG116217-Leuchte 18 BLK HL A60-Lichtfunktion A 18,Brake lamp
 
 - ENG263431-ENG259136-Leuchte 19 BLK HR C27-Dimmwert ABC 19,127
