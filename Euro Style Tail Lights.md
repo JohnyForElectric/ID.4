@@ -76,11 +76,10 @@ This section is work in progress... We are close... More coming very soon...
 ## Module 19 / ICAS1 / CAN Gateway
 
 ### Configure IQ Lights
-ENG253039-SFT271909-Intelligente Heckleuchte-Verbau-left tail lamp 1, __installed__
-  
-ENG253039-SFT272142-Intelligente Heckleuchte-Verbau-left tail lamp 2, __installed__
-ENG253039-SFT272143-Intelligente Heckleuchte-Verbau-Right rear tail lamp 1, __installed__
-ENG253039-SFT272144-Intelligente Heckleuchte-Verbau-Right rear tail lamp 2, __installed__
+- ENG253039-SFT271909-Intelligente Heckleuchte-Verbau-left tail lamp 1, __installed__ 
+- ENG253039-SFT272142-Intelligente Heckleuchte-Verbau-left tail lamp 2, __installed__
+- ENG253039-SFT272143-Intelligente Heckleuchte-Verbau-Right rear tail lamp 1, __installed__
+- ENG253039-SFT272144-Intelligente Heckleuchte-Verbau-Right rear tail lamp 2, __installed__
   
 ### Configure Light Parameters
 ENG253070-ENG258451-Intelligente Heckleuchte-Parametierung-p_SHL_Anim_LTM_Auto, __active__
