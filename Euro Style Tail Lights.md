@@ -64,10 +64,13 @@ The table shows both the "logical" connections - that correspond with the adapta
 
 ## Wiring & harness photos
 
-| Additional 3 wires (on top - LIN, Turn and +12V | New "blue" connector | Ready to plug in
+| Additional 3 wires (on top - LIN, Turn and +12V | New harness in the rear compartment | Ready to plug in
 | :------------- | :------------- | :----
-| All wires spliced with waterproofing ring | This is the "coded" connector that fits IQ Tail-lights | All cvarefully wrapped and sealed with butyl 
-| <img src="https://user-images.githubusercontent.com/107234448/184520654-5c01c179-a1b6-4d28-a6e8-eaa79c23d6da.jpeg" width="300px"> | <img src="https://user-images.githubusercontent.com/107234448/184520530-3085aaa9-76d3-411c-acad-f30af95224f9.jpeg" width="300px"> | <img src="https://user-images.githubusercontent.com/107234448/184520535-19230822-567c-4521-8720-42f257af099d.jpeg" width="300px">
+| All wires spliced with waterproofing ring | New harness, wires branch out to multiple places from here | All carefully wrapped and sealed with butyl. New blue "coded" connector that fits IQ Tail-lights  
+| <img src="https://user-images.githubusercontent.com/107234448/184520654-5c01c179-a1b6-4d28-a6e8-eaa79c23d6da.jpeg" width="300px"> | <img src="https://user-images.githubusercontent.com/107234448/200223839-82707f66-23c7-424a-be2f-6426d6c390d1.jpeg" width="300px"> | <img src="https://user-images.githubusercontent.com/107234448/184520535-19230822-567c-4521-8720-42f257af099d.jpeg" width="300px">
+  
+  ![IMG_3731_small](https://user-images.githubusercontent.com/107234448/200223839-82707f66-23c7-424a-be2f-6426d6c390d1.jpeg)
+
 
 | Connector T73a opened and unfolded | Resistors for error cancellation | Added harness and connector
 | :------------- | :------------- | :----
