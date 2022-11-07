@@ -70,11 +70,13 @@ The table shows both the "logical" connections - that correspond with the adapta
 
 | Connector T73a opened and unfolded | Resistors for error cancellation | Added harness and connector
 | :------------- | :------------- | :----
-| <img src="https://user-images.githubusercontent.com/107234448/200219683-d926808d-17a9-42a2-ba10-1a2cb670e249.JPEG" width="300px"> | <img src="https://user-images.githubusercontent.com/107234448/184520530-3085aaa9-76d3-411c-acad-f30af95224f9.jpeg" width="300px"> | <img src="https://user-images.githubusercontent.com/107234448/184520535-19230822-567c-4521-8720-42f257af099d.jpeg" width="300px">
+| <img src="https://user-images.githubusercontent.com/107234448/200219683-d926808d-17a9-42a2-ba10-1a2cb670e249.JPEG" width="300px"> | <img src="https://user-images.githubusercontent.com/107234448/200219778-5f955278-d3da-44a8-9e78-8a6a101bbb65.JPEG" width="300px"> | <img src="https://user-images.githubusercontent.com/107234448/200219823-51cfe79c-334b-4051-adf1-dc6387e92201.JPEG" width="300px">
   
-  ![IMG_4517](https://user-images.githubusercontent.com/107234448/200219683-d926808d-17a9-42a2-ba10-1a2cb670e249.JPEG)
 
-  
+![IMG_4526](https://user-images.githubusercontent.com/107234448/200219778-5f955278-d3da-44a8-9e78-8a6a101bbb65.JPEG)
+
+  ![IMG_4525](https://user-images.githubusercontent.com/107234448/200219823-51cfe79c-334b-4051-adf1-dc6387e92201.JPEG)
+
 # Coding
 [OBD11 PRO](https://obdeleven.com/en/) is a must. Higly recommend [VCDS](https://store.ross-tech.com/shop/vchv2_ent/) for exporting Ada/Adaptations maps for comparisons and coding itself... 
 
