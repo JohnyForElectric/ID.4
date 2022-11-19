@@ -5,15 +5,15 @@
 </div>
 
 ## Situation
-There are only two driver side window controls that by default control the front driver and passenger windows (part number known as 10A 959 862 S). 
-- To control the rear windows the "REAR" soft button needs to be touched for more than 1 second, then the button lights up and the rear windows can be controlled by the same controls that previously controlled the front windows. The button stays lit for approx. 10 seconds, then turns off, reverting the controls to the front windows. 
+Unlinke previous VW models, there are only two driver side window switches that by default control the front driver and passenger windows. 
+- To control the rear windows the "REAR" "soft" (not a phisical button, does not have haptic feedback) button needs to be touched for more than 1 second, then the button lights up and the rear windows can be controlled by the same controls that previously controlled the front windows. The button stays lit for approx. 10 seconds, then turns off, reverting the controls to the front windows. 
 - If the "REAR" soft button is touched and held for 2+ seconds, it starts to blink and all four windows can be controlled at the same time :heart:. 
 
 ## Challenges
-1. The REAR soft button can't be located easilly without looking. There is no "dot or mark" that you can feel with your finger to locate the button
+1. The REAR soft button can't be located easilly without looking. There is no "dot or mark" that can be felt with a finger to locate it more easilly
 2. There is no haptic feedback in case the button is activated indicating the mode selected REAR/ALL modes
-     - There is a small "chime" in the speakers once the mode is changed, but it's not too obvious and can be easily missed (in addition it relies on a different sense in the body than the one initiating the action, so it is easy to miss) 
-     - Furthermore while the button is touched by your finger, the finger covers the light that indicates the selected mode, and it’s not possible to even see the mode it entered, unless the finger is lifted. That only means more distraction from driving.
+     - There is a small "chime" in the speakers once the mode is changed, but it's not too obvious and can be easily missed (in addition it relies on a different sense /hearing/ in the body than the one initiating the action /touch/, so it is easy to miss) 
+     - Furthermore to activate the button with a finger, the finger must cover the button with th elight light that indicates mode selected. It’s not possible to even see the mode it entered, unless the finger is lifted. That only means more distraction from driving.
 
 ## Solution to challenge #1 - "locating the button"
 ...is to e.g. add two self-adhesive pads to help easily locate the touch sensitive area without looking at the location.\
