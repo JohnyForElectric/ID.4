@@ -26,9 +26,9 @@ One of the approaches below:
 </div>
 This itself is a big help for me :man_dancing: :woman_dancing:
 
-## Solution to challenge #2 - "haptic feedback" 
+## Solution to challenge #2 - "adding haptic feedback" 
 
-For the haptic feedback, there are many options, some outlined below
+To add haptic feedback, or iomprove the experience even further, there are many options, couple outlined below:
 
 Option | Details | Pros/Cons | OEM
 ---|---|---|---
