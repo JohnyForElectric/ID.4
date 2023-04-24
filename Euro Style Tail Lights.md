@@ -9,7 +9,7 @@ There are two types of taillights available for the ID.4. The "base" style (opti
 ---
 **NOTE**
 
-For ID Software version 3.1 the adaptation "Bremslicht_ist_auch_Blinklicht" was removed along with other six adaptation in the "Fahrlicht_Bremslicht_Standlicht_SAM" category. We do not know if that menas that we would not need to use the below used workaround or not. One thing is sure the workaround still works on 3.1.0. 
+For ID Software version 3.1.0 the adaptation "Bremslicht_ist_auch_Blinklicht" was removed along with other six adaptation in the "Fahrlicht_Bremslicht_Standlicht_SAM" category from J519/CECM. The workaround used below is validated as working on 3.1.0. We will post an update if the Euro coding can be used directly in US vehicles with 3.1.0 and newer. 
 
 ---
 
@@ -56,7 +56,14 @@ The harness shall deliver power (+12/14.4V), data (LIN) and for US spec vehicles
 
 Following table shows connections between J519/CECM and each tail-light connector. Left tail MX3 (connector T8w), center tail MX13 (connectors T8s and T8aj) and right tail MX4 (connector T8aa). 
 
-The "Workround/US" column shows suggested connections for US vehicles in case the adaptation "Bremslicht_ist_auch_Blinklicht" *__cannot__* be changed to __no__. If "Bremslicht_ist_auch_Blinklicht"=Yes, the coding is *__expecting__* one channel to be *__coded__* as "joined turn and brake light" (last row of the table). In addition the load management cannot be disabled by setting the "Lasttyp" to "LED_Kleinleistung_ohne_Open_Load_Diagnose" so it has to be terminated by a resistor. The resistor maximal resistance (minimal current) was determined as 400Ohms, in some situations (with low 12V battery) an error can show on the dash, so the suggested value is 300Ohms (that is approx. 50mA and 0.7W), for safety we picked 10W resistor.
+The "Workround/US" column shows suggested connections for US vehicles in case the adaptation "Bremslicht_ist_auch_Blinklicht" *__cannot__* be changed to __no__. If "Bremslicht_ist_auch_Blinklicht"=Yes, the coding is *__expecting__* one channel to be *__coded__* as "joined turn and brake light" (last row of the table). 
+---
+**NOTE**
+
+For ID Software version 3.1.0 the adaptation "Bremslicht_ist_auch_Blinklicht" was removed along with other six adaptation in the "Fahrlicht_Bremslicht_Standlicht_SAM" category from J519/CECM. The workaround used below is validated as working on 3.1.0. We will post an update if the Euro coding can be used directly in US vehicles with 3.1.0 and newer. 
+---
+
+In addition the load management cannot be disabled by setting the "Lasttyp" to "LED_Kleinleistung_ohne_Open_Load_Diagnose" so it has to be terminated by a resistor. The resistor maximal resistance (minimal current) was determined as 400Ohms, in some situations (with low 12V battery) an error can show on the dash, so the suggested value is 300Ohms (that is approx. 50mA and 0.7W), for safety we picked 10W resistor.
 
 For better understanding of the table, let us explain the J519/CECM light channels and essentials of coding. The J519/CECM has 29 "light channels", those can be configured and adapted with multiple different advanced functions, and the channels are numbered from 16 to 45. Those channels show in adaptation as e.g. "Leuchte 18 BLK HL A60". This menas Leuchte/Lights <**channel #**> <**function**> <**location on the vehicle**> <**connector and pin of the J519/CECM**>. So the <**channel #**> (e.g. 18) as explained above; <**function**> (BLK=Blinker/Turn light, BR=Brems Licht/Brake Light, SL=Tail Lights, RFL=Backup light, NSL=Fog lights (not used in US spec vehicles)...); <**location on the vehicle**> (HL=Hinten Links/Rear Left, HR=Hinten Rechtes/Rear Right,...); <**connector and pin of the J519/CECM**> (A60 is connector T73**a**/pin **60**; C09 is connector T73**b**/pin **9** and B03 is connector T46**f**/pin **3**...)
 
