@@ -57,10 +57,12 @@ The harness shall deliver power (+12/14.4V), data (LIN) and for US spec vehicles
 Following table shows connections between J519/CECM and each tail-light connector. Left tail MX3 (connector T8w), center tail MX13 (connectors T8s and T8aj) and right tail MX4 (connector T8aa). 
 
 The "Workround/US" column shows suggested connections for US vehicles in case the adaptation "Bremslicht_ist_auch_Blinklicht" *__cannot__* be changed to __no__. If "Bremslicht_ist_auch_Blinklicht"=Yes, the coding is *__expecting__* one channel to be *__coded__* as "joined turn and brake light" (last row of the table). 
+
 ---
 **NOTE**
 
 For ID Software version 3.1.0 the adaptation "Bremslicht_ist_auch_Blinklicht" was removed along with other six adaptation in the "Fahrlicht_Bremslicht_Standlicht_SAM" category from J519/CECM. The workaround used below is validated as working on 3.1.0. We will post an update if the Euro coding can be used directly in US vehicles with 3.1.0 and newer. 
+
 ---
 
 In addition the load management cannot be disabled by setting the "Lasttyp" to "LED_Kleinleistung_ohne_Open_Load_Diagnose" so it has to be terminated by a resistor. The resistor maximal resistance (minimal current) was determined as 400Ohms, in some situations (with low 12V battery) an error can show on the dash, so the suggested value is 300Ohms (that is approx. 50mA and 0.7W), for safety we picked 10W resistor.
@@ -104,14 +106,8 @@ Below section only lists settings that are changed in the US version to accomoda
 - ENG253039-SFT272143-Intelligente Heckleuchte-Verbau-Right rear tail lamp 1, installed
 - ENG253039-SFT272144-Intelligente Heckleuchte-Verbau-Right rear tail lamp 2, installed
   ```
-### Configure Light Parameters
-  ```
-- ENG253070-ENG258451-Intelligente Heckleuchte-Parametierung-p_SHL_Anim_LTM_Auto, active
-- ENG253070-ENG259407-Intelligente Heckleuchte-Parametierung-p_SHL_AnimDimm_Freigabe_KL15aus, 1
-- ENG253070-ENG260457-Intelligente Heckleuchte-Parametierung-p_SHL_AnimDimm_Freigabe_KL15ein, 1
-- ENG253070-ENG259766-Intelligente Heckleuchte-Parametierung-p_SHL_dynamisch, active
-  ```
-#### Enable light animations
+
+  #### Enable light animations
   ```
 - IDE12986-ENG278492-BAP configuration-Bap_fc_list_exterior_light, FF FF FF FF FF FF
 - IDE12986-ENG142232-BAP configuration-HMI_exterior_light_sensitivity, 7
@@ -165,7 +161,7 @@ Below section only lists settings that are changed in the US version to accomoda
 - ENG263488-ENG116425-Leuchte 29 RFL R A72-Fehlerort mittleres Byte DTC-DFCC 29,00
 - ENG263488-ENG116581-Leuchte 29 RFL R A72-Lampendefektbitposition 29,00
   ```
-#### Bonus: Front lights animation (does not require IQ Tail-lights)
+#### Bonus: Front lights animation (does not require IQ Tail-lights). Same as Euro coding.
   ```
 - ENG253358-ENG259279-Anpassungen_Exterior_Light-Events_Szene_1,00 01 FF FF 03 04 05 FF
 - ENG253358-ENG260976-Anpassungen_Exterior_Light-Events_Szene_31,14 3E 6E 3E 08 00 00 00
@@ -174,6 +170,13 @@ Below section only lists settings that are changed in the US version to accomoda
 - ENG253358-ENG259646-Anpassungen_Exterior_Light-Events_Szene_5,10 11 12 FF 10 11 12 FF
 - ENG253358-ENG260432-Anpassungen_Exterior_Light-Events_Szene_6,06 07 08 FF FF FF FF FF
 - ENG253358-ENG258154-Anpassungen_Exterior_Light-Events_Szene_8,0C 0D 0E FF FF FF FF FF
+
+Enables animations. Will display additional settings in Vehicle -> Exterior -> Lights menu
+- ENG253358-ENG258812-Anpassungen_Exterior_Light-p_Abstand_IDG_Inszenierung,25.5 m
+- ENG253358-ENG258950-Anpassungen_Exterior_Light-p_Kessy_ID,active
+- ENG253358-ENG259215-Anpassungen_Exterior_Light-pa_ambExtLight_Installation,active
+- ENG253358-ENG258160-Anpassungen_Exterior_Light-pa_ext_Ambiente,active
+
 ```
 # Conclusion
   
