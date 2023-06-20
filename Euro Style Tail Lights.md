@@ -9,8 +9,8 @@ There are two types of taillights available for the ID.4. The "base" style (opti
 ---
 **NOTE**
 
-For ID Software version 3.1.0 the adaptation "Bremslicht_ist_auch_Blinklicht" was removed along with other six adaptation in the "Fahrlicht_Bremslicht_Standlicht_SAM" category from J519/CECM. The workaround used below is validated as working on 3.1.0. We will post an update if the Euro coding can be used directly in US vehicles with 3.1.0 and newer. 
-
+The retrofit of EURO ID.Light into US vehicle as described below is validated as working in ID.Software 3.1.0.
+(For ID.Software 3.1.0 the adaptation "Bremslicht_ist_auch_Blinklicht" was removed along with other six adaptations in the "Fahrlicht_Bremslicht_Standlicht_SAM" category from J519/CECM.)
 ---
 
 The US model year 2023 physically removed the turn light segment from the taillight for better esthetical appearance as the brake and turn segments were separated by tail/parking segment.
@@ -61,8 +61,8 @@ The "Workround/US" column shows suggested connections for US vehicles in case th
 ---
 **NOTE**
 
-For ID Software version 3.1.0 the adaptation "Bremslicht_ist_auch_Blinklicht" was removed along with other six adaptation in the "Fahrlicht_Bremslicht_Standlicht_SAM" category from J519/CECM. The workaround used below is validated as working on 3.1.0. We will post an update if the Euro coding can be used directly in US vehicles with 3.1.0 and newer. 
-
+The retrofit of EURO ID.Light into US vehicle as described below is validated as working in ID.Software 3.1.0.
+(For ID.Software 3.1.0 the adaptation "Bremslicht_ist_auch_Blinklicht" was removed along with other six adaptations in the "Fahrlicht_Bremslicht_Standlicht_SAM" category from J519/CECM.)
 ---
 
 In addition the load management cannot be disabled by setting the "Lasttyp" to "LED_Kleinleistung_ohne_Open_Load_Diagnose" so it has to be terminated by a resistor. The resistor maximal resistance (minimal current) was determined as 400Ohms, in some situations (with low 12V battery) an error can show on the dash, so the suggested value is 300Ohms (that is approx. 50mA and 0.7W), for safety we picked 10W resistor.
