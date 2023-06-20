@@ -113,6 +113,12 @@ Below section only lists settings that are changed in the US version to accomoda
 - IDE12986-ENG142232-BAP configuration-HMI_exterior_light_sensitivity, 7
 - IDE12986-ENG278470-BAP configuration-HMI_exterior_light_sensitivity_2, 3
   ```
+
+  #### Enable cascading turn-lights
+  ```
+- IMAS12382-ENG122211-Dynamic turn signal control-Richtungs_blinken_links, active
+- IMAS12382-ENG122210-Dynamic turn signal control-Richtungs_blinken_rechts, active
+  ```
   
 ## Module 9 / J519 / CECM
   
