@@ -73,7 +73,7 @@ For better understanding of the table, let us explain the J519/CECM light channe
 
 The table shows both the "logical" connections - that correspond with the adaptation channel in J519/CECM (for coding) and "physical" connection that is the actual connector and pin of the J519/CECM.
 
-| Signal | Expected/Euro: <BR> J519/CECM Logical (Physical) Connection ("Bremslicht_ist_auch_Blinklicht" = No)  | Workaround/US: <BR> J519/CECM Logical (Physical) Connection ("Bremslicht_ist_auch_Blinklicht"=Yes) | Connected to...
+| Signal | Expected/Euro spec car: <BR> J519/CECM Logical (Physical) Connection ("Bremslicht_ist_auch_Blinklicht" = No)  | Workaround/US spec car: <BR> J519/CECM Logical (Physical) Connection ("Bremslicht_ist_auch_Blinklicht"=Yes) | Connected to...
 | :------------- | :------------- | :----  | :----
 | Turn Light | 18 BLK HL A60 (Connector T73a /60);<BR> 19 BLK HR C27 (Connector T73b /27) | 40 Zusatz hecklicht HL B03 (Connector T46f /3);<BR> 41 Zusatz hecklicht HR B20 (Connector T46f /20) | Turn Light Lamp:<BR> MX3 (Connector T8w /8);<BR> MX4 (Connector T8aa /8) 
 | Brake Light | 20 BR L A71 (Connector T73a /71);<BR> 21 BR R C8 (Connector T73b /8) | 18 BLK HL A60 (Connector T73a /60);<BR> 19 BLK HR C27 (Connector T73b /27) | Brake Light Lamp:<BR>  MX3 (Connector T8w /5);<BR> MX4 (Connector T8aa /5) and<BR> MX13 (Connectors T8s /5 and T8aj /5)
