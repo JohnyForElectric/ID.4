@@ -12,8 +12,8 @@ Unlinke previous VW models, there are only two driver side window switches that 
 ## Challenges
 1. The REAR soft button can't be located easilly without looking. There is no "dot or mark" that can be felt with a finger to locate it more easilly
 2. There is no haptic feedback in case the button is activated indicating the mode selected REAR/ALL modes
-     - There is a small "chime" in the speakers once the mode is changed, but it's not too obvious and can be easily missed (in addition it relies on a different sense /hearing/ in the body than the one initiating the action /touch/, so it is easy to miss) 
-     - Furthermore to activate the button with a finger, the finger must cover the button with th elight light that indicates mode selected. It’s not possible to even see the mode it entered, unless the finger is lifted. That only means more distraction from driving.
+     - There is a small "chime" in the speakers once the mode is changed, but it's not too obvious and can be easily missed
+     - Furthermore to activate the button with a finger, the finger must cover the button and the miode light indicator. As such it’s not possible to  see the mode it entered, unless the finger is lifted. That only means more distraction from driving.
 
 ## Solution to challenge #1 - "locating the button"
 ...is to e.g. add two self-adhesive pads to help easily locate the touch sensitive area without looking at the location.\
