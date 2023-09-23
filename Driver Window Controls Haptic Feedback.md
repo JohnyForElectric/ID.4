@@ -80,4 +80,6 @@ Time for more rugged design, used the same vibration motor that VW uses in the s
   <img src="https://user-images.githubusercontent.com/107234448/178172359-7538693f-58f6-43e6-bb61-8adc774c9c2c.JPEG" alt="(part number known as 10A 959 862 S)" width="500px">
 </div>
 
-Future enhancements: (a) add a zener diode to stabilize the voltage on the motor for consistent experience (the voltage does fluctuate a bit), (b) add a small timer circuit to vibrate briefly after "REAR" LED is turned on, and (c) graduate for option two in the above table... so we can finally start writing code...
+With ID software version 3.1 the 12V rail is more stable, so an intended Zener diode is not necessary. Was hoping that the id.7 / 20214 ID.4/5 will introduce a 4 switch version and I'd just swap this VW experiment for a real thing. Since that did not happen, I did wrap the handle in VVIVID XPO Black Leather Suede for luxyry look. And it really looks great... Ok so I feel this is the end of this mod... :) Off to the next one...
+
+
