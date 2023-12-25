@@ -9,8 +9,10 @@ There are two types of taillights available for the ID.4. The "base" style (opti
 ---
 **NOTE**
 
-The retrofit of EURO ID.Light into US vehicle as described below is validated as working in ID.Software 3.1.0.
+The retrofit of EURO ID.Light into US vehicle as described below is validated as working in **ID.Software 3.1.0**.
 (For ID.Software 3.1.0 the adaptation "Bremslicht_ist_auch_Blinklicht" was removed along with other six adaptations in the "Fahrlicht_Bremslicht_Standlicht_SAM" category from J519/CECM.)
+
+**The OTA update 3.2.11** (aka VW action Code OUF7) installed correctly with this mod and no action was necessary after installation. No adaptations have changed.
 
 ---
 
