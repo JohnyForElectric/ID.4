@@ -1,16 +1,11 @@
-# Ventilated Phone Storage in the center console
-
+# Center Console Phone Ventilation
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/107234448/397d9187-5226-4cea-a617-c289e4a0f691.jpg" alt="(GTX Diamond-style accent light)" width="300px">
+  <img src="https://github.com/JohnyForElectric/ID.4/assets/107234448/397d9187-5226-4cea-a617-c289e4a0f691.jpg" alt="(Center console)" width="300px">
 </div>
 
-<div align="center">
-  <img src="https://github.com/JohnyForElectric/ID.4/assets/107234448/397d9187-5226-4cea-a617-c289e4a0f691.jpg" alt="(GTX Diamond-style accent light)" width="300px">
-</div>
-![Phone storage](https://github.com/JohnyForElectric/ID.4/assets/107234448/397d9187-5226-4cea-a617-c289e4a0f691)
 
 ## Situation
-The GTX version of ID.4 and ID.5 has two diamond-style accent lights in the front bumper. Let's get two misconceptions out of the way - (a) the accent lights are not configured from the factory as a Day Time running light /DLR/ (even despite it's called DLR in the official wiring diagram) and (2) it's not a front fog light. It's an accent light that turns on with the front headlights.
+Over the years we got multiple warnings on the phone about paused charging tdue to high temperature. This is a feature of the phone to prevent battery demage. We believe that the rootcause was in bug in certsain versions of iOS. Despite that we set of on a quest to solve this once for all - and add a small fan into the center consile.
 
 ### More details
 The non-GTX versions have the same shape of opening in the front bumber that is used to (1) intake air for optimizing aerodynamics, (2) houses one of the front parking sensors. The GTX version adds a third function - a cool diamond-style accent lights. So for GTX this part of the bumper has 3 functions: (1) air intake, (2) place for parking sensor and (3) accent light.
