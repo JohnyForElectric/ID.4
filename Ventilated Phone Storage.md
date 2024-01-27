@@ -3,6 +3,10 @@
 <div align="center">
   <img src="https://user-images.githubusercontent.com/107234448/200187298-9b744836-5a2b-4177-963a-2d4dbc088c29.jpg" alt="(GTX Diamond-style accent light)" width="300px">
 </div>
+
+<div align="center">
+  <img src="https://github.com/JohnyForElectric/ID.4/assets/107234448/397d9187-5226-4cea-a617-c289e4a0f691.jpg" alt="(GTX Diamond-style accent light)" width="300px">
+</div>
 ![Phone storage](https://github.com/JohnyForElectric/ID.4/assets/107234448/397d9187-5226-4cea-a617-c289e4a0f691)
 
 ## Situation
