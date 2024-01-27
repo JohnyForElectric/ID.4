@@ -17,11 +17,12 @@ Since this is not an OEM mod, there is no coding necessary for this mod. Unlike 
 There are 2 key parts this retrofit - the fan with regulator and additional heatsink. The additional heatsink is not required, but will improve the overall temperature comform for your phone and components inside of the OEM wireless phone charge plate (R125). We believe that any mod must be at least in the OEM quality, as such we selected high quality Noctua fan and controller.
 
 What | Part Number | URL | Notes
----|---|---
+---|---|---|---
 1 x Noctua 120mm slim PWM fan | NF-A12x15 | [https://noctua.at/en/na-fc1](https://noctua.at/en/nf-a12x15-pwm) | Main component
 1 x Noctua fan grill | NA-FG1-121 Sx2 | [https://noctua.at/en/na-fc1](https://noctua.at/en/na-fg1-12) | Grill to protect the fan blades from one side
 1 x Noctua PWM fan controller | NA-FC1 | [https://noctua.at/en/na-fc1](https://noctua.at/en/na-fc1) | Module for setting constant fan speed
-
+1 x (Optional) Heatsink | Aluminium heatsink | https://www.amazon.com/gp/product/B07D9ZTTN2/ | Only one is necessary
+1 x (Optional) Thermally conductive adhesive | 8329TFF | https://www.amazon.com/gp/product/B07D18R5Z5/ | To attach the additional heat sink (screws or rivets can use used as well)
 
 ### Harness and pin to pin connections
 Despite of all expectations, both light modules are connected to the front headlights MX1 (connector T14k /8) and MX2 (connector T14l /8) and not the CECM/J519. It's a simple two wire connection, one wire runs to each headlight and the other one is connected to the ground. The harness is routed via the bumper connector interconnect (TSFVL).
