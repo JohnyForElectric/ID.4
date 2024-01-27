@@ -18,13 +18,10 @@ There are 2 key parts this retrofit - the fan with regulator and additional heat
 
 What | Part Number | URL | Notes
 ---|---|---
-1 x Noctua 120mm slim PWM fan | NF-A12x15 | [https://coolnoctua.at/en/na-fc1](https://noctua.at/en/nf-a12x15-pwm) |Main component
-1 x Noctua fan grill | NA-FG1-121 Sx2 | https://noctua.at/en/na-fc1 | Grill to protect the fan blades from one side
-1 x Noctua PWM fan controller | NA-FC1 | https://noctua.at/en/na-fc1 | Module for setting constant fan speed
-1 x Right Bumper Trim | 11A 807 764 A | "Glossy" cover for light module
-1 x Left Bumper Reinforcement | 11A 807 884 B | Specific to slot the lighht module
-1 x Right Bumper Reinforcement | 11A 807 883 B | Specific to slot the lighht module
-2 x Connector | 4F0 973 702 F | "Wet" connection to bumper harness
+1 x Noctua 120mm slim PWM fan | NF-A12x15 | [https://noctua.at/en/na-fc1](https://noctua.at/en/nf-a12x15-pwm) | Main component
+1 x Noctua fan grill | NA-FG1-121 Sx2 | [https://noctua.at/en/na-fc1](https://noctua.at/en/na-fg1-12) | Grill to protect the fan blades from one side
+1 x Noctua PWM fan controller | NA-FC1 | [https://noctua.at/en/na-fc1](https://noctua.at/en/na-fc1) | Module for setting constant fan speed
+
 
 ### Harness and pin to pin connections
 Despite of all expectations, both light modules are connected to the front headlights MX1 (connector T14k /8) and MX2 (connector T14l /8) and not the CECM/J519. It's a simple two wire connection, one wire runs to each headlight and the other one is connected to the ground. The harness is routed via the bumper connector interconnect (TSFVL).
