@@ -1,8 +1,9 @@
-# GTX Style Diamond Pattern Accent Lights 
+# Ventilated Phone Storage in the center console
 
 <div align="center">
   <img src="https://user-images.githubusercontent.com/107234448/200187298-9b744836-5a2b-4177-963a-2d4dbc088c29.jpg" alt="(GTX Diamond-style accent light)" width="300px">
 </div>
+![Phone storage](https://github.com/JohnyForElectric/ID.4/assets/107234448/397d9187-5226-4cea-a617-c289e4a0f691)
 
 ## Situation
 The GTX version of ID.4 and ID.5 has two diamond-style accent lights in the front bumper. Let's get two misconceptions out of the way - (a) the accent lights are not configured from the factory as a Day Time running light /DLR/ (even despite it's called DLR in the official wiring diagram) and (2) it's not a front fog light. It's an accent light that turns on with the front headlights.
