@@ -1,27 +1,26 @@
-# Center Console Phone Ventilation
+# Center Console Phone Ventilation (German made cars)
 <div align="center">
   <img src="https://github.com/JohnyForElectric/ID.4/assets/107234448/397d9187-5226-4cea-a617-c289e4a0f691.jpg" alt="(Center console)" width="300px">
 </div>
 
 
 ## Situation
-Over the years we got multiple warnings on the phone about paused charging tdue to high temperature. This is a feature of the phone to prevent battery demage. We believe that the rootcause was in bug in certsain versions of iOS. Despite that we set of on a quest to solve this once for all - and add a small fan into the center consile.
+Over the years we got multiple warnings on the phone about paused charging tdue to high temperatures. This is a feature of the phone to prevent battery demage and it occured on both wireless and cable charging. We believe that the rootcause was a bug in certain versions of iOS. Despite that we set of on a quest to solve this once for all - to add a small fan into the center console.
 
 ### More details
-The non-GTX versions have the same shape of opening in the front bumber that is used to (1) intake air for optimizing aerodynamics, (2) houses one of the front parking sensors. The GTX version adds a third function - a cool diamond-style accent lights. So for GTX this part of the bumper has 3 functions: (1) air intake, (2) place for parking sensor and (3) accent light.
+We have not explored over-heating in the US made cars that have a different center console. This tweak is specifically for German based cars (cars with two separate arm rests for the driver and passenger). We have made multiple multiple changes to the center console (1) introduced openings to allow air flow, (2) added 120mm computer fan with controller, (3) added additional heat sink to the built-in phone wireless charger plate (R125). The fan is directing forced airflow to the phon eitself, but also to the charger baseplate (R125).
 
 ## Retrofits and mods
-There are two usual steps to retrofits and mods (1) physical parts and (2) coding. Let's get to each one-by-one.
+Since this is not an OEM mod, there is no coding necessary for this mod. Unlike other modes, this one requires making permanent modifications to the center console to allow airflow. These modifications are not visible from the outsode.
 
 ### Parts for retrofit
+There are 2 key parts this retrofit - the fan with regulator and additional heatsink. The additional heatsink is not required, but will improve the overall temperature comform for your phone and components inside of the OEM wireless phone charge plate (R125). We believe that any mod must be at least in the OEM quality, as such we selected high quality Noctua fan and controller.
 
-There are 3 key parts for each side - light module, bumper trim and internal bumper reinformecemt. Installation requires to remove the front bumper.
-
-What | Part Number | Notes
+What | Part Number | URL | Notes
 ---|---|---
-1 x Left Light Module | 11A 941 055 A |  One light module for all 3 lenses, known as L377
-1 x Right Light Module | 11A 941 056 A | One light module for all 3 lenses, known as L378
-1 x Left Bumper Trim | 11A 807 763 A | "Glossy" cover for light module
+1 x Noctua 120mm slim PWM fan | NF-A12x15 | [https://coolnoctua.at/en/na-fc1](https://noctua.at/en/nf-a12x15-pwm) |Main component
+1 x Noctua fan grill | NA-FG1-121 Sx2 | https://noctua.at/en/na-fc1 | Grill to protect the fan blades from one side
+1 x Noctua PWM fan controller | NA-FC1 | https://noctua.at/en/na-fc1 | Module for setting constant fan speed
 1 x Right Bumper Trim | 11A 807 764 A | "Glossy" cover for light module
 1 x Left Bumper Reinforcement | 11A 807 884 B | Specific to slot the lighht module
 1 x Right Bumper Reinforcement | 11A 807 883 B | Specific to slot the lighht module
@@ -29,26 +28,6 @@ What | Part Number | Notes
 
 ### Harness and pin to pin connections
 Despite of all expectations, both light modules are connected to the front headlights MX1 (connector T14k /8) and MX2 (connector T14l /8) and not the CECM/J519. It's a simple two wire connection, one wire runs to each headlight and the other one is connected to the ground. The harness is routed via the bumper connector interconnect (TSFVL).
-
-### Coding
-To adapt these light modules, the head lights D6:Light Control Left (A31) and D7:Light Control right (A27) adaptations/coding need to be adjusted. The "coding/adaptation" via VCDS and OBD11, is not yet known. The only "hint" in the adaptation channel "NG178996-VehicleEquipmentCode And ProductionNumberCombination", but it has all zeroes across 12 x 8 bit numbers so the "current" state can't be determined.
-
-The only clue we were able to find is the list of LED channels, their functions and dimming levels based on the funtion:
-
-Channel 1-12 (rows) <BR> Mode/function (columns) <BR> PWM value (%) | Assumend Function | Brigtness Class | Hi-Beam | Parking | Low-Beam | Poor Wether + Low-Beam | Trun Light | Turn + Parking | DLR
----|---|---|---|---|---|---|---|---|---
-1 | Poor Weather / Corner Light |	LK1 ||||75.6
-2 | Hi-Beam	| LK2 |72.5
-3 | DLR & Position | LK2 ||100|5.6|5.6|||100
-4 | Low-Beam | LK2	|||100|100
-5 | Hi-Beam |	LK2 |100
-6 | DLR & Position | LK2||62.8|62.8|62.8|||62.8
-7 | Light bar (side marker) | K1||100|100|100||100
-8 | Turn light | LK1 |||||100|100
-9
-10
-11
-12
 
 
 ## Conclusion
