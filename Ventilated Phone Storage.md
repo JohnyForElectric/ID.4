@@ -42,16 +42,18 @@ The 120 mm slim fan is perfectly fitting between metal clips of the front cover 
 Step | Photo | Notes 
 ---|---|---
 1 - Remove the cupholder | <img src="https://github.com/JohnyForElectric/ID.4/assets/107234448/29c3adff-4811-44e3-adde-04b5f19c7aab" alt="(Cupholder removal)" width="300px"> | Bigger pry tool the better, tape the surface to protect form sctraches 
-2 - Drill holes |  <img src="https://github.com/JohnyForElectric/ID.4/assets/107234448/7eae01a0-5f20-4a0e-96ec-d8f71ac264a9" alt="(Cupholder removal)" width="300px"> | Drilled 10mm holes around the light pipe assembly. Total 16 + 5 in the fornt, see the next photo. The number and location depands on the fan selection.
-3 - Trim storage compartment mat |  <img src="https://github.com/JohnyForElectric/ID.4/assets/107234448/84c9622e-0850-4c77-8758-f41142330ea9" alt="(Trim storage compartment mat)" width="300px"> | Trimmed the the mat by 18mm to allow more airflow.
-4 - Install fan |  <img src="https://github.com/JohnyForElectric/ID.4/assets/107234448/b534b5b4-2f94-4e0a-8d15-6a9fb03f4cb2" alt="(Fan)" width="300px"> | 
-5 - Make and test power supply |  <img src="" alt="(Cupholder removal)" width="400px"> |
-6 - Make and install harness |  <img src="" alt="(Cupholder removal)" width="400px"> |
-6 - Connect the fan | <img src="" alt="(Cupholder removal)" width="400px"> |
+2 - Drill holes |  <img src="https://github.com/JohnyForElectric/ID.4/assets/107234448/50530615-91d8-4c5b-aeb6-d5548c425792" alt="(Cupholder removal)" width="300px"> | Drilled 10mm holes around the light pipe assembly. Total 16 + 5 in the fornt, see the next photo. The number and location depands on the fan selection.
+3 - Trim storage compartment mat |  <img src="https://github.com/JohnyForElectric/ID.4/assets/107234448/d0138948-9442-473a-8f20-d02e685c9280" alt="(Trim storage compartment mat)" width="300px"> | Trimmed the the mat by 18mm to allow more airflow.
+4 - Make and test power supply |  <img src="https://github.com/JohnyForElectric/ID.4/assets/107234448/74f17f4b-fb8e-4e78-bfba-a05e3b0704c2" alt="(Cupholder removal)" width="300px"> | Power supply, fan controller and fuse integrated into small plastic box. 
+5 - Prepare the fan and test setup |  <img src="https://github.com/JohnyForElectric/ID.4/assets/107234448/5f08e700-6f59-43f5-8fd2-ac234ded6f13" alt="(Cupholder removal)" width="300px"> |
+6 - Install fan |  <img src="https://github.com/JohnyForElectric/ID.4/assets/107234448/b534b5b4-2f94-4e0a-8d15-6a9fb03f4cb2" alt="(Fan)" width="300px"> | The 120 mm slim fan is perfectly fitting between metal clips of the front cover and the clips of the interior light of of the center console. Ambient Light LED Module (L193) was moved to the top and new light diffusor was made. 
 7 - Test the flow | <img src="" alt="(Cupholder removal)" width="400px"> |
 8 - Close it up | <img src="" alt="(Cupholder removal)" width="400px"> |
 
-![Fan](https://github.com/JohnyForElectric/ID.4/assets/107234448/b534b5b4-2f94-4e0a-8d15-6a9fb03f4cb2)
+
+
+
+
 
 
 
