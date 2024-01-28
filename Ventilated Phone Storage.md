@@ -7,9 +7,10 @@
 ## Situation
 Over the years we got multiple warnings on our phones about paused charging due to its high temperature. This is a feature of the phone to prevent battery demage and we believe it occured on both wireless and cable charging. We also believe that the rootcause was a bug in certain versions of iOS. These bug were solved in one version but appreaded again on another, so we set of on a quest to solve this once for all. Let's add a small fan into the center console to provide active cooling to both the phone and the OEM wireless charging plate (R126). 
 
-2 outcomes:
+3 outcomes that drove this design:
 1) Cool the phone and the charging plate (R126)
-2) No components  visible from the inside of the vehicle
+2) No parts visible from the inside of the vehicle (including wiring)
+3) Fan must be silent
 
 ### Quick summary
 We have not explored center console ventilation in US made cars as those have a different center console. This tweak is specifically for German based cars (cars with two separate arm rests for the driver and passenger). We have made multiple changes to the center console (1) introduced openings to allow air flow, (2) added 120mm computer fan with controller, (3) added additional heat sink to the built-in phone wireless charging plate (R126). The fan is directing airflow to the phone itself, but also to the charger baseplate (R126) as apparent from the diagram below.
@@ -22,9 +23,9 @@ Overall Airflow | Phone Airflow
 Since this is not an OEM mod, there is no coding necessary. Unlike other mods in this repo, this one makes permanent modifications to the center console to allow airflow. These modifications are not visible from the outsode.
 
 ### Parts for retrofit
-There are 2 key parts for this retrofit - the fan with fan controller and additional heatsink. The additional heatsink is not required, but will improve the overall temperature comfort of your phone and components inside of the OEM wireless phone charging plate (R126). 
+There are 2 key parts for this retrofit - the fan with fan controller and additional heatsink for the OEM wireless phone charging plate (R126). The additional heatsink is optional, but we expect it to improve temperature comfort of the components inside the OEM wireless phone charging plate (R126) that sits below the phone and thus should help to reduce the phone heating problem. 
 
-This design uses fixed RPMs for the fan and the controller was used to fine-tune the right airflow. We believe that any mod must be at least OEM quality, as such we selected high quality Noctua computer fan and a Noctua controller (that allows us to set the desired aiflow that cools, but can't be heard). 
+This design uses fixed RPMs for the fan (not temperature depandant), the task of the fan controller is to maunually fine-tune the right airflow and minimize any noise. We believe that any mod must be at least OEM quality, as such we've selected high quality Noctua computer fan and a Noctua fan controller (that allows us to set the desired aiflow that cools, but can't be heard). 
 
 What | Part Number | URL | Notes
 ---|---|---|---
@@ -35,8 +36,8 @@ What | Part Number | URL | Notes
 1 x (Optional) Thermally conductive adhesive | 8329TFF | https://www.amazon.com/gp/product/B07D18R5Z5/ | Adhesive to attach the additional heat sink (screws or rivets can use used instead of the adhesive).
 
 ### Connections
-The system uses Noctua fan controller to drive and adjust the speed of the fan and a primite power supply. The power supply has automotive 2A fuse, uses 4 rectifiers for isolation and to drop the voltage by ~2.8V, so the opertating voltage of the controller and fan is not exceeded. Two capacitors buffer and filter the power line. The fan controller is set to low speed and the total power consumption is 30mA.
-The ground (GND) is connected to the Phone Charging Plate harness (R126) (brown wire) and +12V power to the KL15 (providing +12V ONLY if the ignition is ON). KL15 is available at the back of the center console, the power for the rear USB charging (U37) is KL15 (red/blue wire). PLEASE NOTE the power to the phone charging pad (R126) and the front USB sockets is KL30, which means it's available all the time.
+The system uses Noctua fan controller to drive and adjust the speed of the fan and a primite power supply. The power supply has automotive 2A fuse, uses 4 rectifiers for isolation and to drop the voltage by ~2.8V, so the opertating voltage of the controller and fan is not exceeded. Two capacitors buffer and filter the power line. The fan controller is set to low speed and the total power consumption for our fan speed setting is 30mA (less than 0.4W).
+The ground (GND) is connected to the Phone Charging Plate harness (R126) (brown wire) and +12V power to the KL15 (providing +12V ONLY if the ignition is ON). KL15 is available at the back of the center console, the power for the rear USB charging (U37) is KL15 (red/blue wire). PLEASE NOTE the power to the phone charging pad (R126) and the front USB sockets is KL30, which means it's directly connected to the 12V battery (via fuses of course).
 
 Simplified electrical diagram 
 
