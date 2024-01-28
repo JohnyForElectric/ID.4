@@ -5,10 +5,14 @@
 
 
 ## Situation
-Over the years we got multiple warnings on our phones about paused charging due to its high temperature. This is a feature of the phone to prevent battery demage and we believe it occured on both wireless and cable charging. We also believe that the rootcause was a bug in certain versions of iOS. These bug were solved in one version but appreaded again on another, so we set of on a quest to solve this once for all. Let's add a small fan into the center console to provide active cooling to both the phone and the OEM wireless charging plate (R126).
+Over the years we got multiple warnings on our phones about paused charging due to its high temperature. This is a feature of the phone to prevent battery demage and we believe it occured on both wireless and cable charging. We also believe that the rootcause was a bug in certain versions of iOS. These bug were solved in one version but appreaded again on another, so we set of on a quest to solve this once for all. Let's add a small fan into the center console to provide active cooling to both the phone and the OEM wireless charging plate (R126). 
 
-### More details
-We have not explored center console ventilation in US made cars as those have a different center console. This tweak is specifically for German based cars (cars with two separate arm rests for the driver and passenger). We have made  multiple changes to the center console (1) introduced openings to allow air flow, (2) added 120mm computer fan with controller, (3) added additional heat sink to the built-in phone wireless charging plate (R126). The fan is directing airflow to the phone itself, but also to the charger baseplate (R126) as apparent from the diagram below.
+2 outcomes:
+1) Cool the phone and the charging plate (R126)
+2) No components  visible from the inside of the vehicle
+
+### Quick summary
+We have not explored center console ventilation in US made cars as those have a different center console. This tweak is specifically for German based cars (cars with two separate arm rests for the driver and passenger). We have made multiple changes to the center console (1) introduced openings to allow air flow, (2) added 120mm computer fan with controller, (3) added additional heat sink to the built-in phone wireless charging plate (R126). The fan is directing airflow to the phone itself, but also to the charger baseplate (R126) as apparent from the diagram below.
 
 Overall Airflow | Phone Airflow 
 ---|---
