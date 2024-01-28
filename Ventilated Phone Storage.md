@@ -44,8 +44,13 @@ Step | Photo | Notes
 ---|---|---
 1 - Remove the cupholder | | 
 2 - Drill holes | |
-3 - Install fan | |
-4 - Connect wire harness | |
+3 - Trim storage compartment mat ||
+4 - Install fan | |
+5 - Install harness | |
+6 - Connect the fan ||
+7 - Test the flow ||
+8 - Close it up | |
+
 
 
 ## Conclusion
