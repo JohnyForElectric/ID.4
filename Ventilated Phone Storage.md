@@ -10,20 +10,10 @@ Over the years we got multiple warnings on the phone about paused charging tdue 
 ### More details
 We have not explored over-heating in the US made cars that have a different center console. This tweak is specifically for German based cars (cars with two separate arm rests for the driver and passenger). We have made multiple multiple changes to the center console (1) introduced openings to allow air flow, (2) added 120mm computer fan with controller, (3) added additional heat sink to the built-in phone wireless charger plate (R125). The fan is directing forced airflow to the phon eitself, but also to the charger baseplate (R125).
 
-<div align="center">
-  <img src="https://github.com/JohnyForElectric/ID.4/assets/107234448/63b7d3d6-1ddf-422e-a84d-72fd47e59485" alt="(Center console)" width="300px">
-</div>
-
-<div align="center">
-  <img src="https://github.com/JohnyForElectric/ID.4/assets/107234448/2fc0f688-ad15-472f-ada3-875d7bfb9d9f" alt="(Center console)" width="300px">
-</div>
-
-<img width="967" alt="AirFlow1" src="https://github.com/JohnyForElectric/ID.4/assets/107234448/63b7d3d6-1ddf-422e-a84d-72fd47e59485">
-
-
-![AirFlow2](https://github.com/JohnyForElectric/ID.4/assets/107234448/2fc0f688-ad15-472f-ada3-875d7bfb9d9f)
-
-
+A | B 
+---|---
+<img src="https://github.com/JohnyForElectric/ID.4/assets/107234448/63b7d3d6-1ddf-422e-a84d-72fd47e59485" alt="(Center console)" width="300px"> |
+<img src="https://github.com/JohnyForElectric/ID.4/assets/107234448/2fc0f688-ad15-472f-ada3-875d7bfb9d9f" alt="(Center console)" width="300px">
 
 ## Retrofits and mods
 Since this is not an OEM mod, there is no coding necessary for this mod. Unlike other modes, this one requires making permanent modifications to the center console to allow airflow. These modifications are not visible from the outsode.
