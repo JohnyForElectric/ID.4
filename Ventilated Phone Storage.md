@@ -40,7 +40,12 @@ Simplified electrical diagram
 ### Placement of parts
 The 120 mm slim fan is perfectly fitting between metal clips of the front cover and the clips of the interior light of of the center console. The downside of the 120mm fan is that the interior light uses a light pipe that needs to be re-designed and the replacement 3D printed from transparent filament. Optionally a smaller 92mm fan can be used to keep the light pipe as is.
 
-
+Step | Photo | Notes 
+---|---|---
+1 - Remove the cupholder | | 
+2 - Drill holes | |
+3 - Install fan | |
+4 - Connect wire harness | |
 
 
 ## Conclusion
