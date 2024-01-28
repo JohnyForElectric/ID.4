@@ -57,5 +57,7 @@ Interesting project - a good deep dive into few ventilation areas. Hopefully a g
 The fan controller is using PIC microcontroller https://www.microchip.com/en-us/product/PIC12F1571. Explored automotive components https://www.microchip.com/en-us/solutions/automotive-and-transportation/body-electronics/heated-cooled-seats. Lot of cool stuff :) Another interesting descovery is this LIN controller https://www.melexis.com/en/product/MLX81108/Single-Channel-LIN-RGB-Slave-Ambient-Light-Controller that is used in ID.4's ambient lights :)
 
 In case you are wondering how the OEM VW charging pad R126 looks inside - here is a sneak peak
-![R126 - Open](https://github.com/JohnyForElectric/ID.4/assets/107234448/26c653bf-75b8-4815-a027-3807397c2b05)
-![R126-Coil](https://github.com/JohnyForElectric/ID.4/assets/107234448/568ae173-fd9a-42d5-b933-c66a7f2be5c9)
+1) Heatsink on the bottom removed
+<img src="https://github.com/JohnyForElectric/ID.4/assets/107234448/26c653bf-75b8-4815-a027-3807397c2b05" alt="(J126 additional heatsink)" width="300px">
+2) Charging coils detail
+<img src="https://github.com/JohnyForElectric/ID.4/assets/107234448/568ae173-fd9a-42d5-b933-c66a7f2be5c9" alt="(J126 additional heatsink)" width="300px">
