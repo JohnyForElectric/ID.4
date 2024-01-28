@@ -50,6 +50,7 @@ Step | Photo | Notes
 5 - Prepared the fan and tested setup |  <img src="https://github.com/JohnyForElectric/ID.4/assets/107234448/5f08e700-6f59-43f5-8fd2-ac234ded6f13" alt="(Cupholder removal)" width="350px"> | Attached the fan grill on the intake side (bottom on the picture) with the long anti-vibration mounts included with the fan. Those are AWESOME! 
 6 - Installed fan |  <img src="https://github.com/JohnyForElectric/ID.4/assets/107234448/b534b5b4-2f94-4e0a-8d15-6a9fb03f4cb2" alt="(Fan)" width="350px"> | The 120mm slim fan is perfectly fitting between the metal clips of the front cover and the clips of the ambient light for the center console. Drilled additional 4mm holes to pull the fan mounts through to make sure the fan is even more secure. Moved the Ambient Light LED Module (L193) to the top and made new light diffusor. 
 7 - (Optional) Additional heatsink for charging plate (R126) |<img src="https://github.com/JohnyForElectric/ID.4/assets/107234448/b7166d33-1606-4669-9566-f36218d131c0" alt="(J126 additional heatsink)" width="350px">| Made sure no sharp edges exist on the new heatsink...
+
 Done!
 
 
