@@ -14,8 +14,8 @@ Overall Airflow | Phone Airflow
 ---|---
 <img src="https://github.com/JohnyForElectric/ID.4/assets/107234448/63b7d3d6-1ddf-422e-a84d-72fd47e59485" alt="(Center console)" width="540px"> | <img src="https://github.com/JohnyForElectric/ID.4/assets/107234448/2fc0f688-ad15-472f-ada3-875d7bfb9d9f" alt="(Center console)" width="380px">
 
-## Retrofits and mods
-Since this is not an OEM mod, there is no coding necessary for this mod. Unlike other modes, this one requires making permanent modifications to the center console to allow airflow. These modifications are not visible from the outsode.
+## How to do it
+Since this is not an OEM mod, there is no coding necessary. Unlike other mods in this repo, this one makes permanent modifications to the center console to allow airflow. These modifications are not visible from the outsode.
 
 ### Parts for retrofit
 There are 2 key parts this retrofit - the fan with regulator and additional heatsink. The additional heatsink is not required, but will improve the overall temperature comform for your phone and components inside of the OEM wireless phone charge plate (R125). We believe that any mod must be at least in the OEM quality, as such we selected high quality Noctua fan and controller.
@@ -32,8 +32,10 @@ What | Part Number | URL | Notes
 The system uses Noctua fan controller to drive and adjust the speed of the fan and a primite power supply. The power supply uses 4 rectifiers to drop the voltage by ~2.8V to not to exceed the opertating voltage of the controller and fan. Two capacitors buffer and filter the power line. The fan controller is set to low speed and the total power consumption is 30mA.
 The ground (GND) is connected to the Phone Charging Plate harness (R125) (brown wire) and KL15 is the wire providing +12V ONLY if the ignition is ON. That is available at the back of the center console. The power for the rear USB charging (U37) is KL15. PLEASE NOTE the power to the phone charging pad (R126) and the front USB sockets is KL30, which means it's available all the time and never turns off.
 
-Here is a simplified diagram
+Simplified electrical diagram 
+
 <img src="https://github.com/JohnyForElectric/ID.4/assets/107234448/572c6600-36ef-45f2-953c-bca4a1a5155b" alt="(Center console)" width="300px">
+
 
 ### Placement of parts
 
@@ -41,7 +43,4 @@ Here is a simplified diagram
 
 
 ## Conclusion
-  
-The actual retrofit requires many OEM parts and removing the front bumper. There could be simpler options for adding non-OEM style LED DLR mini lights to each side to mimic the 3 diamond lights. We did not embark on this route as the longevity of non-OEM components is not superb (even for high-quality aftermarket brands, such as [VLEDs]([url](https://www.vleds.com/)) or [Morimoto]([url](https://www.morimotohid.com/))). 
-  
-Due to complexity of this retrofit (front bumper removal) - one consideration is to make additional retrofits at the same time in the front bumper (e.g. Front Camera, additional Park Pilot sensors, etc.) and connect the GTX-style accent lights to either an existing accent light or to a light channel on CECM/J519 for ultimate customizability. 
+... 
