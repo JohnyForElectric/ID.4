@@ -12,7 +12,7 @@ We have not explored over-heating in the US made cars that have a different cent
 
 Overall Airflow | Phone Airflow 
 ---|---
-<img src="https://github.com/JohnyForElectric/ID.4/assets/107234448/63b7d3d6-1ddf-422e-a84d-72fd47e59485" alt="(Center console)" width="420px"> | <img src="https://github.com/JohnyForElectric/ID.4/assets/107234448/2fc0f688-ad15-472f-ada3-875d7bfb9d9f" alt="(Center console)" width="300px">
+<img src="https://github.com/JohnyForElectric/ID.4/assets/107234448/63b7d3d6-1ddf-422e-a84d-72fd47e59485" alt="(Center console)" width="480px"> | <img src="https://github.com/JohnyForElectric/ID.4/assets/107234448/2fc0f688-ad15-472f-ada3-875d7bfb9d9f" alt="(Center console)" width="350px">
 
 ## Retrofits and mods
 Since this is not an OEM mod, there is no coding necessary for this mod. Unlike other modes, this one requires making permanent modifications to the center console to allow airflow. These modifications are not visible from the outsode.
