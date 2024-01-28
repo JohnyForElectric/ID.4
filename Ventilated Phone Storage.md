@@ -41,14 +41,17 @@ The 120 mm slim fan is perfectly fitting between metal clips of the front cover 
 
 Step | Photo | Notes 
 ---|---|---
-1 - Remove the cupholder |  | 
-2 - Drill holes | |
-3 - Trim storage compartment mat ||
-4 - Install fan | |
-5 - Install harness | |
-6 - Connect the fan ||
-7 - Test the flow ||
-8 - Close it up | |
+1 - Remove the cupholder | <img src="https://github.com/JohnyForElectric/ID.4/assets/107234448/29c3adff-4811-44e3-adde-04b5f19c7aab" alt="(Cupholder removal)" width="400px"> | Bigger pry tool the better, tape the surface to protect form sctraches 
+2 - Drill holes |  <img src="" alt="([Cupholder removal](https://github.com/JohnyForElectric/ID.4/assets/107234448/7eae01a0-5f20-4a0e-96ec-d8f71ac264a9))" width="400px"> | Drilled 10mm holes around the light pipe assembly. Total 16 + 5 in the fornt, see the next photo. The number and location depands on the fan selection.
+3 - Trim storage compartment mat |  <img src="https://github.com/JohnyForElectric/ID.4/assets/107234448/84c9622e-0850-4c77-8758-f41142330ea9" alt="(Trim storage compartment mat)" width="400px"> | Trimmed the the mat by 18mm to allow more airflow.
+4 - Install fan |  <img src="https://github.com/JohnyForElectric/ID.4/assets/107234448/b534b5b4-2f94-4e0a-8d15-6a9fb03f4cb2" alt="(Fan)" width="400px"> | 
+5 - Make and test power supply |  <img src="" alt="(Cupholder removal)" width="400px"> |
+6 - Make and install harness |  <img src="" alt="(Cupholder removal)" width="400px"> |
+6 - Connect the fan | <img src="" alt="(Cupholder removal)" width="400px"> |
+7 - Test the flow | <img src="" alt="(Cupholder removal)" width="400px"> |
+8 - Close it up | <img src="" alt="(Cupholder removal)" width="400px"> |
+
+![Fan](https://github.com/JohnyForElectric/ID.4/assets/107234448/b534b5b4-2f94-4e0a-8d15-6a9fb03f4cb2)
 
 
 
