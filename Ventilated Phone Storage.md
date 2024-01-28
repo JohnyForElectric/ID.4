@@ -34,14 +34,14 @@ The ground (GND) is connected to the Phone Charging Plate harness (R125) (brown 
 
 Simplified electrical diagram 
 
-<img src="https://github.com/JohnyForElectric/ID.4/assets/107234448/00023fe1-84cd-413e-bf0a-f82d6e409ab1" alt="(Wiring diagram)" width="300px">
+<img src="https://github.com/JohnyForElectric/ID.4/assets/107234448/5fcb059f-1969-41e3-909b-a11ee1c7238b" alt="(Wiring diagram)" width="450px">
 
 ### Placement of parts
 The 120 mm slim fan is perfectly fitting between metal clips of the front cover and the clips of the interior light of of the center console. The downside of the 120mm fan is that the interior light uses a light pipe that needs to be re-designed and the replacement 3D printed from transparent filament. Optionally a smaller 92mm fan can be used to keep the light pipe as is.
 
 Step | Photo | Notes 
 ---|---|---
-1 - Remove the cupholder | | 
+1 - Remove the cupholder |  | 
 2 - Drill holes | |
 3 - Trim storage compartment mat ||
 4 - Install fan | |
