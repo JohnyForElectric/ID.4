@@ -29,13 +29,12 @@ What | Part Number | URL | Notes
 1 x (Optional) Thermally conductive adhesive | 8329TFF | https://www.amazon.com/gp/product/B07D18R5Z5/ | Adhesive to attach the additional heat sink (screws or rivets can use used as well)
 
 ### Connections
-The system uses Noctua fan controller to drive and adjust the speed of the fan and a primite power supply. The power supply uses 4 rectifiers to drop the voltage by ~2.8V to not to exceed the opertating voltage of the controller and fan. Two capacitors buffer and filter the power line. The fan controller is set to low speed and the total power consumption is 30mA.
+The system uses Noctua fan controller to drive and adjust the speed of the fan and a primite power supply. The power supply has automotive 2A fuse, uses 4 rectifiers for isolation and to drop the voltage by ~2.8V, so the opertating voltage of the controller and fan is not exceeded. Two capacitors buffer and filter the power line. The fan controller is set to low speed and the total power consumption is 30mA.
 The ground (GND) is connected to the Phone Charging Plate harness (R125) (brown wire) and KL15 is the wire providing +12V ONLY if the ignition is ON. That is available at the back of the center console. The power for the rear USB charging (U37) is KL15. PLEASE NOTE the power to the phone charging pad (R126) and the front USB sockets is KL30, which means it's available all the time and never turns off.
 
 Simplified electrical diagram 
 
-<img src="https://github.com/JohnyForElectric/ID.4/assets/107234448/572c6600-36ef-45f2-953c-bca4a1a5155b" alt="(Center console)" width="300px">
-
+<img src="https://github.com/JohnyForElectric/ID.4/assets/107234448/00023fe1-84cd-413e-bf0a-f82d6e409ab1" alt="(Wiring diagram)" width="300px">
 
 ### Placement of parts
 The 120 mm slim fan is perfectly fitting between metal clips of the front cover and the clips of the interior light of of the center console. The downside of the 120mm fan is that the interior light uses a light pipe that needs to be re-designed and the replacement 3D printed from transparent filament. Optionally a smaller 92mm fan can be used to keep the light pipe as is.
