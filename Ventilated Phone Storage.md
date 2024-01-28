@@ -18,9 +18,9 @@ There are 2 key parts this retrofit - the fan with regulator and additional heat
 
 What | Part Number | URL | Notes
 ---|---|---|---
-1 x Noctua 120mm slim PWM fan | NF-A12x15 | [https://noctua.at/en/na-fc1](https://noctua.at/en/nf-a12x15-pwm) | Main component
-1 x Noctua fan grill | NA-FG1-121 Sx2 | [https://noctua.at/en/na-fc1](https://noctua.at/en/na-fg1-12) | Grill to protect the fan blades from one side
-1 x Noctua PWM fan controller | NA-FC1 | [https://noctua.at/en/na-fc1](https://noctua.at/en/na-fc1) | Module for setting constant fan speed
+1 x Noctua 120mm slim PWM fan | NF-A12x15 | https://noctua.at/en/nf-a12x15-pwm | Main component
+1 x Noctua fan grill | NA-FG1-121 Sx2 | https://noctua.at/en/na-fg1-12 | Grill to protect the fan blades from one side
+1 x Noctua PWM fan controller | NA-FC1 | https://noctua.at/en/na-fc1 | Module for setting constant fan speed
 1 x (Optional) Heatsink | Aluminium heatsink | https://www.amazon.com/gp/product/B07D9ZTTN2/ | Only one is necessary
 1 x (Optional) Thermally conductive adhesive | 8329TFF | https://www.amazon.com/gp/product/B07D18R5Z5/ | To attach the additional heat sink (screws or rivets can use used as well)
 
