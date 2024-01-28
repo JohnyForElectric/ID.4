@@ -14,7 +14,7 @@ Overall Airflow | Phone Airflow
 ---|---
 <img src="https://github.com/JohnyForElectric/ID.4/assets/107234448/63b7d3d6-1ddf-422e-a84d-72fd47e59485" alt="(Center console)" width="540px"> | <img src="https://github.com/JohnyForElectric/ID.4/assets/107234448/2fc0f688-ad15-472f-ada3-875d7bfb9d9f" alt="(Center console)" width="380px">
 
-## How to do it
+## How we did it
 Since this is not an OEM mod, there is no coding necessary. Unlike other mods in this repo, this one makes permanent modifications to the center console to allow airflow. These modifications are not visible from the outsode.
 
 ### Parts for retrofit
@@ -38,6 +38,7 @@ Simplified electrical diagram
 
 
 ### Placement of parts
+The 120 mm slim fan is perfectly fitting between metal clips of the front cover and the clips of the interior light of of the center console. The downside of the 120mm fan is that the interior light uses a light pipe that needs to be re-designed and the replacement 3D printed from transparent filament. Optionally a smaller 92mm fan can be used to keep the light pipe as is.
 
 
 
