@@ -9,12 +9,12 @@
 
 
 
-| Project | OEM HW Feasibility | Coding Feasibility | Doable? | Works in ID.Software version
+| Project | OEM HW Feasibility | Coding Feasibility | Doable? | Works in ID.Software version and MY?
 | :------------- | :------------- | :------------- | :---  | :---
 | [Euro Style Tail Lights "ID.Light"](</Euro%20Style%20Tail%20Lights.md>) | Feasible / Done | Feasible / Done | Yes (with workaround) | 2.1, 3.1
-| [Ventilated phone storage (German made cars)](</Ventilated%20Phone%20Storage.md>) | No | Not needed | Yes | N/A
+| [Ventilated phone storage (German made cars)](</Ventilated%20Phone%20Storage.md>) | Feasible, not OEM solution | Not needed | Yes | German-made cars, all SW versions
 | [GTX Style Diamond Pattern Accent Lights](</GTX%20Style%20Diamond%20Pattern%20Daylight%20Running%20Lights.md>) | Feasible | Coding unknown | Yes (with caveats) | N/A
-| [Driver Window Controls Haptic Feedback](</Driver%20Window%20Controls%20Haptic%20Feedback.md>) | Non OEM Feasible, Option 1/3 | N/A | Yes (non-OEM) | N/A
+| [Driver Window Controls Haptic Feedback](</Driver%20Window%20Controls%20Haptic%20Feedback.md>) | Feasible, no OEM solution | N/A | Yes | All versions
 | Ventilated front seats | Needs Validation | Needs Validation | N/A | N/A
 | Q4 e-tron AC Control Head | Feasible | Coding needed | N/A | N/A
 | GTI/GLI/R Steering Wheel Controls | Feasible | Coding & ACC Adaptation needed | N/A | N/A
