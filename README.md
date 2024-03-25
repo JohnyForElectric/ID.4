@@ -1,8 +1,8 @@
-## This repo discusses various appearance and convenience "tweaks" and retrofits for ID.4/ID.5 car family. 
+## This repo discusses various appearance and convenience "tweaks" and "retrofits" for ID.4/ID.5 car family. 
 
 ### Core principles
 
-1.	Use OEM components (with updated coding) and only if that is not possible start writing code...
+1.	Use OEM components (with updated coding) to make "[retrofits](Current-list-of-Retrofits)" and only if that is not possible start making "[tweaks](Current-list-of-Tweaks)"
 2.	Do not touch or interfere with any high-voltage components
 
 ### Current list of Tweaks
