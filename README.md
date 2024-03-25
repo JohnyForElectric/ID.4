@@ -2,7 +2,7 @@
 
 ### Core principles
 
-1.	Use OEM components (with updated coding) to make "[retrofits](Current-list-of-Retrofits)" and only if that is not possible start making "[tweaks](Current-list-of-Tweaks)"
+1.	Use OEM components (with updated coding) to make "[retrofits](#Current-list-of-Retrofits)" and only if that is not possible start making "[tweaks](#Current-list-of-Tweaks)"
 2.	Do not touch or interfere with any high-voltage components
 
 ### Current list of Tweaks
