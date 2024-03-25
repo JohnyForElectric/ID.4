@@ -19,6 +19,7 @@ Retrofit is a change or addition of OEM componenets that were not available when
 | Project | Description | OEM HW Feasibility | Coding Feasibility | Doable? | Works in ID.Software version and MY?
 | :------------- | :------------- | :------------- | :---  | :--- | :---
 | [Euro Style Tail Lights "ID.Light"](</Retrofits/Euro%20Style%20Tail%20Lights.md>) | Rear Euro Style top trim tail lights with animations | Feasible / Done | Feasible / Done | Yes (with workaround) | 2.1, 3.1
+| [360 Area View Camera](</Retrofits/360%20Area%20View%20Camera.md>) | Install 360 camera system with 4 cameras | Feasible | Coding unknown | Yes (with caveats) | N/A
 | [GTX Style Diamond Pattern Accent Lights](</Retrofits/GTX%20Style%20Diamond%20Pattern%20Daylight%20Running%20Lights.md>) | Front bumper accent lights | Feasible | Coding unknown | Yes (with caveats) | N/A
 | Q4 e-tron AC Control Head | A/C control panel from Q4/A3 | Feasible | Coding needed | N/A | N/A
 | Ventilated front seats | Front seat ventilation | Needs Validation | Needs Validation | N/A | N/A
