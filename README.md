@@ -5,7 +5,16 @@
 1.	Use OEM components (with updated coding) to make "[retrofits](#Current-list-of-Retrofits)" and only if that is not possible start making "[tweaks](#Current-list-of-Tweaks)"
 2.	Do not touch or interfere with any high-voltage components
 
-### Current list of Tweaks
+### Updates
+Updates use components manufactured for this purpose. 
+
+| What | Detals | More resources
+| :------------- | :------------- | :------------- 
+| Door Sill Paint Protection Film | VW OEM Part Paint Protection 11A071310ZMD | https://www.amazon.de/-/en/gp/product/B08NWF3H6P 
+| Paint Protection Film (PPF) | Pre-cut parts from https://www.invisiblemask.com/  | https://www.vwidtalk.com/threads/3m-paint-protection-film-ppf-installed.4493/#post-69585
+| Windshield protection film | https://www.stek-usa.com/windshield-film/ |  Find your local installer
+
+### Tweaks
 Tweak is a change or update where no OEM componenets exist. 
 
 | Project | Description | Limitations
@@ -13,7 +22,7 @@ Tweak is a change or update where no OEM componenets exist.
 | [Driver Window Controls Haptic Feedback](</Tweaks/Driver%20Window%20Controls%20Haptic%20Feedback.md>) | Haptic feedback for  | All ID cars
 | [Ventilated phone storage (German made cars)](</Tweaks/Ventilated%20Phone%20Storage.md>) | New fan to cool phone space and wireless charging plate | German-made ID.4 and ID.5 cars, all SW versions
 
-### Current list of Retrofits
+### Retrofits
 Retrofit is a change or addition of OEM componenets that were not available when the car was purchased. Typically options not available in the US market or previous model years. 
 
 | Project | Description | OEM HW Feasibility | Coding Feasibility | Doable? | Works in ID.Software version and MY?
