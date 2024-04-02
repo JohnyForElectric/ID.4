@@ -8,7 +8,7 @@
 ### Updates
 Updates use components manufactured for this purpose. 
 
-| What | Detals | More resources
+| What | Details | More resources
 | :------------- | :------------- | :------------- 
 | Door Sill Paint Protection Film | VW OEM Part 11A071310ZMD | https://www.amazon.de/-/en/gp/product/B08NWF3H6P 
 | Frunk | Direct fit frunk insert | https://www.frunk.at/produkt/set-vw-id-4-id-5-frunk/
