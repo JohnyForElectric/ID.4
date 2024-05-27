@@ -74,7 +74,7 @@ Time for more rugged design, used the same vibration motor that VW uses in the s
   <img src="https://user-images.githubusercontent.com/107234448/178172063-042a45d0-997e-4ac7-809c-f1c4b93b97e7.JPEG" alt="(part number known as 10A 959 862 S)" width="500px">
 </div>
 <p>
-...then 3D printed a "vibration motor holder" from flexible filament (the red brick on the bottom). So, it is easier to attach and to provide cushioning around the vibration motor. It mimics the way it sits in the steering wheel button assembly. Protected all with beloved Tesa tape for a "professional" look :wink:
+...then 3D printed a "vibration motor holder" from flexible filament (the red brick on the bottom). So, it is easier to attach and to provide cushioning around the vibration motor. Protected all with beloved Tesa tape for a "professional" look :wink:
 
 <div align="center">
   <img src="https://user-images.githubusercontent.com/107234448/178172359-7538693f-58f6-43e6-bb61-8adc774c9c2c.JPEG" alt="(part number known as 10A 959 862 S)" width="500px">
