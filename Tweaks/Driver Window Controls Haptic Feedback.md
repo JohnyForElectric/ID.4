@@ -6,17 +6,17 @@
 
 ## Situation
 Unlinke previous VW models, there are only two driver side window switches that by default control the front driver and passenger windows. 
-- To control the rear windows the "REAR" "soft" (not a phisical button, does not have haptic feedback) button needs to be touched for more than 1 second, then the button lights up and the rear windows can be controlled by the same controls that previously controlled the front windows. The button stays lit for approx. 10 seconds, then turns off, reverting the controls to the front windows. 
+- To control the rear windows the REAR "soft" button (not a physical button, does not have any haptic feedback)  needs to be touched for more than 1 second, then the button lights up, and the rear windows can be controlled by the same controls that previously controlled the front windows. The button stays lit for approx. 10 seconds, then turns off, reverting the controls to the front windows. 
 - If the "REAR" soft button is touched and held for 2+ seconds, it starts to blink and all four windows can be controlled at the same time :heart:. 
 
 ## Challenges
 1. The REAR soft button can't be located easilly without looking. There is no "dot or mark" that can be felt with a finger to locate it more easilly
 2. There is no haptic feedback in case the button is activated indicating the mode selected REAR/ALL modes
      - There is a small "chime" in the speakers once the mode is changed, but it's not too obvious and can be easily missed
-     - Furthermore to activate the button with a finger, the finger must cover the button and the miode light indicator. As such it’s not possible to  see the mode it entered, unless the finger is lifted. That only means more distraction from driving.
+     - Furthermore to activate the button with a finger, the finger must cover the button and the completely blocks the light indicator. As such it’s not possible to see the mode it entered, unless the finger is lifted and eyes taken off the road ...and more distraction from driving.
 
 ## Solution to challenge #1 - "locating the button"
-...is to e.g. add two self-adhesive pads to help easily locate the touch sensitive area without looking at the location.\
+...is to e.g. add two self-adhesive pads to help easily locate the touch sensitive area without looking at the location.
 One of the approaches below:
 <div align="center">
   <img src="https://user-images.githubusercontent.com/107234448/178167294-d7f9396d-2661-4cf0-a86d-ff0ece25f306.JPEG "
@@ -28,11 +28,11 @@ This itself is a big help for me :man_dancing: :woman_dancing:
 
 ## Solution to challenge #2 - "adding haptic feedback" 
 
-To add haptic feedback, or iomprove the experience even further, there are many options, couple outlined below:
+To add haptic feedback, or improve the experience even further, there are many options, couple outlined below:
 
 Option | Details | Pros/Cons | OEM
 ---|---|---|---
-#1 - Clone "REAR" button LED signal with a vibration motor | Once the REAR soft button lights up a vibration motor in the unit will vibrate giving a haptic confirmaton | Simple circuit, but requires tapping into the PCB of the unit | No
+#1 - Clone "REAR" button LED signal with a vibration motor | Once the REAR soft button lights up a vibration motor in the unit will vibrate giving a haptic confirmaton | Simple circuit, but requires tapping into the circuit board of the unit | No
 #2 - Digitally process the "REAR" button LED signal and digitally manage the haptic experience | A micro-controller will receive the REAR button LED signal and control the vibration motor to create better haptic experience | As above requires tapping into the unit, has to wait approx 1 sec to "decode" the mode from the REAR button LED (blinking vs. solid on) | No
 #3 - Connect to the control unit's LIN bus, process its signals and digitally control haptic experience | Use the same connector as the control unit for "snap-on" installation. The control unit has 3 wires - VCC, Gnd and LIN. The LIN bus sends the "chime" signal to the speakers, that can be used to trigger a good haptic experience | Just plug and play, but requires to decode the LIN bus, the LIN bus data may not distinguish between the REAR and ALL window modes | No
 #4 - VW aka Volkswagen to come up with updated unit that would provide better experience | Go crazy VW, but please make it backwards compatible :smiley: | "Just plug and play from the OEM" | Yes
