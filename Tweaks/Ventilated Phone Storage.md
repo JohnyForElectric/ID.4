@@ -25,7 +25,7 @@ Since this is not an OEM mod, there is no coding necessary. Unlike other mods in
 ### Parts for retrofit
 There are 2 key parts for this retrofit - the fan with fan controller and additional heatsink for the OEM wireless phone charging plate (R126). The additional heatsink is optional, but we expect it to improve temperature comfort of the components inside the OEM wireless phone charging plate (R126) that sits below the phone and thus should help to reduce the phone heating problem. 
 
-This design uses fixed RPMs for the fan (not temperature depandant), the task of the fan controller is to maunually fine-tune the right airflow and minimize any noise. We believe that any mod must be at least OEM quality, as such we've selected high quality Noctua computer fan and a Noctua fan controller (that allows us to set the desired aiflow that cools, but can't be heard). 
+This design uses fixed RPMs for the fan (not temperature depandant), the task of the fan controller is to manually fine-tune the right airflow and minimize any noise. We believe that any mod must be at least OEM quality, as such we've selected high quality Noctua computer fan and a Noctua fan controller (that allows us to set the desired aiflow that cools, but can't be heard). 
 
 What | Part Number | URL | Notes
 ---|---|---|---
