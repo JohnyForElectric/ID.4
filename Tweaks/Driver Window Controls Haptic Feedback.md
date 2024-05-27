@@ -45,7 +45,7 @@ Open the OEM part and get the details...
 
 Description | Picture 
 ---|---
-PCB Top Side - notice the touch sensitive areas and the LEDs for the backlight |  <img src="https://user-images.githubusercontent.com/107234448/178168852-df54bf17-b635-4225-a6e8-9a849a5738ea.JPEG" alt="HTML image alt text" title="Optional image title" width="300px" >
+PCB Top Side - notice the touch sensitive round areas and the LEDs on the top. And window buttons areas on the lower part. Eeach window button direction has 2 stages, hence 4 pads... |  <img src="https://user-images.githubusercontent.com/107234448/178168852-df54bf17-b635-4225-a6e8-9a849a5738ea.JPEG" alt="HTML image alt text" title="Optional image title" width="300px" >
 PCB Bottom Side - notice the microcontroller in the center, LIN interface on the top middle above the 3 pin header/connector |  <img src="https://user-images.githubusercontent.com/107234448/178168865-f210bfb4-26fe-475b-8864-fc78a13027ca.JPEG" alt="HTML image alt text" title="Optional image title" width="300px" >
 PCB Top Side - detail of the REAR soft button LED |  <img src="https://user-images.githubusercontent.com/107234448/178169162-2850ebea-7fe0-4942-b965-8bda36746d9a.JPEG" alt="HTML image alt text" title="Optional image title" width="300px" >
 PCB Bottom Side - REAR soft button LED signal pads in red |  <img src="https://user-images.githubusercontent.com/107234448/178169228-30e807a3-c68c-4dd0-b45c-b2dcfcd21cc9.JPEG" alt="HTML image alt text" title="Optional image title" width="300px" >
