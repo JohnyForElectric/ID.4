@@ -6,7 +6,7 @@
 2.	Do not touch or interfere with any high-voltage components
 
 ### Retrofits
-Retrofit is a change or addition of OEM componenets that were not available when the car was purchased. Typically options not available in the US market or previous model years. 
+Retrofit is a change or addition of OEM componenets that were not available when the car was purchased. Typically, options not available in the US market or in the previous model years. 
 
 | Project | Description | OEM HW Feasibility | Coding Feasibility | Doable? | Works in ID.Software version and MY?
 | :------------- | :------------- | :------------- | :---  | :--- | :---
@@ -21,7 +21,7 @@ Retrofit is a change or addition of OEM componenets that were not available when
 _None of these are endorsed by the manufacturer, all content is provided for informational purposes only, we do not take any responsibility or liability for any damage, loss, injury or voiding warranty._
 
 ### Tweaks
-Tweak is a change or update where no OEM componenets exist. 
+We define "tweak" is a change or addition where no OEM componenets exist. 
 
 | Project | Description | Limitations
 | :------------- | :------------- | :------------- 
@@ -29,7 +29,7 @@ Tweak is a change or update where no OEM componenets exist.
 | [Ventilated phone storage (German made cars)](</Tweaks/Ventilated%20Phone%20Storage.md>) | New fan to cool phone space and wireless charging plate | German-made ID.4 and ID.5 cars, all SW versions
 
 ### Updates
-Updates use components manufactured for this purpose. 
+Updates use OEM or vendor components manufactured for this purpose. 
 
 | What | Details | More resources
 | :------------- | :------------- | :------------- 
