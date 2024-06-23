@@ -3,8 +3,8 @@
 ### 3.2.12 (July 2024)
 Car - 2021 AWD, US spec
 
-| Module | Sofware version before | Sofware version after
-| :------------- | :------------- | :------------- 
+| Address | Module | Sofware version before | Sofware version after
+| :--- | :--- | :--- | :---
 | 03 | Brakes (J104)	| 0518	| 0524
 | 08 | HVAC (J979)	| 0425	| 0460
 | 16 | Steering Wheel (J527)	| 0071	| 0072
