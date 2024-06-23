@@ -3,6 +3,8 @@
 ### 3.2.12 (July 2024)
 Car - 2021 AWD, US spec
 
+##### Software versions
+
 | Address | Module | Sofware version before | Sofware version after
 | :------------- | :------------- | :------------- | :---
 | 03 | Brakes (J104) | 0518	| 0524
@@ -16,4 +18,18 @@ Car - 2021 AWD, US spec
 | BB | Door Rear Driver (J388) | 0550	| 0551
 | BC | Door Reas Pass (J389) | 0550 | 0551
 
+#### Adaptations changes
+Please note - any "custom/after market coding" is reset to original values
 
+| Address | Module | Adaptation name | Value before | Value after
+| :------------- | :------------- | :------------- | :------------- | :------------- 
+| 03 | Brakes (J104) | None |||
+| 08 | HVAC (J979) | None |||
+| 16 | Steering Wheel (J527) | IDE07159-ENG273891-Control module switch-off: counter-Bus KnockOut_Ctr | 05 | 07
+| 23 | Brake Booster (J539)	| 0625 | 0626
+| 3C | Lane Change (J1086) | 0287	| 0289
+| 42 | Driver Door (J386)	| 0550 | 0551
+| 52 | Passenger Door (J387) | 0550 | 0551
+| A5 | Frt Sens. Driv. Assist (R242) | 5321 | 5322
+| BB | Door Rear Driver (J388) | 0550	| 0551
+| BC | Door Reas Pass (J389) | 0550 | 0551
