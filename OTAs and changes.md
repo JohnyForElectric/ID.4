@@ -30,6 +30,6 @@ Please note - any "custom/after market coding" is reset to original values
 | 3C | Lane Change (J1086) | IDE07159-MAS05583-Control module switch-off: counter-Data bus | 3 | 1
 | 42 | Driver Door (J386)	| IDE07159-MAS05583-Control module switch-off: counter-Data bus | 3 | 0
 | 52 | Passenger Door (J387) | IDE07159-MAS05583-Control module switch-off: counter-Data bus | 3 | 0
-| A5 | Frt Sens. Driv. Assist (R242) | Long Coding change  | 000A306E1F**_D1_**00F817242 | 000A306E1F**_C5_**00F817242
+| A5 | Frt Sens. Driv. Assist (R242) | No changes  | |
 | BB | Door Rear Driver (J388) | IDE07159-MAS05583-Control module switch-off: counter-Data bus	| 3 | 0
 | BC | Door Reas Pass (J389) | IDE07159-MAS05583-Control module switch-off: counter-Data bus | 3 | 0
