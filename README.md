@@ -26,7 +26,7 @@ _None of these are endorsed by the manufacturer, all content is provided for inf
 | [Euro Style Tail Lights "ID.Light"](</Retrofits/Euro%20Style%20Tail%20Lights.md>) | Rear Euro Style top trim tail lights with animations | Feasible / Done | Feasible / Done | Yes (with workaround) | 2.1, 3.1
 | 360 Area View Camera | Install 360 camera system with 4 cameras | Feasible, extra 4 cameras and 360 module required | Feasible | Yes (with caveats) | POC tested with 3.2
 | GTX Style Diamond Pattern Accent Lights | Front bumper accent lights | Feasible | Feasible | Yes - front bumber removal required | N/A
-| Q4 e-tron AC Control Head | A/C control panel from Q4/A3 | Possibly feasible based on the version of AC module | TBD | TDB | Tested on 2.1 - the display was ready only
+| Q4 e-tron AC Control Head | A/C control panel from Q4/A3 | Possibly feasible based on the version of AC module | TBD | Tested on 2.1 - the display was ready only | TDB
 | Ventilated front seats | Front seat ventilation | Feasible - requires 4 fans, witing and soldering in the CECM control unit | Known, needs validation | There is a plan b (availbale conviniece CAN decoder) to avoing soldering in the CECM | Validated in 3.2.
 | GTI/GLI/R Steering Wheel Controls | Steering wheel buttons with "R" and "Heated Steering Wheel" buttons | Feasible | Coding & ACC Adaptation needed | N/A | N/A
 
