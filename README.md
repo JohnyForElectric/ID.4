@@ -1,5 +1,8 @@
-## This repo discusses various appearance and convenience "tweaks" and "retrofits" for ID.4/ID.5 car family. 
+## This repo discusses various appearance and convenience updates, tweak and retrofits for ID.4/ID.5 car family. 
+
 _None of these are endorsed by the manufacturer, all content is provided for informational purposes only, we do not take any responsibility or liability for any damage, loss, injury or voiding warranty._
+
+Why? To make us feel bettar about what we drive, some of us would like to make usability changes (retrofit 360 camera system, better audio,...), improve convinience (foldable mirrors, open/closde all windows with key,...), protect the car (paint protection film, door sills,...) or change the appearance and comfort (different wheels, "black" package,...). It's up to everyone's taste. Below are some ideas...
 
 ### Core principles
 
