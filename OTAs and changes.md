@@ -26,6 +26,7 @@ Car - 2021 AWD, US spec
 Other observations - (1) update process very clunky and (2) massive amount of "communication" errors floded all modules after update. This likely happened during update and the update did not perform clean-up.
 
 ### 3.2.12 (July 2024) - also known as OUH1
+Official VW link https://www.vw.com/en/owners-and-services/connectivity-and-apps/vehicle-software-updates/electric-vehicle-software-updates/electric-vehicle-software-update-3-2.html/__layer/layers/myvwportal/id_software_updates_/id--software-3-2-12-update/master.layer
 
 ##### Software versions
 
