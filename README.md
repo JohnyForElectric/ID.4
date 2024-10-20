@@ -21,14 +21,15 @@ Below are 3 categories of changes by the level of difficulty we discuss on this 
 Retrofit is a change or addition of OEM componenets that were not available when the car was purchased. Typically, options not available in the US market or in the previous model years. 
 _None of these are endorsed by the manufacturer, all content is provided for informational purposes only, we do not take any responsibility or liability for any damage, loss, injury or voiding warranty._
 
-| Project | Description | OEM HW Feasibility | Coding Feasibility | Doable? | Works in ID.Software version and MY?
+| Project | Description | OEM HW Feasibility | Coding Feasibility | Doable? | Works in ID.Software version and MY? | WVIDTalk Forum links |
 | :------------- | :------------- | :------------- | :---  | :--- | :---
-| [Euro Style Tail Lights "ID.Light"](</Retrofits/Euro%20Style%20Tail%20Lights.md>) | Rear Euro Style top trim tail lights with animations | Feasible / Done | Feasible / Done | Yes (with workaround) | 2.1, 3.1
-| 360 Area View Camera | Install 360 camera system with 4 cameras | Feasible, extra 4 cameras and 360 module required | Feasible | Yes (with caveats) | POC tested with 3.2
-| GTX Style Diamond Pattern Accent Lights | Front bumper accent lights | Feasible | Feasible | Yes - front bumber removal required | N/A
-| Q4 e-tron AC Control Head | A/C control panel from Q4/A3 | Possibly feasible based on the version of AC module | TBD | Tested on 2.1 - the display was ready only | TDB
-| Ventilated front seats | Front seat ventilation | Feasible - requires 4 fans, wiring and soldering in the CECM control unit | Known, needs validation | There is a plan b (availbale conveniece CAN decoder) to avoing soldering in the CECM. Needs permananet seat cushion modification. | Validated in 3.2.
-| GTI/GLI/R Steering Wheel Controls | Steering wheel buttons with "R" and "Heated Steering Wheel" buttons | Feasible | Coding & ACC Adaptation needed | N/A | N/A
+| [Euro Style Tail Lights "ID.Light"](</Retrofits/Euro%20Style%20Tail%20Lights.md>) | Rear Euro Style top trim tail lights with animations | Feasible / Done | Feasible / Done | Yes (with workaround) | 2.1, 3.1 | https://www.vwidtalk.com/posts/119787/ |
+| 360 Area View Camera | Install 360 camera system with 4 cameras | Feasible, extra 4 cameras and 360 module required | Feasible | Yes (with caveats) | POC tested with 3.2 | https://www.vwidtalk.com/posts/275796/ |
+| GTX Style Diamond Pattern Accent Lights | Front bumper accent lights | Feasible | Feasible | Yes - front bumber removal required | N/A | https://www.vwidtalk.com/posts/152339/ |
+| Q4 e-tron AC Control Head | A/C control panel from Q4/A3 | Possibly feasible based on the version of AC (J979) module | TBD | Tested on 2.1 - the display was ready only | TDB | https://www.vwidtalk.com/posts/112946/ |
+| Ventilated front seats | Front seat ventilation | Feasible - requires 4 fans, wiring and soldering in the CECM control unit | Known, needs validation | There is a plan b (availbale conveniece CAN decoder) to avoing soldering in the CECM. Needs permananet seat cushion modification. | Validated in 3.2. | https://www.vwidtalk.com/posts/292287/ |
+| Heated rear seats | Add seat heaters froi the rear seats (4 heating elements) and controller to the middle console | TBD - depands on the AC module (J979) version | Doable is supported in HW | N/A | https://www.vwidtalk.com/posts/279775/ |
+| GTI/GLI/R Steering Wheel Controls | Steering wheel buttons with "R" and "Heated Steering Wheel" buttons | Feasible | Coding & ACC Adaptation needed | N/A | N/A | https://www.vwidtalk.com/posts/112011/ |
 
    _OEM HW (original equipment manufacturer hardware) feasibility - determines if the original hardware (parts, control units, connectors) can be used. Coding Feasibility - determines if the existing control unit supports that project._
 _None of these are endorsed by the manufacturer, all content is provided for informational purposes only, we do not take any responsibility or liability for any damage, loss, injury or voiding warranty._
