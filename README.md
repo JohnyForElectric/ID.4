@@ -28,7 +28,7 @@ _None of these are endorsed by the manufacturer, all content is provided for inf
 | GTX Style Diamond Pattern Accent Lights | Front bumper accent lights | Feasible | Feasible | Yes - front bumber removal required | N/A | https://www.vwidtalk.com/posts/152339/ |
 | Q4 e-tron AC Control Head | A/C control panel from Q4/A3 | Possibly feasible based on the version of AC (J979) module | TBD | Tested on 2.1 - the display was ready only | TDB | https://www.vwidtalk.com/posts/112946/ |
 | Ventilated front seats | Front seat ventilation | Feasible - requires 4 fans, wiring and soldering in the CECM control unit | Known, needs validation | There is a plan b (availbale conveniece CAN decoder) to avoing soldering in the CECM. Needs permananet seat cushion modification. | Validated in 3.2. | https://www.vwidtalk.com/posts/292287/ |
-| Heated rear seats | Add seat heaters froi the rear seats (4 heating elements) and controller to the middle console | TBD - depands on the AC module (J979) version | Doable is supported in HW | N/A | https://www.vwidtalk.com/posts/279775/ |
+| Heated rear seats | Add seat heaters froi the rear seats (4 heating elements) and controller to the middle console | TBD - depands on the AC module (J979) version | Doable is supported in HW | N/A | | https://www.vwidtalk.com/posts/279775/ |
 | GTI/GLI/R Steering Wheel Controls | Steering wheel buttons with "R" and "Heated Steering Wheel" buttons | Feasible | Coding & ACC Adaptation needed | N/A | N/A | https://www.vwidtalk.com/posts/112011/ |
 
    _OEM HW (original equipment manufacturer hardware) feasibility - determines if the original hardware (parts, control units, connectors) can be used. Coding Feasibility - determines if the existing control unit supports that project._
