@@ -13,6 +13,8 @@ Car - 2021 AWD, US spec
 
 ### 3.2.13 (October 2024) - also known as OUJ9
 
+Our take - progress and actual update process not great (more on [VWIDTalk](https://www.vwidtalk.com/posts/296230/)), changes in the actual payload likely aligned with the official "OTA improvements" messaging as all ICAS systems were updated. No changes to custom adaptations in 19 CAN Gateway (J533) surprisingly. The hypothesis is that there were no code changes for the actual Gateway section of the module. 
+
 ##### Software versions
 
 | Address | Module | Sofware version before | Sofware version after
@@ -30,7 +32,7 @@ Official VW [link](https://www.vw.com/en/owners-and-services/connectivity-and-ap
 
 Official version info "This software update provides minor bug fixes and enhances multiple systems. Enhancements include increased accuracy in the Travel Assist function, optimizations to the over-the-air software installation process, improvements to climate control and enhancements to the defogging function. This update is a prerequisite for future features.”
 
-Our take - based on the modules updated - enhancements in travel assist and climate control plausible, but nor changes observed while driving. OTA software update process - unlikely due to no changes in moduls such as Telematics, or any ICAS modules. The module that failed the module and bricke our car was 3C and/or A5. More [here](https://www.vwidtalk.com/posts/286642/). There also were additiona changes to all door modules, likely related to door handle recall that were not advertised in the official description.
+Our take - based on the modules updated - enhancements in travel assist and climate plausible, but no changes observed while driving. OTA software update process enhancements - unlikely due to no changes in modules such as Telematics, or any ICAS modules. The module that failed the module and bricked our car was 3C and/or A5. More [here](https://www.vwidtalk.com/posts/286642/). There also were additiona changes to all door modules, likely related to door handle recall that were not advertised in the official description.
 
 ##### Software versions
 
