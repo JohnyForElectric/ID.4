@@ -4,16 +4,17 @@ A reference page for observed changes of ID.4 US module verson updates after OTA
 
 ## FUTURE Confirmed & upcoming
 
-### 3.6.2 (TBD) - also known as 919A or "Black screen"
-
+### ID.software version 3.6.2 (OTA TBD) - also known as 919A or "Black screen"
 
 
 ## PAST
 Car - 2021 AWD, US spec
 
-### 3.2.13 (October 2024) - also known as OUJ9
+### ID.software version 3.2.13 (OTA October 2024) - also known as OUJ9
 
 Our take - progress and actual update process not great (more on [VWIDTalk](https://www.vwidtalk.com/posts/296230/)), changes in the actual payload likely aligned with the official "OTA improvements" messaging as all ICAS systems were updated. No changes to custom adaptations in 19 CAN Gateway (J533) surprisingly. The hypothesis is that there were no code changes for the actual Gateway section of the module. 
+
+Other observations - (1) update process very clunky and (2) massive amount of "communication" errors floded all modules after update. This likely happened during update and the update did not perform clean-up.
 
 ##### Software versions
 
@@ -25,9 +26,7 @@ Our take - progress and actual update process not great (more on [VWIDTalk](http
 | C002 | SW Cluster Embedded (SWC2) | 0290 | 0299 
 | C003 | SW Cluster Housekeeping (SWC3) | 0290 | 0299 
 
-Other observations - (1) update process very clunky and (2) massive amount of "communication" errors floded all modules after update. This likely happened during update and the update did not perform clean-up.
-
-### 3.2.12 (July 2024) - also known as OUH1
+### ID.software version 3.2.12 (OTA July 2024) - also known as OUH1
 Official VW [link](https://www.vw.com/en/owners-and-services/connectivity-and-apps/vehicle-software-updates/electric-vehicle-software-updates/electric-vehicle-software-update-3-2.html/__layer/layers/myvwportal/id_software_updates_/id--software-3-2-12-update/master.layer)
 
 Official version info "This software update provides minor bug fixes and enhances multiple systems. Enhancements include increased accuracy in the Travel Assist function, optimizations to the over-the-air software installation process, improvements to climate control and enhancements to the defogging function. This update is a prerequisite for future features.”
