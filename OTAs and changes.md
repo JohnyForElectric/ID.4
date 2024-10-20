@@ -2,13 +2,13 @@
 
 A reference page for observed changes of ID.4 US module verson updates after OTA (Over-the-air updates).
 
-##FUTURE Confirmed
+## FUTURE Confirmed & upcoming
 
 ### 3.6.2 (TBD) - also known as 919A or "Black screen"
 
 
 
-##PAST
+## PAST
 Car - 2021 AWD, US spec
 
 ### 3.2.13 (October 2024) - also known as OUJ9
