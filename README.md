@@ -6,13 +6,13 @@ _None of these are endorsed by the manufacturer, all content is provided for inf
 1.	Use high quality OEM parts, if OEM not availbale, make it look like it "belongs there"
 2.	Do not touch or interfere with any high-voltage components
 
-Below are 3 categories of changes - 
+Below are 3 categories of changes by the level of difficulty we discuss on this page - 
 
 | Type | Description | Simplicity | Notes |
 | :--- | :--- | :--- | :---  | 
-| [Updates](#Updates) | OEM or vendor components manufactured for the ID. car family | Simplest | Simple to install by following installation manaual |
-| [Tweaks](#Tweaks) | Modification of existing OEM compopnents |  Harder | Usually no "coding" or "adaptation" necessary|
-| [Retrofits](#Retrofits) | Installing OEM components that were not in the vehicle for the current model year or not availbale in country of purchase | Very hard | "coding" or "adaptation" necessary|
+| [Updates](#Updates) | OEM or vendor components manufactured for the ID. car family | L100 (Simplest) | Simple to install by following installation manaual |
+| [Tweaks](#Tweaks) | Modification of existing OEM compopnents | L200-300 (Harder) | Usually no "coding" or "adaptation" necessary|
+| [Retrofits](#Retrofits) | Installing OEM components that were not in the vehicle for the current model year or not availbale in country of purchase | L400+ (Very hard) | "coding" or "adaptation" necessary|
 
 ### Retrofits
 Retrofit is a change or addition of OEM componenets that were not available when the car was purchased. Typically, options not available in the US market or in the previous model years. 
