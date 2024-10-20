@@ -30,7 +30,7 @@ Official VW [link](https://www.vw.com/en/owners-and-services/connectivity-and-ap
 
 Official version info "This software update provides minor bug fixes and enhances multiple systems. Enhancements include increased accuracy in the Travel Assist function, optimizations to the over-the-air software installation process, improvements to climate control and enhancements to the defogging function. This update is a prerequisite for future features.”
 
-Our take - based on the modules updated - enhancements in travel assist and climate plausible, but no changes observed while driving. OTA software update process enhancements - unlikely due to no changes in modules such as Telematics, or any ICAS modules. The module that failed the module and bricked our car was 3C and/or A5. More [here](https://www.vwidtalk.com/posts/286642/). There also were additiona changes to all door modules, likely related to door handle recall that were not advertised in the official description.
+Our take - based on the modules updated - enhancements in travel assist and climate plausible, but no changes observed while driving. OTA software update process enhancements - unlikely due to no changes in modules such as Telematics, or any ICAS modules. The module that failed the update and bricked our car was 3C and/or A5. More [here](https://www.vwidtalk.com/posts/286642/). There also were additional changes to all door modules, likely related to door handle recall that was not advertised in the official description.
 
 ##### Software versions
 
