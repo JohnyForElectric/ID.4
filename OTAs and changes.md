@@ -28,6 +28,10 @@ Other observations - (1) update process very clunky and (2) massive amount of "c
 ### 3.2.12 (July 2024) - also known as OUH1
 Official VW link https://www.vw.com/en/owners-and-services/connectivity-and-apps/vehicle-software-updates/electric-vehicle-software-updates/electric-vehicle-software-update-3-2.html/__layer/layers/myvwportal/id_software_updates_/id--software-3-2-12-update/master.layer
 
+Official version info "This software update provides minor bug fixes and enhances multiple systems. Enhancements include increased accuracy in the Travel Assist function, optimizations to the over-the-air software installation process, improvements to climate control and enhancements to the defogging function. This update is a prerequisite for future features.”
+
+Our take - based on the modules updated - enhancements in travel assist and climate control plausible. OTA software update process - unlikely due to no changes in moduls such as Telematics, or any ICAS modules. The module that failed the module and bricke our car was 3C and/or A5. More [here]([url](https://www.vwidtalk.com/posts/286642/)).
+
 ##### Software versions
 
 | Address | Module | Sofware version before | Sofware version after
