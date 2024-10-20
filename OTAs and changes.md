@@ -1,6 +1,6 @@
 ## This page goes deeper into changes made by OTA (over-the-air) updates
 
-A reference page for observed changes of ID.4 US module verson updates after OTA (Over-the-air updates).
+A reference page for observed module changes for 20212 ID.4 AWD US specification after OTA (Over-the-air updates).
 
 ## FUTURE Confirmed & upcoming
 
@@ -8,7 +8,6 @@ A reference page for observed changes of ID.4 US module verson updates after OTA
 
 
 ## PAST
-Car - 2021 AWD, US spec
 
 ### ID.software version 3.2.13 (OTA October 2024) - also known as OUJ9
 
