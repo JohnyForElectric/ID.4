@@ -13,6 +13,18 @@ Car - 2021 AWD, US spec
 
 ### 3.2.13 (October 2024) - also known as OUJ9
 
+##### Software versions
+
+| Address | Module | Sofware version before | Sofware version after
+| :------------- | :------------- | :------------- | :---
+| 19 | CAN Gateway (J533) | 0292	| 0299
+| 8123 | App server 1 system 1 adaptive (SWC4) | 0290 | 0299
+| 8124 | App server 1 system 2 Java (SWC5) | 0290 | 0299
+| C002 | SW Cluster Embedded (SWC2) | 0290 | 0299 
+| C003 | SW Cluster Housekeeping (SWC3) | 0290 | 0299 
+
+Other observations - (1) update process very clunky and (2) massive amount of "communication" errors floded all modules after update. This likely happened during update and the update did not perform clean-up.
+
 ### 3.2.12 (July 2024) - also known as OUH1
 
 ##### Software versions
