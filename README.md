@@ -22,7 +22,7 @@ Retrofit is a change or addition of OEM componenets that were not available when
 _None of these are endorsed by the manufacturer, all content is provided for informational purposes only, we do not take any responsibility or liability for any damage, loss, injury or voiding warranty._
 
 | Project | Description | OEM HW Feasibility | Coding Feasibility | Doable? | Works in ID.Software version and MY? | WVIDTalk Forum links |
-| :------------- | :------------- | :------------- | :---  | :--- | :---
+| :------------- | :------------- | :------------- | :---  | :--- | :--- | :---
 | [Euro Style Tail Lights "ID.Light"](</Retrofits/Euro%20Style%20Tail%20Lights.md>) | Rear Euro Style top trim tail lights with animations | Feasible / Done | Feasible / Done | Yes (with workaround) | 2.1, 3.1 | https://www.vwidtalk.com/posts/119787/ |
 | 360 Area View Camera | Install 360 camera system with 4 cameras | Feasible, extra 4 cameras and 360 module required | Feasible | Yes (with caveats) | POC tested with 3.2 | https://www.vwidtalk.com/posts/275796/ |
 | GTX Style Diamond Pattern Accent Lights | Front bumper accent lights | Feasible | Feasible | Yes - front bumber removal required | N/A | https://www.vwidtalk.com/posts/152339/ |
