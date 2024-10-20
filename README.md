@@ -1,12 +1,20 @@
 ## This repo discusses various appearance and convenience "tweaks" and "retrofits" for ID.4/ID.5 car family. 
+_None of these are endorsed by the manufacturer, all content is provided for informational purposes only, we do not take any responsibility or liability for any damage, loss, injury or voiding warranty._
 
 ### Core principles
 
-1.	Use OEM components (with updated coding) to make "[retrofits](#Current-list-of-Retrofits)" and only if that is not possible start making "[tweaks](#Current-list-of-Tweaks)"
+1.	Use high quality OEM parts, if OEM not availbale, make it look like it "belongs there"
 2.	Do not touch or interfere with any high-voltage components
+
+Below are 3 categories of changes - 
+
+| Type | Pros | Cons | Notes |
+| :--- | :--- | :--- | :---  | 
+| (Updates)[#Updates] - OEM or vendor components manufactured for the ID.4. | Simple to install by following installation manaual | | |
 
 ### Retrofits
 Retrofit is a change or addition of OEM componenets that were not available when the car was purchased. Typically, options not available in the US market or in the previous model years. 
+_None of these are endorsed by the manufacturer, all content is provided for informational purposes only, we do not take any responsibility or liability for any damage, loss, injury or voiding warranty._
 
 | Project | Description | OEM HW Feasibility | Coding Feasibility | Doable? | Works in ID.Software version and MY?
 | :------------- | :------------- | :------------- | :---  | :--- | :---
@@ -25,11 +33,11 @@ We define "tweak" is a change or addition where no OEM componenets exist.
 
 | Project | Description | Limitations
 | :------------- | :------------- | :------------- 
-| [Driver Window Controls Haptic Feedback](</Tweaks/Driver%20Window%20Controls%20Haptic%20Feedback.md>) | Haptic feedback for  | All ID cars
+| [Driver Window Controls Haptic Feedback](</Tweaks/Driver%20Window%20Controls%20Haptic%20Feedback.md>) | Haptic feedback for the "famous" driver door window switches | All ID cars
 | [Ventilated phone storage (German made cars)](</Tweaks/Ventilated%20Phone%20Storage.md>) | New fan to cool phone space and wireless charging plate | German-made ID.4 and ID.5 cars, all SW versions
 
 ### Updates
-Updates use OEM or vendor components manufactured for this purpose. 
+Updates use OEM or vendor components manufactured for the ID.4. 
 
 | What | Details | More resources
 | :------------- | :------------- | :------------- 
