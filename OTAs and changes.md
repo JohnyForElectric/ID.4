@@ -1,7 +1,19 @@
 ## This page goes deeper into changes made by OTA (over-the-air) updates
 
-### 3.2.12 (July 2024)
+A reference page for observed changes of ID.4 US module verson updates after OTA (Over-the-air updates).
+
+##FUTURE Confirmed
+
+### 3.6.2 (TBD) - also known as 919A or "Black screen"
+
+
+
+##PAST
 Car - 2021 AWD, US spec
+
+### 3.2.13 (October 2024) - also known as OUJ9
+
+### 3.2.12 (July 2024) - also known as OUH1
 
 ##### Software versions
 
@@ -33,3 +45,7 @@ Please note - any "custom/after market coding" is reset to original values
 | A5 | Frt Sens. Driv. Assist (R242) | No changes  | |
 | BB | Door Rear Driver (J388) | IDE07159-MAS05583-Control module switch-off: counter-Data bus	| 3 | 0
 | BC | Door Reas Pass (J389) | IDE07159-MAS05583-Control module switch-off: counter-Data bus | 3 | 0
+
+
+## Interesting links
+https://www.meinid.com/wiki/entry/6-software-versionsst%C3%A4nde-%C3%BCbersicht-3-x/
