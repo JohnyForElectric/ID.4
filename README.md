@@ -24,10 +24,10 @@ _None of these are endorsed by the manufacturer, all content is provided for inf
 | Project | Description | OEM HW Feasibility | Coding Feasibility | Doable? | Works in ID.Software version and MY?
 | :------------- | :------------- | :------------- | :---  | :--- | :---
 | [Euro Style Tail Lights "ID.Light"](</Retrofits/Euro%20Style%20Tail%20Lights.md>) | Rear Euro Style top trim tail lights with animations | Feasible / Done | Feasible / Done | Yes (with workaround) | 2.1, 3.1
-| [360 Area View Camera](</Retrofits/360%20Area%20View%20Camera.md>) | Install 360 camera system with 4 cameras | Feasible | Coding unknown | Yes (with caveats) | N/A
-| [GTX Style Diamond Pattern Accent Lights](</Retrofits/GTX%20Style%20Diamond%20Pattern%20Daylight%20Running%20Lights.md>) | Front bumper accent lights | Feasible | Coding unknown | Yes (with caveats) | N/A
-| Q4 e-tron AC Control Head | A/C control panel from Q4/A3 | Feasible | Coding needed | N/A | N/A
-| Ventilated front seats | Front seat ventilation | Needs Validation | Needs Validation | N/A | N/A
+| 360 Area View Camera | Install 360 camera system with 4 cameras | Feasible, extra 4 cameras and 360 module required | Feasible | Yes (with caveats) | POC tested with 3.2
+| GTX Style Diamond Pattern Accent Lights | Front bumper accent lights | Feasible | Feasible | Yes - front bumber removal required | N/A
+| Q4 e-tron AC Control Head | A/C control panel from Q4/A3 | Possibly feasible based on the version of AC module | TBD | TDB | Tested on 2.1 - the display was ready only
+| Ventilated front seats | Front seat ventilation | Feasible - requires 4 fans, witing and soldering in the CECM control unit | Known, needs validation | There is a plan b (availbale conviniece CAN decoder) to avoing soldering in the CECM | Validated in 3.2.
 | GTI/GLI/R Steering Wheel Controls | Steering wheel buttons with "R" and "Heated Steering Wheel" buttons | Feasible | Coding & ACC Adaptation needed | N/A | N/A
 
    _OEM HW (original equipment manufacturer hardware) feasibility - determines if the original hardware (parts, control units, connectors) can be used. Coding Feasibility - determines if the existing control unit supports that project._
