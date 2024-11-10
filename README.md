@@ -4,6 +4,8 @@ _None of these are endorsed by the manufacturer, all content is provided for inf
 
 Why? To make us feel bettar about what we drive, some of us would like to make usability changes (retrofit 360 camera system, better audio,...), improve convinience (foldable mirrors, open/closde all windows with key,...), protect the car (paint protection film, door sills,...) or change the appearance and comfort (different wheels, "black" package,...). It's up to everyone's taste. Below are some ideas...
 
+> Desclaimer: All content is provided for informational purposes only. We assume no responsibility for any damage, loss, injury, or voided warranty resulting from modifications. Proceed at your own risk.
+
 ### Core principles
 
 1.	Use high quality OEM parts, if OEM not availbale, make it look like it "belongs there"
