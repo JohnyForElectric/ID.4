@@ -47,7 +47,7 @@ Let us set the stage first. On the scale of difficulty, this project on a 3 scal
 | 1 x Right Taillight | 11A 945 208 A | A.k.a. "MX4". _same connector as above_
 | 1 x Center Light | 11A 945 276 B | A.k.a. "MX13". Comes without VW logo, needs "blue" coded connector. The connector is different than connector for MX3 and MX4.
 | 2 x Blue connector for outer lights (MX3 and MX4) | 982-973-714-A | Waterproof, comes without pins and without waterproofing rings
-| 2 x Blue connector for center lights (MX13) | 1K8 972 928 928 B | Not waterproof, the ceter light MX13 has two connectors for each side
+| 2 x Blue connector for center lights (MX13) | 1K8 972 928 B | Not waterproof, the ceter light MX13 has two connectors for each side
 
 # Harness
 The harness shall deliver power (+12/14.4V), data (LIN) and for US spec vehicles additional wire for turn light. The harness starts in the internal fuse box / CECM(J519) on the driver's side and can be routed along the main harness to the back of the car, where it splits in three ways: to each side and up throught the tailgate to middle lights.
