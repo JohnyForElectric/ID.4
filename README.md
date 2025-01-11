@@ -3,7 +3,7 @@
 _None of these are endorsed by the manufacturer, all content is provided for informational purposes only, we do not take any responsibility or liability for any damage, loss, injury or voiding warranty._
 
 > [!TIP]
-> Please, check our VW ID Talk POodcast https://www.youtube.com/@vwidtalkdotcom
+> Please, check our VW ID Talk Podcast https://www.youtube.com/@vwidtalkdotcom
 
 Why? To make us feel better about what we drive, some of us would like to make usability changes (retrofit 360 camera system, better audio,...), improve convinience (foldable mirrors, open/closde all windows with key,...), protect the car (paint protection film, door sills,...) or change the appearance and comfort (different wheels, "black" package,...). It's up to everyone's taste. Below are some ideas...
 
