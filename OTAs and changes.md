@@ -1,13 +1,30 @@
-## This page goes deeper into changes made by OTA (over-the-air) updates
+## This page goes deeper into changes made by OTA (over-the-air) and workshop (ODIS) updates
 
-A reference page for observed module changes for 2021 ID.4 AWD US specification after OTA (Over-the-air updates).
+A reference page for observed module changes for 2021 ID.4 AWD US specification after OTA (Over-the-air) and worshop (ODIS) updates.
 
 ## FUTURE Confirmed & upcoming
 
-### ID.software version 3.6.2 (OTA TBD) - also known as 919A or "Black screen"
-
 
 ## PAST
+
+### ID.software version 3.5.11 (OTA & workshop ODIS) - also known as 919A or "Black screen"
+
+| Address | Module | Sofware version before | Sofware version after
+| :------------- | :------------- | :------------- | :---
+| 01 | Engine (J623-EBRA) | 2222	| 2603
+| 03 | ABS Brakes (J104) | 0524 | 0526
+| 09 | Cent. Elect. (J519) | 0307 | 0311
+| 19 | CAN Gateway (J533) | 0299 | 0329 
+| 5F | Information Electr. (J794) | 0561 | 1751
+| 6C | Back-up Cam. (J772) | 0394 | 0397
+| 75 | Telematics (J949) | 0664 | 0686
+| C6 | Batt. Chrg. (J1050) | 1019 | 2022
+| 8123 | App server 1 system 1 adaptive (SWC4) | 0299 | 0329
+| 8124 | App server 1 system 2 Java (SWC5) | 0299 | 0329
+| 8125 | App server 3 system 1 infotaint. (SWC6) | 0561 | 1751
+| C002 | SW Cluster Embedded (SWC2) | 0299 | 0329
+| C003 | SW Cluster Housekeeping (SWC3) | 0299 | 0329 
+
 
 ### ID.software version 3.2.13 (OTA October 2024) - also known as OUJ9
 
