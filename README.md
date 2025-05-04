@@ -28,8 +28,8 @@ _None of these are endorsed by the manufacturer, all content is provided for inf
 
 | Project | Description | OEM HW Feasibility | Coding Feasibility | Doable? | Works in ID.Software version and MY? | WVIDTalk Forum links |
 | :------------- | :------------- | :------------- | :---  | :--- | :--- | :---
-| [Euro Style Tail Lights "ID.Light"](</Retrofits/Euro%20Style%20Tail%20Lights.md>) | Rear Euro Style top trim tail lights with animations | Feasible / Done | Feasible / Done | Yes (with workaround) | 2.1, 3.1 | https://www.vwidtalk.com/posts/119787/ |
-| 360 Area View Camera | Install 360 camera system with 4 cameras | Feasible, extra 4 cameras and 360 module required | Feasible | Yes (with caveats) | POC tested with 3.2 | ["VWIDTalk"](<https://www.vwidtalk.com/posts/275796/>) |
+| [Euro Style Tail Lights "ID.Light"](</Retrofits/Euro%20Style%20Tail%20Lights.md>) | Rear Euro Style top trim tail lights with animations | Feasible / Done | Feasible / Done | Yes (with workaround) | 2.1, 3.1 | [VWIDTalk Discussion](<https://www.vwidtalk.com/posts/119787/>) |
+| 360 Area View Camera | Install 360 camera system with 4 cameras | Feasible, extra 4 cameras and 360 module required | Feasible | Yes (with caveats) | POC tested with 3.2 | [VWIDTalk Forum](<https://www.vwidtalk.com/posts/275796/>) |
 | GTX Style Diamond Pattern Accent Lights | Front bumper accent lights | Feasible | Feasible | Yes - front bumber removal required | N/A | https://www.vwidtalk.com/posts/152339/ |
 | Q4 e-tron AC Control Head | A/C control panel from Q4/A3 | Possibly feasible based on the version of AC (J979) module | TBD | Tested on 2.1 - the display was ready only | TDB | https://www.vwidtalk.com/posts/112946/ |
 | Ventilated front seats | Front seat ventilation | Feasible - requires 4 fans, wiring and soldering in the CECM control unit | Known, needs validation | There is a plan b (availbale conveniece CAN decoder) to avoing soldering in the CECM. Needs permananet seat cushion modification. | Validated in 3.2. | https://www.vwidtalk.com/posts/292287/ |
